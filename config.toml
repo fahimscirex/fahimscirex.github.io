@@ -23,14 +23,14 @@ summaryLength = "50"
   commit = false
 #  rss = true
   comments = true
-#  readingTime = true
-#  wordCount = true
+  readingTime = true
+  wordCount = true
   useHLJS = true
   socialShare = true
-#  toc = true
+  toc = true
   delayDisqus = true
   showRelatedPosts = true
-#  hideAuthor = true
+  hideAuthor = true
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
 #[[Params.bigimg]]
@@ -50,10 +50,10 @@ summaryLength = "50"
   website = "https://fahimscirex.github.io"
   email = "fahimscirex@tutanota.com"
 #  facebook = "username"
-  github = "username"
+  github = "fahimscirex"
 #  gitlab = "username"
 #  bitbucket = "username"
-  twitter = "username"
+  twitter = "fahimscirex"
 #  reddit = "username"
 #  linkedin = "username"
 #  xing = "username"
@@ -62,12 +62,12 @@ summaryLength = "50"
 #  instagram = "username"
 #  youtube = "user/username" # or channel/channelname
 #  soundcloud = "username"
-  spotify = "username"
+  spotify = "fahimscirex"
 #  bandcamp = "username"
 #  itchio = "username"
 #  vk = "username"
 #  paypal = "username"
-  telegram = "username"
+  telegram = "fahimscirex"
 #  500px = "username"
 #  codepen = "username"
 #  mastodon = "url"
@@ -115,4 +115,4 @@ summaryLength = "50"
 
 
 [Params.staticman]
-  api = "https://staticman-scirex/v3/entry/github/fahimscirex/fahimscirex.github.io/master/comments"
+  api = "https://staticman-scirex/v3/entry/github/fahimscirex/fahimscirex.github.io/master/data/comments"
