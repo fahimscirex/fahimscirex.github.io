@@ -22,7 +22,7 @@ summaryLength = "50"
   dateFormat = "January 2, 2006"
   commit = false
 #  rss = true
-#  comments = true
+  comments = true
 #  readingTime = true
 #  wordCount = true
   useHLJS = true
@@ -114,5 +114,5 @@ summaryLength = "50"
     weight = 3
 
 
-#[Params.staticman]
-#  api = "https://staticman-scirex/v3/entry/github/fahimscirex/fahim/master/comments"
+[Params.staticman]
+  api = "https://staticman-scirex/v3/entry/github/fahimscirex/fahimscirex.github.io/master/comments"
