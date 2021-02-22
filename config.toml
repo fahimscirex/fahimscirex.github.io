@@ -9,7 +9,7 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
-disqusShortname = "fahimscirex"
+#disqusShortname = "fahimscirex"
 googleAnalytics = "262790099"
 summaryLength = "50"
 
@@ -114,5 +114,5 @@ summaryLength = "50"
     weight = 3
 
 
-#[Params.staticman]
-#  api = "https://staticman-scirex.herokuapp.com/v3/entry/github/fahimscirex/fahimscirex.github.io/master/comments"
+[Params.staticman]
+  api = "https://staticman-scirex.herokuapp.com/v3/entry/github/fahimscirex/fahimscirex.github.io/master/comments"
