@@ -5,7 +5,7 @@ $( document ).ready(function() {
 
   $('.js-form').submit(function () {
     var form = this;
-    let url = '{{ .Site.Params.staticman.api }}';
+    let url = form.action;
     let data = $(this).serialize();
 
     $(form).addClass('form--loading');
