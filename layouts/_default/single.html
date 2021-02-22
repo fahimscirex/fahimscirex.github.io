@@ -54,7 +54,14 @@
           {{ end }}
         </ul>
       {{ end }}
-
+      
+      <script src="https://utteranc.es/client.js"
+      repo="fahimscirex/fahimscirex.github.io"
+      issue-term="pathname"
+      theme="github-light"
+      crossorigin="anonymous"
+      async>
+      </script>
 
       {{ if (.Params.comments) | or (and (or (not (isset .Params "comments")) (eq .Params.comments nil)) (and .Site.Params.comments (ne .Type "page"))) }}
         {{ if .Site.DisqusShortname }}
