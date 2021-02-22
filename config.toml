@@ -115,4 +115,4 @@ summaryLength = "50"
 
 
 #[Params.staticman]
-#  api = "https://staticman-scirex/v3/entry/github/fahimscirex/fahimscirex.github.io/master/data/comments"
+#  api = "https://staticman-scirex.herokuapp.com/v3/entry/github/fahimscirex/fahimscirex.github.io/master/comments"
