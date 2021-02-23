@@ -114,5 +114,5 @@ summaryLength = "50"
     weight = 3
 
 
-[Params.staticman]
-  api = "https://staticman-fahimscirex.herokuapp.com/v3/entry/github/fahimscirex/fahimscirex.github.io/master/comments"
+#[Params.staticman]
+#  api = "https://staticman-fahimscirex.herokuapp.com/v3/entry/github/fahimscirex/fahimscirex.github.io/master/comments"
