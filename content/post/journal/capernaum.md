@@ -1,7 +1,7 @@
 ---
 title: Capernaum
 date: 2021-01-11 18:43:00 +06:00
-catagories:
+categories:
 - Movies
 tags:
 - Journal
