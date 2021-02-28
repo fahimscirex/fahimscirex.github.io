@@ -2,63 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Fahim Montasir</title>
-    <link>https://uradhurafahim.github.io/tags/</link>
+    <link>https://fahimscirex.github.io/tags/</link>
     <description>Recent content in Tags on Fahim Montasir</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>fahimscirex@tutanota.com (Fahim Montasir Misbah)</managingEditor>
-    <webMaster>fahimscirex@tutanota.com (Fahim Montasir Misbah)</webMaster>
-    <lastBuildDate>Mon, 20 Mar 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://uradhurafahim.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>fahimscirex@tutanota.com (Fahim Montasir)</managingEditor>
+    <webMaster>fahimscirex@tutanota.com (Fahim Montasir)</webMaster>
+    <lastBuildDate>Mon, 11 Jan 2021 18:43:00 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>example</title>
-      <link>https://uradhurafahim.github.io/tags/example/</link>
-      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
-      <author>fahimscirex@tutanota.com (Fahim Montasir Misbah)</author>
-      <guid>https://uradhurafahim.github.io/tags/example/</guid>
+      <title>Journal</title>
+      <link>https://fahimscirex.github.io/tags/journal/</link>
+      <pubDate>Mon, 11 Jan 2021 18:43:00 +0600</pubDate>
+      <author>fahimscirex@tutanota.com (Fahim Montasir)</author>
+      <guid>https://fahimscirex.github.io/tags/journal/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>photoswipe</title>
-      <link>https://uradhurafahim.github.io/tags/photoswipe/</link>
-      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
-      <author>fahimscirex@tutanota.com (Fahim Montasir Misbah)</author>
-      <guid>https://uradhurafahim.github.io/tags/photoswipe/</guid>
+      <title>Movies</title>
+      <link>https://fahimscirex.github.io/tags/movies/</link>
+      <pubDate>Mon, 11 Jan 2021 18:43:00 +0600</pubDate>
+      <author>fahimscirex@tutanota.com (Fahim Montasir)</author>
+      <guid>https://fahimscirex.github.io/tags/movies/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>bigimg</title>
-      <link>https://uradhurafahim.github.io/tags/bigimg/</link>
-      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
-      <author>fahimscirex@tutanota.com (Fahim Montasir Misbah)</author>
-      <guid>https://uradhurafahim.github.io/tags/bigimg/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>math</title>
-      <link>https://uradhurafahim.github.io/tags/math/</link>
-      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
-      <author>fahimscirex@tutanota.com (Fahim Montasir Misbah)</author>
-      <guid>https://uradhurafahim.github.io/tags/math/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>code</title>
-      <link>https://uradhurafahim.github.io/tags/code/</link>
-      <pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate>
-      <author>fahimscirex@tutanota.com (Fahim Montasir Misbah)</author>
-      <guid>https://uradhurafahim.github.io/tags/code/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>markdown</title>
-      <link>https://uradhurafahim.github.io/tags/markdown/</link>
-      <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
-      <author>fahimscirex@tutanota.com (Fahim Montasir Misbah)</author>
-      <guid>https://uradhurafahim.github.io/tags/markdown/</guid>
+      <title>Books</title>
+      <link>https://fahimscirex.github.io/tags/books/</link>
+      <pubDate>Wed, 19 Feb 2020 19:23:00 +0600</pubDate>
+      <author>fahimscirex@tutanota.com (Fahim Montasir)</author>
+      <guid>https://fahimscirex.github.io/tags/books/</guid>
       <description></description>
     </item>
     
