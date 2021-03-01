@@ -45,6 +45,9 @@ summaryLength = "50"
 #  src = "img/hexagon.jpg"
 #  desc = "Hexagon"
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [Author]
   name = "Fahim Montasir"
   website = "https://fahimscirex.github.io"
@@ -114,5 +117,6 @@ summaryLength = "50"
     weight = 3
 
 
+# -- Staticman -- #
 #[Params.staticman]
 #  api = "https://staticman-fahimscirex.herokuapp.com/v3/entry/github/fahimscirex/fahimscirex.github.io/master/comments"
