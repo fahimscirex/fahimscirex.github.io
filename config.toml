@@ -17,7 +17,7 @@ summaryLength = "50"
   homeTitle = "Fahim Montasir" # Set a different text for the header on the home page
   subtitle = "can't see what's coming"
   mainSections = ["post","posts"]
-  logo = "img/avatar.png" # Expecting square dimensions
+  logo = "img/avatar.webp" # Expecting square dimensions
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
@@ -44,9 +44,6 @@ summaryLength = "50"
 #[[Params.bigimg]]
 #  src = "img/hexagon.jpg"
 #  desc = "Hexagon"
-
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
 
 [Author]
   name = "Fahim Montasir"
@@ -115,7 +112,10 @@ summaryLength = "50"
     name = "Tags"
     url = "tags"
     weight = 3
-
+[[menu.main]]
+    name = "Contact"
+    url = "/page/contact"
+    weight = 3
 
 # -- Staticman -- #
 #[Params.staticman]

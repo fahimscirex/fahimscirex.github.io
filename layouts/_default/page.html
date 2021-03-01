@@ -12,15 +12,7 @@
             {{ end }}
           </div>
         {{ end }}
-        
-        {{ if $.Param "socialShare" }}
-            <hr/>
-            <section id="social-share">
-              <div class="list-inline footer-links">
-                {{ partial "share-links" . }}
-              </div>
-            </section>
-        {{ end }}
+
 
         {{ if .Site.Params.showRelatedPosts }}
           {{ range first 1 (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
@@ -62,7 +54,7 @@
         <script src="https://utteranc.es/client.js"
         repo="fahimscirex/fahimscirex.github.io"
         issue-term="pathname"
-        theme="github-light"
+        theme="github-light"    {{ partial "commentbox.html" .}}
         crossorigin="anonymous"
         async>
         </script>
