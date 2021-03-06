@@ -7,30 +7,31 @@ pygmentsStyle = "trac"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
-#pygmentsUseClassic = true
-#pygmentOptions = "linenos=inline"
+pygmentsUseClassic = true
+pygmentOptions = "linenos=inline"
 #disqusShortname = "fahimscirex"
 googleAnalytics = "262790099"
-summaryLength = "50"
+summaryLength = "80"
+#enableGitInfo = true
 
 [Params]
-  homeTitle = "Fahim Montasir" # Set a different text for the header on the home page
+  homeTitle = "fahimscirex" # Set a different text for the header on the home page
   subtitle = "can't see what's coming"
   mainSections = ["post","posts"]
   logo = "img/avatar.webp" # Expecting square dimensions
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
-  commit = false
+#  commit = true
 #  rss = true
   comments = true
-  readingTime = true
-  wordCount = true
+#  readingTime = true
+#  wordCount = true
   useHLJS = true
   socialShare = true
-  toc = true
-  delayDisqus = true
+#  toc = true
+#  delayDisqus = true
   showRelatedPosts = true
-  hideAuthor = true
+#  hideAuthor = true
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
 #[[Params.bigimg]]
@@ -46,7 +47,7 @@ summaryLength = "50"
 #  desc = "Hexagon"
 
 [Author]
-  name = "Fahim Montasir"
+  name = "Fahim Montasir Misbah"
   website = "https://fahimscirex.github.io"
   email = "fahimscirex@tutanota.com"
 #  facebook = "username"
@@ -67,10 +68,10 @@ summaryLength = "50"
 #  itchio = "username"
 #  vk = "username"
 #  paypal = "username"
-  telegram = "fahimscirex"
+  telegram = "themanfrombakerstreet"
 #  500px = "username"
 #  codepen = "username"
-#  mastodon = "url"
+  mastodon = "fosstodon.org/web/accounts/313800"
 #  kaggle = "username"
 #  weibo = "username"
 #  slack = "username"
@@ -93,24 +94,24 @@ summaryLength = "50"
 [[menu.main]]
     parent = "topics"
     name = "Book Reviews"
-    url = "/tags/books"
+    url = "/categories/book-review"
     weight = 1
 
 [[menu.main]]
     parent = "topics"
     name = "Linux"
-    url = "/tags/linux"
+    url = "/categories/linux"
     weight = 2
 
 [[menu.main]]
     parent = "topics"
     name = "Journal"
-    url = "/tags/journal"
+    url = "/categories/journal"
     weight = 3
 
 [[menu.main]]
-    name = "Tags"
-    url = "tags"
+    name = "Categories"
+    url = "categories"
     weight = 3
 [[menu.main]]
     name = "Contact"

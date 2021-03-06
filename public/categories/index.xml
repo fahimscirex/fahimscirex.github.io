@@ -5,24 +5,42 @@
     <link>https://fahimscirex.github.io/categories/</link>
     <description>Recent content in Categories on Fahim Montasir</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>fahimscirex@tutanota.com (Fahim Montasir)</managingEditor>
-    <webMaster>fahimscirex@tutanota.com (Fahim Montasir)</webMaster>
-    <lastBuildDate>Mon, 11 Jan 2021 18:43:00 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>fahimscirex@tutanota.com (Fahim Montasir Misbah)</managingEditor>
+    <webMaster>fahimscirex@tutanota.com (Fahim Montasir Misbah)</webMaster>
+    <lastBuildDate>Wed, 03 Mar 2021 07:14:03 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Movies</title>
-      <link>https://fahimscirex.github.io/categories/movies/</link>
-      <pubDate>Mon, 11 Jan 2021 18:43:00 +0600</pubDate>
-      <author>fahimscirex@tutanota.com (Fahim Montasir)</author>
-      <guid>https://fahimscirex.github.io/categories/movies/</guid>
+      <title>Book Review</title>
+      <link>https://fahimscirex.github.io/categories/book-review/</link>
+      <pubDate>Wed, 03 Mar 2021 07:14:03 +0600</pubDate>
+      <author>fahimscirex@tutanota.com (Fahim Montasir Misbah)</author>
+      <guid>https://fahimscirex.github.io/categories/book-review/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Book Review</title>
-      <link>https://fahimscirex.github.io/categories/book-review/</link>
-      <pubDate>Wed, 27 Nov 2019 15:46:00 +0600</pubDate>
-      <author>fahimscirex@tutanota.com (Fahim Montasir)</author>
-      <guid>https://fahimscirex.github.io/categories/book-review/</guid>
+      <title>Linux</title>
+      <link>https://fahimscirex.github.io/categories/linux/</link>
+      <pubDate>Mon, 01 Mar 2021 11:14:19 +0600</pubDate>
+      <author>fahimscirex@tutanota.com (Fahim Montasir Misbah)</author>
+      <guid>https://fahimscirex.github.io/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Journal</title>
+      <link>https://fahimscirex.github.io/categories/journal/</link>
+      <pubDate>Mon, 11 Jan 2021 18:43:00 +0600</pubDate>
+      <author>fahimscirex@tutanota.com (Fahim Montasir Misbah)</author>
+      <guid>https://fahimscirex.github.io/categories/journal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Movies</title>
+      <link>https://fahimscirex.github.io/categories/movies/</link>
+      <pubDate>Mon, 11 Jan 2021 18:43:00 +0600</pubDate>
+      <author>fahimscirex@tutanota.com (Fahim Montasir Misbah)</author>
+      <guid>https://fahimscirex.github.io/categories/movies/</guid>
       <description></description>
     </item>
     

@@ -1,6 +1,7 @@
 ---
 title: পুরোনো কৌতুক
-catagories:
+subtitle: মুরাদুল ইসলাম-এর লেখা একটি চমৎকার মার্ডার মিস্ট্রি থ্রিলার
+categories:
 - Book Review
 tags:
 - Books
@@ -15,6 +16,7 @@ bigimg: [{src: "/img/cover.png"}]
 | মূল্য | ২০০৳ |
 | প্রকাশকাল | ২০১৮ |
 | পৃষ্ঠা সংখ্যা | ১০৩ |
+|   ঘরানা   |  থ্রিলার   |
 
 ![Purono Koutuk](/img/purono-koutuk.jpg)
 
