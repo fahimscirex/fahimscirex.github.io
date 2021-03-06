@@ -5,22 +5,22 @@
     <link>https://fahimscirex.github.io/page/</link>
     <description>Recent content in Pages on Fahim Montasir</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>fahimscirex@tutanota.com (Fahim Montasir)</managingEditor>
-    <webMaster>fahimscirex@tutanota.com (Fahim Montasir)</webMaster><atom:link href="https://fahimscirex.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>fahimscirex@tutanota.com (Fahim Montasir Misbah)</managingEditor>
+    <webMaster>fahimscirex@tutanota.com (Fahim Montasir Misbah)</webMaster><atom:link href="https://fahimscirex.github.io/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://fahimscirex.github.io/page/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>fahimscirex@tutanota.com (Fahim Montasir)</author>
+      <author>fahimscirex@tutanota.com (Fahim Montasir Misbah)</author>
       <guid>https://fahimscirex.github.io/page/contact/</guid>
-      <description>&#34;   form.wj-contact input[type=&#34;text&#34;], form.wj-contact textarea[type=&#34;text&#34;] { width: 100%; vertical-align: middle; margin-top: 0.25em; margin-bottom: 0.5em; padding: 0.75em; font-family: monospace, sans-serif; font-weight: lighter; border-style: solid; border-color: #444; outline-color: #2e83e6; border-width: 1px; border-radius: 3px; transition: box-shadow .2s ease; } form.wj-contact input[type=&#34;submit&#34;] { outline: none; color: white; background-color: #2e83e6; border-radius: 3px; padding: 0.</description>
+      <description>  &#34;   form.wj-contact input[type=&#34;text&#34;], form.wj-contact textarea[type=&#34;text&#34;] { width: 100%; vertical-align: middle; margin-top: 0.25em; margin-bottom: 0.5em; padding: 0.75em; font-family: monospace, sans-serif; font-weight: lighter; border-style: solid; border-color: #444; outline-color: #2e83e6; border-width: 1px; border-radius: 3px; transition: box-shadow .2s ease; } form.wj-contact input[type=&#34;submit&#34;] { outline: none; color: white; background-color: #2e83e6; border-radius: 3px; padding: 0.5em; margin: 0.25em 0 0 0; border: 1px solid transparent; height: auto; }   </description>
     </item>
     
     <item>
       <title>About me</title>
       <link>https://fahimscirex.github.io/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>fahimscirex@tutanota.com (Fahim Montasir)</author>
+      <author>fahimscirex@tutanota.com (Fahim Montasir Misbah)</author>
       <guid>https://fahimscirex.github.io/page/about/</guid>
       <description>Hello good people! I&#39;m Fahim Montasir Misbah. A FOSS enthusiast from Dhaka, Bangladesh. My interests range from technology to literature. I&#39;m also into band music and movies. My Favourite Books .gr_grid_container { /* customize grid container div here. eg: width: 400px; */ width: 320px; margin: 0 auto; } .gr_grid_book_container { /* customize book cover container div here */ float: left; width: 39px; height: 60px; padding: 1px 1px; overflow: hidden; }                      Share book reviews and ratings with Fahim, and even join a book club on Goodreads.</description>
     </item>
