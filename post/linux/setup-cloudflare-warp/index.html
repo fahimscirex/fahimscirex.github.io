@@ -62,7 +62,7 @@ WGCF WGCF is a unofficial, cross-platform CLI for Cloudflare Warp. It works with
   "headline": "Setup Warp on Linux and Get Unlimited Warp Plus Data",
   "description" : "Cloudflare\u0026rsquo;s Warp is a great service to re-route DNS query and bypass blocked website. Though it has clients for Windows, Mac, Android, IOS it doesn\u0026rsquo;t have a Warp client for Linux. Still we can use an unofficial client to get our work done.\nWGCF WGCF is a unofficial, cross-platform CLI for Cloudflare Warp. It works with Wireguard. So before installing WGCF make sure you\u0026rsquo;ve installed\n  wireguard-tools\n  wireguard-dkms (if you\u0026rsquo;re using a Linux Kernel older than 5.6)",
   "inLanguage" : "en",
-  "wordCount":  489 ,
+  "wordCount":  512 ,
   "datePublished" : "2021-03-28T18:15:05",
   "dateModified" : "2021-03-28T18:15:05",
   "image" : "https:\/\/fahimscirex.github.io\/img\/avatar.webp",
@@ -334,16 +334,17 @@ sudo cp wgcf /bin
 <p>From hamburger menu go to <code>Account</code> &gt; <code>Key</code>. Copy the key and save it somewhere else we will need this.</p>
 </li>
 <li>
-<p>Go to <code>Advanced</code> &gt; <code>Diagonistics</code></p>
+<p>Go to <code>Advanced</code> &gt; <code>Diagonistics</code> (optional)</p>
 </li>
 <li>
-<p>Under <code>Client Configuration</code> you&rsquo;ll see a ID. Copy that and save it.</p>
+<p>Under <code>Client Configuration</code> you&rsquo;ll see a ID. Copy that and save it. (optional)</p>
 </li>
 </ul>
 <p>Now we&rsquo;ve to put our license key into <code>wgcf-account.toml</code>. Open the toml file, replace the existing license key with yours and update your configuration profile using <code>wgcf update</code> and repeat the previous process.</p>
 <div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">wgcf update
 sudo cp wgcf-profile.conf /etc/wireguard
-</code></pre></div>
+</code></pre></div><p>Now you can use Device ID which you got from toml file or Configuration ID of your 1.1.1.1 in alilapro script.</p>
+
 
         
           <div class="blog-tags">
