@@ -24,9 +24,20 @@ Cloudflare's Warp is a great service to re-route DNS query and bypass blocked we
 
 You can install pre-compiled binary file from it's [releases](https://github.com/ViRb3/wgcf/releases) or you can install it from AUR if you're using Arch derivatives.
 
+## Install binary package
+Download the package you need from release page. Then rename the file `wgcf`, make it executable and copy it to `/bin` directory.
+
+```Code
+chmod +x wgcf
+sudo cp wgcf /bin
+```
+
+Or you can install from AUR if you use Arch
+
 ```Code
 yay -S wgcf
 ```
+
 Now we will create a Warp account
 
 ```Code
@@ -69,10 +80,10 @@ systemctl enable --now wireguard@wgcf-profile
 I'm facing some issue frequently. For some unknown reason Wireguard can't connect through my generated configuration profile multiple times. I've found a way out to resolve that. If you face the same issue you've to delete the previous profiles and regenerate new one, except your account profile. To do that you can run this :
 
 ```Code
-rm -rf wgcf-profile.conf && wgcf generate && sudo rm -rf /etc/wireguard/wgcf-profile.conf && sudo cp wgcf-profile.conf /etc/wireguard && wg-quick up wgcf-profile
+sudo rm -rf wgcf-profile.conf && wgcf generate && sudo rm -rf /etc/wireguard/wgcf-profile.conf && sudo cp wgcf-profile.conf /etc/wireguard
 ```
 
-If you want, you can set an alias for this or make a bash script for convenient usage.
+Now start the service again. If you want, you can set an alias for this or make a bash script for convenient usage.
 
 ## Getting Warp Plus Data for Free
 
