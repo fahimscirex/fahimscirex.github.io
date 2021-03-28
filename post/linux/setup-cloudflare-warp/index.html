@@ -62,7 +62,7 @@ WGCF WGCF is a unofficial, cross-platform CLI for Cloudflare Warp. It works with
   "headline": "Setup Warp on Linux and Get Unlimited Warp Plus Data",
   "description" : "Cloudflare\u0026rsquo;s Warp is a great service to re-route DNS query and bypass blocked website. Though it has clients for Windows, Mac, Android, IOS it doesn\u0026rsquo;t have a Warp client for Linux. Still we can use an unofficial client to get our work done.\nWGCF WGCF is a unofficial, cross-platform CLI for Cloudflare Warp. It works with Wireguard. So before installing WGCF make sure you\u0026rsquo;ve installed\n  wireguard-tools\n  wireguard-dkms (if you\u0026rsquo;re using a Linux Kernel older than 5.6)",
   "inLanguage" : "en",
-  "wordCount":  437 ,
+  "wordCount":  481 ,
   "datePublished" : "2021-03-28T18:15:05",
   "dateModified" : "2021-03-28T18:15:05",
   "image" : "https:\/\/fahimscirex.github.io\/img\/avatar.webp",
@@ -301,6 +301,11 @@ if (!doNotTrack) {
 <p>Note : You&rsquo;ve to restart your system if you install wireguard-dkms.</p>
 </blockquote>
 <p>You can install pre-compiled binary file from it&rsquo;s <a href="https://github.com/ViRb3/wgcf/releases">releases</a> or you can install it from AUR if you&rsquo;re using Arch derivatives.</p>
+<h2 id="install-binary-package">Install binary package</h2>
+<p>Download the package you need from release page. Then rename the file <code>wgcf</code>, make it executable and copy it to <code>/bin</code> directory.</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">chmod +x wgcf
+sudo cp wgcf /bin
+</code></pre></div><p>Or you can install from AUR if you use Arch</p>
 <div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">yay -S wgcf
 </code></pre></div><p>Now we will create a Warp account</p>
 <div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">wgcf register
@@ -316,8 +321,8 @@ if (!doNotTrack) {
 <div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">systemctl enable --now wireguard@wgcf-profile
 </code></pre></div><h2 id="troubleshoot">Troubleshoot</h2>
 <p>I&rsquo;m facing some issue frequently. For some unknown reason Wireguard can&rsquo;t connect through my generated configuration profile multiple times. I&rsquo;ve found a way out to resolve that. If you face the same issue you&rsquo;ve to delete the previous profiles and regenerate new one, except your account profile. To do that you can run this :</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">rm -rf wgcf-profile.conf &amp;&amp; wgcf generate &amp;&amp; sudo rm -rf /etc/wireguard/wgcf-profile.conf &amp;&amp; sudo cp wgcf-profile.conf /etc/wireguard &amp;&amp; wg-quick up wgcf-profile
-</code></pre></div><p>If you want, you can set an alias for this or make a bash script for convenient usage.</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo rm -rf wgcf-profile.conf &amp;&amp; wgcf generate &amp;&amp; sudo rm -rf /etc/wireguard/wgcf-profile.conf &amp;&amp; sudo cp wgcf-profile.conf /etc/wireguard
+</code></pre></div><p>Now start the service again. If you want, you can set an alias for this or make a bash script for convenient usage.</p>
 <h2 id="getting-warp-plus-data-for-free">Getting Warp Plus Data for Free</h2>
 <p>There&rsquo;s a python script from <a href="https://github.com/ALIILAPRO/warp-plus-cloudflare">alilapro</a> to get free Warp Plus data. We can use that Warp Plus data in Linux also. But we need to get a configuration ID to run that. To do that</p>
 <ul>
