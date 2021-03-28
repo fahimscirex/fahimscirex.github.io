@@ -87,7 +87,9 @@ Now start the service again. If you want, you can set an alias for this or make 
 
 ## Getting Warp Plus Data for Free
 
-There's a python script from [alilapro](https://github.com/ALIILAPRO/warp-plus-cloudflare) to get free Warp Plus data. We can use that Warp Plus data in Linux also. But we need to get a configuration ID to run that. To do that
+There's a python script from [alilapro](https://github.com/ALIILAPRO/warp-plus-cloudflare) to get free Warp Plus data. We can use that Warp Plus data in Linux also. But we need to get a Device ID to run that. To do that go to `wgcf-account.toml` and copy the `device id`. You can use that ID in alilapro script to get free Warp Plus data.
+
+## Link your Warp account with other device using 1.1.1.1
 
 - Open 1.1.1.1 app. I'm using Android here.
 
@@ -103,5 +105,3 @@ Now we've to put our license key into `wgcf-account.toml`. Open the toml file, r
 wgcf update
 sudo cp wgcf-profile.conf /etc/wireguard
 ```
-
-Now you can use that [Python script](https://github.com/ALIILAPRO/warp-plus-cloudflare/blob/master/wp-plus.py) to get free Warp Plus data. During running that script use the ID you've copied before.
