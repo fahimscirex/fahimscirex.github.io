@@ -95,9 +95,9 @@ There's a python script from [alilapro](https://github.com/ALIILAPRO/warp-plus-c
 
 - From hamburger menu go to `Account` > `Key`. Copy the key and save it somewhere else we will need this.
 
-- Go to `Advanced` > `Diagonistics`
+- Go to `Advanced` > `Diagonistics` (optional)
 
-- Under `Client Configuration` you'll see a ID. Copy that and save it.
+- Under `Client Configuration` you'll see a ID. Copy that and save it. (optional)
 
 Now we've to put our license key into `wgcf-account.toml`. Open the toml file, replace the existing license key with yours and update your configuration profile using `wgcf update` and repeat the previous process.
 
@@ -105,3 +105,4 @@ Now we've to put our license key into `wgcf-account.toml`. Open the toml file, r
 wgcf update
 sudo cp wgcf-profile.conf /etc/wireguard
 ```
+Now you can use Device ID which you got from toml file or Configuration ID of your 1.1.1.1 in alilapro script.
