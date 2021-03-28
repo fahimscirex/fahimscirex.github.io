@@ -6,19 +6,21 @@ categories:
 - Linux
 tags:
 - Linux
+- WARP
 bigimg: [{ src: "/img/cover.png" }]
 ---
 Cloudflare's Warp is a great service to re-route DNS query and bypass blocked website. Though it has clients for Windows, Mac, Android, IOS it doesn't have a Warp client for Linux. Still we can use an unofficial client to get our work done.
 
+
 ## WGCF
 
-**WGCF** is a unofficial, cross-platform CLI for Cloudflare Warp. It works with Wireguard. So before installing **WGCF** make sure you've installed
+[**WGCF**](https://github.com/ViRb3/wgcf) is a unofficial, cross-platform CLI for Cloudflare Warp. It works with Wireguard. So before installing **WGCF** make sure you've installed
 
 - `wireguard-tools`
 
 - `wireguard-dkms` (if you're using a Linux Kernel older than 5.6)
 
-  > Note : You've to restart your system if you install wireguard-dkms.
+> Note : You've to restart your system if you install wireguard-dkms.
 
 
 
@@ -57,6 +59,7 @@ Probably you'd like to run Warp every time when your system boots. You can do th
 ```Code
 systemctl enable --now wireguard@wgcf-profile
 ```
+
 
 ## Troubleshoot
 
