@@ -62,7 +62,7 @@ WGCF WGCF is a unofficial, cross-platform CLI for Cloudflare Warp. It works with
   "headline": "Setup Warp on Linux and Get Unlimited Warp Plus Data",
   "description" : "Cloudflare\u0026rsquo;s Warp is a great service to re-route DNS query and bypass blocked website. Though it has clients for Windows, Mac, Android, IOS it doesn\u0026rsquo;t have a Warp client for Linux. Still we can use an unofficial client to get our work done.\nWGCF WGCF is a unofficial, cross-platform CLI for Cloudflare Warp. It works with Wireguard. So before installing WGCF make sure you\u0026rsquo;ve installed\n  wireguard-tools\n  wireguard-dkms (if you\u0026rsquo;re using a Linux Kernel older than 5.6)",
   "inLanguage" : "en",
-  "wordCount":  413 ,
+  "wordCount":  437 ,
   "datePublished" : "2021-03-28T18:15:05",
   "dateModified" : "2021-03-28T18:15:05",
   "image" : "https:\/\/fahimscirex.github.io\/img\/avatar.webp",
@@ -300,7 +300,9 @@ if (!doNotTrack) {
 <blockquote>
 <p>Note : You&rsquo;ve to restart your system if you install wireguard-dkms.</p>
 </blockquote>
-<p>Now we will create a Warp account</p>
+<p>You can install pre-compiled binary file from it&rsquo;s <a href="https://github.com/ViRb3/wgcf/releases">releases</a> or you can install it from AUR if you&rsquo;re using Arch derivatives.</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">yay -S wgcf
+</code></pre></div><p>Now we will create a Warp account</p>
 <div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">wgcf register
 </code></pre></div><p>And generate a Wireguard configuration using that account information</p>
 <div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">wgcf generate
