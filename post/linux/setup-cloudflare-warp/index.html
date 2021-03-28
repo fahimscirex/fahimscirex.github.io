@@ -66,7 +66,7 @@ WGCF WGCF is a unofficial, cross-platform CLI for Cloudflare Warp. It works with
   "datePublished" : "2021-03-28T18:15:05",
   "dateModified" : "2021-03-28T18:15:05",
   "image" : "https:\/\/fahimscirex.github.io\/img\/avatar.webp",
-  "keywords" : [ "Linux" ],
+  "keywords" : [ "Linux, WARP" ],
   "mainEntityOfPage" : "https:\/\/fahimscirex.github.io\/post\/linux\/setup-cloudflare-warp\/",
   "publisher" : {
     "@type": "Organization",
@@ -288,18 +288,18 @@ if (!doNotTrack) {
       <article role="main" class="blog-post">
         <p>Cloudflare&rsquo;s Warp is a great service to re-route DNS query and bypass blocked website. Though it has clients for Windows, Mac, Android, IOS it doesn&rsquo;t have a Warp client for Linux. Still we can use an unofficial client to get our work done.</p>
 <h2 id="wgcf">WGCF</h2>
-<p><strong>WGCF</strong> is a unofficial, cross-platform CLI for Cloudflare Warp. It works with Wireguard. So before installing <strong>WGCF</strong> make sure you&rsquo;ve installed</p>
+<p><a href="https://github.com/ViRb3/wgcf"><strong>WGCF</strong></a> is a unofficial, cross-platform CLI for Cloudflare Warp. It works with Wireguard. So before installing <strong>WGCF</strong> make sure you&rsquo;ve installed</p>
 <ul>
 <li>
 <p><code>wireguard-tools</code></p>
 </li>
 <li>
 <p><code>wireguard-dkms</code> (if you&rsquo;re using a Linux Kernel older than 5.6)</p>
+</li>
+</ul>
 <blockquote>
 <p>Note : You&rsquo;ve to restart your system if you install wireguard-dkms.</p>
 </blockquote>
-</li>
-</ul>
 <p>Now we will create a Warp account</p>
 <div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">wgcf register
 </code></pre></div><p>And generate a Wireguard configuration using that account information</p>
@@ -342,6 +342,8 @@ sudo cp wgcf-profile.conf /etc/wireguard
           <div class="blog-tags">
             
               <a href="https://fahimscirex.github.io/tags/linux/">Linux</a>&nbsp;
+            
+              <a href="https://fahimscirex.github.io/tags/warp/">WARP</a>&nbsp;
             
           </div>
         

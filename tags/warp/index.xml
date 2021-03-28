@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WARP on Fahim Montasir</title>
+    <link>https://fahimscirex.github.io/tags/warp/</link>
+    <description>Recent content in WARP on Fahim Montasir</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>fahimscirex@tutanota.com (Fahim Montasir Misbah)</managingEditor>
+    <webMaster>fahimscirex@tutanota.com (Fahim Montasir Misbah)</webMaster>
+    <lastBuildDate>Sun, 28 Mar 2021 18:15:05 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/tags/warp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setup Warp on Linux and Get Unlimited Warp Plus Data</title>
+      <link>https://fahimscirex.github.io/post/linux/setup-cloudflare-warp/</link>
+      <pubDate>Sun, 28 Mar 2021 18:15:05 +0600</pubDate>
+      <author>fahimscirex@tutanota.com (Fahim Montasir Misbah)</author>
+      <guid>https://fahimscirex.github.io/post/linux/setup-cloudflare-warp/</guid>
+      <description>Cloudflare&amp;rsquo;s Warp is a great service to re-route DNS query and bypass blocked website. Though it has clients for Windows, Mac, Android, IOS it doesn&amp;rsquo;t have a Warp client for Linux. Still we can use an unofficial client to get our work done.
+WGCF WGCF is a unofficial, cross-platform CLI for Cloudflare Warp. It works with Wireguard. So before installing WGCF make sure you&amp;rsquo;ve installed
+  wireguard-tools
+  wireguard-dkms (if you&amp;rsquo;re using a Linux Kernel older than 5.6)</description>
+    </item>
+    
+  </channel>
+</rss>
