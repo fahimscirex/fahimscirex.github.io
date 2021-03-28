@@ -22,8 +22,11 @@ Cloudflare's Warp is a great service to re-route DNS query and bypass blocked we
 
 > Note : You've to restart your system if you install wireguard-dkms.
 
+You can install pre-compiled binary file from it's [releases](https://github.com/ViRb3/wgcf/releases) or you can install it from AUR if you're using Arch derivatives.
 
-
+```Code
+yay -S wgcf
+```
 Now we will create a Warp account
 
 ```Code
