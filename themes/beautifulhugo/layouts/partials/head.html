@@ -63,8 +63,7 @@
   {{- if .Site.Params.selfHosted -}}
   <link rel="stylesheet" href="{{ "css/fonts.css" | absURL }}" />
   {{- else -}}
-  <link rel="stylesheet" href="https://fahimscirex.github.io/css?family=Lora:400,700,400italic,700italic" />
-  <link rel="stylesheet" href="https://fahimscirex.github.io/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="{{ "css/fonts.css" | absURL }}" />
   {{- end -}}
 
   {{- if .Site.Params.useHLJS }}
