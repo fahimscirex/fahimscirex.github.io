@@ -7,5 +7,5 @@ categories:
 tags:
 - Books
 layout: post
-bigimg: [{src: "/img/cover.png"}]
+bigimg: [{src: "/img/cover.webp"}]
 ---

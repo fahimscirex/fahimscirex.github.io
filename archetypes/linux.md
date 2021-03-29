@@ -6,5 +6,5 @@ categories:
 - Linux
 tags:
 - Linux
-bigimg: [{ src: "/img/cover.png" }]
+bigimg: [{ src: "/img/cover.webp" }]
 ---

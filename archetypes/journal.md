@@ -6,5 +6,5 @@ categories:
 - Journal
 tags:
 - Journal
-bigimg: [{ src: "/img/cover.png" }]
+bigimg: [{ src: "/img/cover.webp" }]
 ---
