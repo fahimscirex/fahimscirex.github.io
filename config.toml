@@ -10,7 +10,7 @@ pygmentsCodefencesGuessSyntax = true
 pygmentsUseClassic = true
 pygmentOptions = "linenos=inline"
 #disqusShortname = "fahimscirex"
-googleAnalytics = "262790099"
+#googleAnalytics = "262790099"
 summaryLength = "80"
 #enableGitInfo = true
 
@@ -23,12 +23,12 @@ summaryLength = "80"
   dateFormat = "January 2, 2006"
 #  commit = true
 #  rss = true
-  comments = true
+#  comments = true
 #  readingTime = true
 #  wordCount = true
   useHLJS = true
   socialShare = true
-#  toc = true
+  toc = true
 #  delayDisqus = true
   showRelatedPosts = true
 #  hideAuthor = true
@@ -117,7 +117,3 @@ summaryLength = "80"
     name = "Contact"
     url = "/page/contact"
     weight = 3
-
-# -- Staticman -- #
-#[Params.staticman]
-#  api = "https://staticman-fahimscirex.herokuapp.com/v3/entry/github/fahimscirex/fahimscirex.github.io/master/comments"
