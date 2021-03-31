@@ -3,9 +3,9 @@ layout: page
 ---
 
 {{< rawhtml >}}
-
+<h2 align="center">Send your anonymous message</h2>
 <form class="wj-contact" action="https://formspree.io/f/meqpwenr" method="POST">
-    <input type="text" name="email" placeholder="Email Address">
+  <!--  <input type="text" name="email" placeholder="Email Address"> -->
     <textarea type="text" name="content" rows="10" placeholder="Message"></textarea>
     <input type="hidden" name="_next" value="<REDIRECTION LINK> ">
     <input type="hidden" name="_subject" value="New Contact Form Submission">
