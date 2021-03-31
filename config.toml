@@ -115,5 +115,5 @@ summaryLength = "80"
     weight = 3
 [[menu.main]]
     name = "Contact"
-    url = "/page/contact"
+    url = "/about/#contact"
     weight = 3
