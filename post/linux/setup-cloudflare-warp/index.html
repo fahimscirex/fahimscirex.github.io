@@ -62,7 +62,7 @@ WGCF WGCF is a unofficial, cross-platform CLI for Cloudflare Warp. It works with
   "headline": "Setup Warp on Linux and Get Unlimited Warp Plus Data",
   "description" : "Cloudflare\u0026rsquo;s Warp is a great service to re-route DNS query and bypass blocked website. Though it has clients for Windows, Mac, Android, IOS it doesn\u0026rsquo;t have a Warp client for Linux. Still we can use an unofficial client to get our work done.\nWGCF WGCF is a unofficial, cross-platform CLI for Cloudflare Warp. It works with Wireguard. So before installing WGCF make sure you\u0026rsquo;ve installed\n  wireguard-tools\n  wireguard-dkms (if you\u0026rsquo;re using a Linux Kernel older than 5.6)",
   "inLanguage" : "en",
-  "wordCount":  512 ,
+  "wordCount":  515 ,
   "datePublished" : "2021-03-28T18:15:05",
   "dateModified" : "2021-03-28T18:15:05",
   "image" : "https:\/\/fahimscirex.github.io\/img\/avatar.webp",
@@ -291,16 +291,17 @@ WGCF WGCF is a unofficial, cross-platform CLI for Cloudflare Warp. It works with
 </blockquote>
 <p>You can install pre-compiled binary file from it&rsquo;s <a href="https://github.com/ViRb3/wgcf/releases">releases</a> or you can install it from AUR if you&rsquo;re using Arch derivatives.</p>
 <h2 id="install-binary-package">Install binary package</h2>
-<p>Download the package you need from release page. Then rename the file <code>wgcf</code>, make it executable and copy it to <code>/bin</code> directory.</p>
+<p>Download the package you need from release page. Then rename the file to <code>wgcf</code>, make it executable and copy it to <code>/bin</code> directory.</p>
 <div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">chmod +x wgcf
 sudo cp wgcf /bin
-</code></pre></div><p>Or you can install from AUR if you use Arch</p>
+</code></pre></div><p>Or you can install it from AUR if you&rsquo;re using Arch</p>
 <div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">yay -S wgcf
-</code></pre></div><p>Now we will create a Warp account</p>
+</code></pre></div><h2 id="setup-wgcf">Setup WGCF</h2>
+<p>Now we will create a Warp account.</p>
 <div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">wgcf register
 </code></pre></div><p>And generate a Wireguard configuration using that account information</p>
 <div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">wgcf generate
-</code></pre></div><p>We&rsquo;ve to connect to Warp using that Wireguard configuration. It&rsquo;d be much easier if you put that configuration file in <code>/etc/wireguard</code></p>
+</code></pre></div><p>We&rsquo;ve to connect to Warp through Wireguard configuration. It&rsquo;d be much easier if you put that configuration file in <code>/etc/wireguard</code></p>
 <div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo cp wgcf-profile.conf /etc/wireguard
 </code></pre></div><p>Let&rsquo;s connect now</p>
 <div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">wg-quick up wgcf-profile
