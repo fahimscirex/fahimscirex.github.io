@@ -25,20 +25,22 @@ Cloudflare's Warp is a great service to re-route DNS query and bypass blocked we
 You can install pre-compiled binary file from it's [releases](https://github.com/ViRb3/wgcf/releases) or you can install it from AUR if you're using Arch derivatives.
 
 ## Install binary package
-Download the package you need from release page. Then rename the file `wgcf`, make it executable and copy it to `/bin` directory.
+Download the package you need from release page. Then rename the file to `wgcf`, make it executable and copy it to `/bin` directory.
 
 ```Code
 chmod +x wgcf
 sudo cp wgcf /bin
 ```
 
-Or you can install from AUR if you use Arch
+Or you can install it from AUR if you're using Arch
 
 ```Code
 yay -S wgcf
 ```
 
-Now we will create a Warp account
+## Setup WGCF
+
+Now we will create a Warp account.
 
 ```Code
 wgcf register
@@ -50,7 +52,7 @@ And generate a Wireguard configuration using that account information
 wgcf generate
 ```
 
-We've to connect to Warp using that Wireguard configuration. It'd be much easier if you put that configuration file in `/etc/wireguard`
+We've to connect to Warp through Wireguard configuration. It'd be much easier if you put that configuration file in `/etc/wireguard`
 
 ```Code
 sudo cp wgcf-profile.conf /etc/wireguard
@@ -62,7 +64,7 @@ Let's connect now
 wg-quick up wgcf-profile
 ```
 
- If you want to disconnect, run
+If you want to disconnect, run
 
 ```Code
 wg-quick down wgcf-profile
