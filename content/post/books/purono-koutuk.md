@@ -8,6 +8,8 @@ tags:
 date: 2020-02-19 19:23:00 +06:00
 bigimg: [{src: "/img/cover.webp"}]
 ---
+| ![Purono Koutuk](/img/purono-koutuk.webp) |
+| :---: |
 
 | **বই** | **পুরোনো কৌতুক** |
 |:---:|:---:|
@@ -17,8 +19,6 @@ bigimg: [{src: "/img/cover.webp"}]
 | প্রকাশকাল | ২০১৮ |
 | পৃষ্ঠা সংখ্যা | ১০৩ |
 |   ঘরানা   |  থ্রিলার   |
-
-![Purono Koutuk](/img/purono-koutuk.webp)
 
 >“পৃথিবীর সবচেয়ে পুরোনো কৌতুক কি জানো? ওল্ড জোক? মানুষ। মানুষই হলো কৌতুক।”
 
