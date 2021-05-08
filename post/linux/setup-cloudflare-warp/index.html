@@ -98,7 +98,7 @@ WGCF WGCF is a unofficial, cross-platform CLI for Cloudflare Warp. It works with
   <meta name="twitter:site" content="@fahimscirex" />
   <meta name="twitter:creator" content="@fahimscirex" />
   <link href='https://fahimscirex.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
-  <meta name="generator" content="Hugo 0.82.0" />
+  <meta name="generator" content="Hugo 0.83.1" />
   <link rel="alternate" href="https://fahimscirex.github.io/index.xml" type="application/rss+xml" title="Fahim Montasir"><link rel="stylesheet" href="https://fahimscirex.github.io/fontawesome/css/all.css" crossorigin="anonymous"/>
   <link rel="stylesheet" href="https://fahimscirex.github.io/css/bootstrap.min.css" crossorigin="anonymous"/><link rel="stylesheet" href="https://fahimscirex.github.io/css/main.css" /><link rel="stylesheet" href="https://fahimscirex.github.io/css/fonts.css" />
   <link rel="stylesheet" href="https://fahimscirex.github.io/css/highlight.min.css" /><link rel="stylesheet" href="https://fahimscirex.github.io/css/codeblock.css" />
@@ -292,25 +292,25 @@ WGCF WGCF is a unofficial, cross-platform CLI for Cloudflare Warp. It works with
 <p>You can install pre-compiled binary file from it&rsquo;s <a href="https://github.com/ViRb3/wgcf/releases">releases</a> or you can install it from AUR if you&rsquo;re using Arch derivatives.</p>
 <h2 id="install-binary-package">Install binary package</h2>
 <p>Download the package you need from release page. Then rename the file <code>wgcf</code>, make it executable and copy it to <code>/bin</code> directory.</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">chmod +x wgcf
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">chmod +x wgcf
 sudo cp wgcf /bin
 </code></pre></div><p>Or you can install from AUR if you use Arch</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">yay -S wgcf
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">yay -S wgcf
 </code></pre></div><p>Now we will create a Warp account</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">wgcf register
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">wgcf register
 </code></pre></div><p>And generate a Wireguard configuration using that account information</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">wgcf generate
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">wgcf generate
 </code></pre></div><p>We&rsquo;ve to connect to Warp using that Wireguard configuration. It&rsquo;d be much easier if you put that configuration file in <code>/etc/wireguard</code></p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo cp wgcf-profile.conf /etc/wireguard
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sudo cp wgcf-profile.conf /etc/wireguard
 </code></pre></div><p>Let&rsquo;s connect now</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">wg-quick up wgcf-profile
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">wg-quick up wgcf-profile
 </code></pre></div><p>If you want to disconnect, run</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">wg-quick down wgcf-profile
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">wg-quick down wgcf-profile
 </code></pre></div><p>Probably you&rsquo;d like to run Warp every time when your system boots. You can do that with help of systemd</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">systemctl enable --now wireguard@wgcf-profile
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">systemctl <span class="nb">enable</span> --now wireguard@wgcf-profile
 </code></pre></div><h2 id="troubleshoot">Troubleshoot</h2>
 <p>I&rsquo;m facing some issue frequently. For some unknown reason Wireguard can&rsquo;t connect through my generated configuration profile multiple times. I&rsquo;ve found a way out to resolve that. If you face the same issue you&rsquo;ve to delete the previous profiles and regenerate new one, except your account profile. To do that you can run this :</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo rm -rf wgcf-profile.conf &amp;&amp; wgcf generate &amp;&amp; sudo rm -rf /etc/wireguard/wgcf-profile.conf &amp;&amp; sudo cp wgcf-profile.conf /etc/wireguard
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sudo rm -rf wgcf-profile.conf <span class="o">&amp;&amp;</span> wgcf generate <span class="o">&amp;&amp;</span> sudo rm -rf /etc/wireguard/wgcf-profile.conf <span class="o">&amp;&amp;</span> sudo cp wgcf-profile.conf /etc/wireguard
 </code></pre></div><p>Now start the service again. If you want, you can set an alias for this or make a bash script for convenient usage.</p>
 <h2 id="getting-warp-plus-data-for-free">Getting Warp Plus Data for Free</h2>
 <p>There&rsquo;s a python script from <a href="https://github.com/ALIILAPRO/warp-plus-cloudflare">alilapro</a> to get free Warp Plus data. We can use that Warp Plus data in Linux also. But we need to get a Device ID to run that. To do that go to <code>wgcf-account.toml</code> and copy the <code>device id</code>. You can use that ID in alilapro script to get free Warp Plus data.</p>
@@ -529,7 +529,7 @@ sudo cp wgcf-profile.conf /etc/wireguard
     </p>
     
     <p class="credits theme-by text-muted">
-      <a href="https://gohugo.io">Hugo v0.82.0</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+      <a href="https://gohugo.io">Hugo v0.83.1</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
       
     </p>
   </div>
