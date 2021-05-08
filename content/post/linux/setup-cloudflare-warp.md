@@ -14,7 +14,7 @@ Cloudflare's Warp is an great service to re-route DNS query and bypass blocked w
 
 ## WGCF
 
-[**WGCF**](https://github.com/ViRb3/wgcf) is a unofficial, cross-platform CLI for Cloudflare Warp. It works with Wireguard. So before installing **WGCF** make sure you've installed
+[**WGCF**](https://github.com/ViRb3/wgcf) is an unofficial, cross-platform CLI for Cloudflare Warp. It works with Wireguard. So before installing **WGCF** make sure you've installed
 
 - `wireguard-tools`
 
@@ -27,50 +27,50 @@ You can install pre-compiled binary file from it's [releases](https://github.com
 ## Install binary package
 Download the package you need from release page. Then rename the file `wgcf`, make it executable and copy it to `/bin` directory.
 
-```Code
+```bash
 chmod +x wgcf
 sudo cp wgcf /bin
 ```
 
 Or you can install from AUR if you use Arch
 
-```Code
+```bash
 yay -S wgcf
 ```
 
 Now we will create a Warp account
 
-```Code
+```bash
 wgcf register
 ```
 
 And generate a Wireguard configuration using that account information
 
-```Code
+```bash
 wgcf generate
 ```
 
 We've to connect to Warp using that Wireguard configuration. It'd be much easier if you put that configuration file in `/etc/wireguard`
 
-```Code
+```bash
 sudo cp wgcf-profile.conf /etc/wireguard
 ```
 
 Let's connect now
 
-```Code
+```bash
 wg-quick up wgcf-profile
 ```
 
  If you want to disconnect, run
 
-```Code
+```bash
 wg-quick down wgcf-profile
 ```
 
 Probably you'd like to run Warp every time when your system boots. You can do that with help of systemd
 
-```Code
+```bash
 systemctl enable --now wireguard@wgcf-profile
 ```
 
@@ -79,7 +79,7 @@ systemctl enable --now wireguard@wgcf-profile
 
 I'm facing some issue frequently. For some unknown reason Wireguard can't connect through my generated configuration profile multiple times. I've found a way out to resolve that. If you face the same issue you've to delete the previous profiles and regenerate new one, except your account profile. To do that you can run this :
 
-```Code
+```bash
 sudo rm -rf wgcf-profile.conf && wgcf generate && sudo rm -rf /etc/wireguard/wgcf-profile.conf && sudo cp wgcf-profile.conf /etc/wireguard
 ```
 
