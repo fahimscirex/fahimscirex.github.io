@@ -9,7 +9,7 @@ tags:
 - WARP
 bigimg: [{ src: "/img/cover.webp" }]
 ---
-Cloudflare's Warp is an great service to re-route DNS query and bypass blocked website. Though it has clients for Windows, Mac, Android, IOS it doesn't have a Warp client for Linux. Still we can use an unofficial client to get our work done.
+Cloudflare's Warp is a great service to re-route DNS query and bypass blocked website. Though it has clients for Windows, Mac, Android, IOS it doesn't have a Warp client for Linux. Still we can use an unofficial client to get our work done.
 
 
 ## WGCF
