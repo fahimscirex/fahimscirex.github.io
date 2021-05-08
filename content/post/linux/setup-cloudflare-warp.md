@@ -101,7 +101,7 @@ There's a python script from [alilapro](https://github.com/ALIILAPRO/warp-plus-c
 
 Now we've to put our license key into `wgcf-account.toml`. Open the toml file, replace the existing license key with yours and update your configuration profile using `wgcf update` and repeat the previous process.
 
-```Code
+```bash
 wgcf update
 sudo cp wgcf-profile.conf /etc/wireguard
 ```
