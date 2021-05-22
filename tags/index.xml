@@ -7,13 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>fahimscirex@tutanota.com (Fahim Montasir Misbah)</managingEditor>
     <webMaster>fahimscirex@tutanota.com (Fahim Montasir Misbah)</webMaster>
-    <lastBuildDate>Sun, 28 Mar 2021 18:15:05 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 May 2021 01:53:19 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux</title>
       <link>https://fahimscirex.github.io/tags/linux/</link>
-      <pubDate>Sun, 28 Mar 2021 18:15:05 +0600</pubDate>
+      <pubDate>Sun, 23 May 2021 01:53:19 +0600</pubDate>
       <author>fahimscirex@tutanota.com (Fahim Montasir Misbah)</author>
       <guid>https://fahimscirex.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Polybar</title>
+      <link>https://fahimscirex.github.io/tags/polybar/</link>
+      <pubDate>Sun, 23 May 2021 01:53:19 +0600</pubDate>
+      <author>fahimscirex@tutanota.com (Fahim Montasir Misbah)</author>
+      <guid>https://fahimscirex.github.io/tags/polybar/</guid>
       <description></description>
     </item>
     

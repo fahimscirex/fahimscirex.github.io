@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>fahimscirex@tutanota.com (Fahim Montasir Misbah)</managingEditor>
     <webMaster>fahimscirex@tutanota.com (Fahim Montasir Misbah)</webMaster>
-    <lastBuildDate>Sun, 28 Mar 2021 18:15:05 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 May 2021 01:53:19 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fix Your Polybar Panel Icon</title>
+      <link>https://fahimscirex.github.io/post/linux/fix-polybar-icon/</link>
+      <pubDate>Sun, 23 May 2021 01:53:19 +0600</pubDate>
+      <author>fahimscirex@tutanota.com (Fahim Montasir Misbah)</author>
+      <guid>https://fahimscirex.github.io/post/linux/fix-polybar-icon/</guid>
+      <description>Polybar let&amp;rsquo;s you choose multiple fonts and sizes for your WM panel. So if you&amp;rsquo;re having issues with the size of icons/texts in your panel you can change the size individually. Let&amp;rsquo;s get to the point. How are you supposed to do that?
+You&amp;rsquo;ve to define which font you want to use and how you want to customize it&amp;rsquo;s value. So put those values in your Polybar config under [bar/example]. Here&amp;rsquo;s an example config :
+[bar/example] ; font-N = &amp;lt;fontconfig pattern&amp;gt;;&amp;lt;vertical offset&amp;gt; font-0 = &amp;#34;Tamsyn:pixelsize=12;0&amp;#34; font-1 = &amp;#34;Roboto:size=11:weight=bold;2&amp;#34; font-2 = &amp;#34;Noto Sans:size=11;1&amp;#34; font-3 = &amp;#34;Iosevka Nerd Font:size=18;3&amp;#34; If you&amp;rsquo;re wondering what the value after semicolon does.</description>
+    </item>
+    
     <item>
       <title>Setup Warp on Linux and Get Unlimited Warp Plus Data</title>
       <link>https://fahimscirex.github.io/post/linux/setup-cloudflare-warp/</link>
