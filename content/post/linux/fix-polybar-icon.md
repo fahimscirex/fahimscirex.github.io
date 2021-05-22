@@ -39,4 +39,4 @@ click-left = env LD_PRELOAD=/usr/lib/spotify-adblock.so spotify %U &
 
 All you've to do is, add the `content-font` value. Here 3 directs to `font-3`.
 
-That's all! I'm linking the Polybar wiki [here](https://github.com/polybar/polybar/wiki/Fonts), just in case if you might need it. :D
+That's all! I'm linking the Polybar wiki [here](https://github.com/polybar/polybar/wiki/Fonts), just in case you might need it. :D
