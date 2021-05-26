@@ -7,7 +7,7 @@ url : '/message'
 <h2 align="center">Send your anonymous message</h2>
 <form class="wj-contact" action="https://formspree.io/f/meqpwenr" method="POST">
   <!--  <input type="text" name="email" placeholder="Email Address"> -->
-    <textarea type="text" name="content" rows="10" placeholder="Message"></textarea>
+    <textarea type="text" name="content" rows="10" placeholder="Write your message here without revealing your identity"></textarea>
     <input type="hidden" name="_next" value="<REDIRECTION LINK> ">
     <input type="hidden" name="_subject" value="New Contact Form Submission">
     <input type="text" name="_gotcha" style="display:none">
