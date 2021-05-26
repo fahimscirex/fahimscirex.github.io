@@ -2,9 +2,8 @@
 layout: page
 url : '/message'
 ---
-
+![Anonymous Box](/img/messagebox.webp)
 {{< rawhtml >}}
-<h2 align="center">Send your anonymous message</h2>
 <form class="wj-contact" action="https://formspree.io/f/meqpwenr" method="POST">
   <!--  <input type="text" name="email" placeholder="Email Address"> -->
     <textarea type="text" name="content" rows="10" placeholder="Write your message here without revealing your identity"></textarea>
