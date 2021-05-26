@@ -1,9 +1,13 @@
 ---
+title: Anonymous Box
+subtitle: Send Me an Anonymous Message
 layout: page
-url : '/message'
+url: '/message'
+description: Send an Anonymous Message to Fahim Montasir
 ---
 ![Anonymous Box](/img/messagebox.webp)
 {{< rawhtml >}}
+<br>
 <form class="wj-contact" action="https://formspree.io/f/meqpwenr" method="POST">
   <!--  <input type="text" name="email" placeholder="Email Address"> -->
     <textarea type="text" name="content" rows="10" placeholder="Write your message here without revealing your identity"></textarea>

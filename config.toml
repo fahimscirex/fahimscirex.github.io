@@ -17,6 +17,7 @@ summaryLength = "80"
 [Params]
   homeTitle = "fahimscirex" # Set a different text for the header on the home page
   subtitle = "can't see what's coming"
+  description = "A blog from Fahim Montasir covering Linux, Literature, Movies and other random stuffs."
   mainSections = ["post","posts"]
   logo = "img/avatar.webp" # Expecting square dimensions
   favicon = "img/favicon.ico"
