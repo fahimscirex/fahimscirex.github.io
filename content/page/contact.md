@@ -8,7 +8,7 @@ description: Send an Anonymous Message to Fahim Montasir
 ![Anonymous Box](/img/messagebox.webp)
 {{< rawhtml >}}
 <br>
-<form class="wj-contact" action="https://formspree.io/f/meqpwenr" method="POST">
+<form class="wj-contact" action="https://formspree.io/f/xbjqooad" method="POST">
   <!--  <input type="text" name="email" placeholder="Email Address"> -->
     <textarea type="text" name="content" rows="10" placeholder="Write your message here without revealing your identity"></textarea>
     <input type="hidden" name="_next" value="<REDIRECTION LINK> ">
