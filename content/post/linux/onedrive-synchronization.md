@@ -7,7 +7,7 @@ categories:
 tags:
    - Linux
    - OneDrive
- bigimg: [{ src: "/img/cover.webp" }]
+bigimg: [{ src: "/img/cover.webp" }]
 ---
 OneDrive doesn't have any official client in Linux. So after getting a 5TB OneDrive storage I went for two clients 
 
