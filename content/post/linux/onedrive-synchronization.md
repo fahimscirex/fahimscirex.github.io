@@ -37,7 +37,7 @@ We need a config file to use `onedrive` properly, package comes with a config, w
 
 ```bash
 $ mkdir -p ~/.config/onedrive/
-$ cp cp /usr/share/doc/onedrive/config ~/.config/onedrive/config
+$ cp /usr/share/doc/onedrive/config ~/.config/onedrive/config
 ```
 
 You may want to edit the config file, so that anything doesn't go wrong. I'll suggest you to change `sync_dir` to different location and `upload_only` and `no_remote_delete` to true. But if you're willing to store your cloud data to your local system you should keep `upload_only` unchanged.
