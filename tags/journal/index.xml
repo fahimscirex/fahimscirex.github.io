@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>fahimscirex@tutanota.com (Fahim Montasir Misbah)</managingEditor>
     <webMaster>fahimscirex@tutanota.com (Fahim Montasir Misbah)</webMaster>
-    <lastBuildDate>Mon, 11 Jan 2021 18:43:00 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/tags/journal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Jun 2021 12:40:51 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/tags/journal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Restoring Windows 10 EFI/GPT Bootloader</title>
+      <link>https://fahimscirex.github.io/post/journal/restore-windows-10-efi-bootloader/</link>
+      <pubDate>Sat, 26 Jun 2021 12:40:51 +0600</pubDate>
+      <author>fahimscirex@tutanota.com (Fahim Montasir Misbah)</author>
+      <guid>https://fahimscirex.github.io/post/journal/restore-windows-10-efi-bootloader/</guid>
+      <description>Few days ago I installed Archcraft again. The latest update has some cool stuffs, I wanted to try them. As usual both of my bootloader was gone, I use a dual booted system. I&amp;rsquo;ve faced that issue many times and fixed that on my own. But this time it was a litte different, this happened for the first time after switching to UEFI from Legacy. Also it was the first time after I&amp;rsquo;ve started using systemd-boot instead of GRUB.
+So the thing was my /boot partition got deleted, I don&amp;rsquo;t know exactly how that happened.</description>
+    </item>
+    
     <item>
       <title>Capernaum</title>
       <link>https://fahimscirex.github.io/post/journal/capernaum/</link>
