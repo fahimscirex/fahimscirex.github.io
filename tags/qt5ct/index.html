@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>WARP - Fahim Montasir</title>
+  <title>qt5ct - Fahim Montasir</title>
   <meta name="author" content="Fahim Montasir Misbah"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -29,13 +29,13 @@
 }
 </script>
 
-<meta property="og:title" content="WARP" />
+<meta property="og:title" content="qt5ct" />
 <meta property="og:image" content="https://fahimscirex.github.io/img/avatar.webp" />
-<meta property="og:url" content="https://fahimscirex.github.io/tags/warp/" />
+<meta property="og:url" content="https://fahimscirex.github.io/tags/qt5ct/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Fahim Montasir" />
 
-  <meta name="twitter:title" content="WARP" />
+  <meta name="twitter:title" content="qt5ct" />
   <meta name="twitter:image" content="https://fahimscirex.github.io/img/avatar.webp" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@fahimscirex" />
@@ -142,7 +142,7 @@
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="tags-heading">
               
-                <h1>WARP</h1>
+                <h1>qt5ct</h1>
               
               
                 <hr class="small">
@@ -165,8 +165,8 @@
         <div class="posts-list">
           
             <article class="post-preview">
-    <a href="https://fahimscirex.github.io/post/linux/setup-cloudflare-warp/">
-        <h2 class="post-title">Setup Warp on Linux and Get Unlimited Warp Plus Data</h2>
+    <a href="https://fahimscirex.github.io/post/linux/set-gtk-file-picker/">
+        <h2 class="post-title">Set Gtk File Picker</h2>
         
         
         
@@ -176,7 +176,7 @@
         <span class="post-meta">
   
   
-  <i class="fas fa-calendar"></i>&nbsp;Posted on March 28, 2021
+  <i class="fas fa-calendar"></i>&nbsp;Posted on June 26, 2021
   
   
   
@@ -192,11 +192,12 @@
     </p>
     <div class="post-entry">
         
-        Cloudflare&rsquo;s Warp is a great service to re-route DNS query and bypass blocked website. Though it has clients for Windows, Mac, Android, IOS it doesn&rsquo;t have a Warp client for Linux. Still we can use an unofficial client to get our work done.
-WGCF WGCF is an unofficial, cross-platform CLI for Cloudflare Warp. It works with Wireguard. So before installing WGCF make sure you&rsquo;ve installed
-  wireguard-tools
-  wireguard-dkms (if you&rsquo;re using a Linux Kernel older than 5.6)
-        <a href="https://fahimscirex.github.io/post/linux/setup-cloudflare-warp/" class="post-read-more">[Read More]</a>
+        I&rsquo;m using Archcraft with bspwm right now. It uses qt applications as default mostly. I don&rsquo;t like the default qt file picker dialogue it uses. And couldn&rsquo;t find any good guideline to change the picker. So I&rsquo;m going to write down a workaround I got from @ahmubashshir.
+We need some dependencies :
+ qt5ct kvantum-qt5 xdg-desktop-portal-gtk  Create a config file under ~/qt5ct/qt5ct.conf with the following content :
+[Appearance] standard_dialogs=gtk3 style=kvantum-dark Now set the following environment variable at startup.
+exec QT_QPA_PLATFORMTHEME=qt5ct As I&rsquo;m using bspwm I&rsquo;ve put that on bspwmrc.
+        <a href="https://fahimscirex.github.io/post/linux/set-gtk-file-picker/" class="post-read-more">[Read More]</a>
         
     </div>
 
@@ -205,7 +206,7 @@ WGCF WGCF is an unofficial, cross-platform CLI for Cloudflare Warp. It works wit
         
         <a href="https://fahimscirex.github.io/tags/linux/">Linux</a>&nbsp;
         
-        <a href="https://fahimscirex.github.io/tags/warp/">WARP</a>&nbsp;
+        <a href="https://fahimscirex.github.io/tags/qt5ct/">qt5ct</a>&nbsp;
         
     </div>
     

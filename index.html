@@ -41,7 +41,7 @@
   <meta name="twitter:site" content="@fahimscirex" />
   <meta name="twitter:creator" content="@fahimscirex" />
   <link href='https://fahimscirex.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
-  <meta name="generator" content="Hugo 0.83.1" />
+  <meta name="generator" content="Hugo 0.84.1" />
   <link rel="alternate" href="https://fahimscirex.github.io/index.xml" type="application/rss+xml" title="Fahim Montasir"><link rel="stylesheet" href="https://fahimscirex.github.io/fontawesome/css/all.css" crossorigin="anonymous"/>
   <link rel="stylesheet" href="https://fahimscirex.github.io/css/bootstrap.min.css" crossorigin="anonymous"/><link rel="stylesheet" href="https://fahimscirex.github.io/css/main.css" /><link rel="stylesheet" href="https://fahimscirex.github.io/css/fonts.css" />
   <link rel="stylesheet" href="https://fahimscirex.github.io/css/highlight.min.css" /><link rel="stylesheet" href="https://fahimscirex.github.io/css/codeblock.css" />
@@ -169,6 +169,55 @@
 
         <div class="posts-list">
           
+          
+            <article class="post-preview">
+    <a href="https://fahimscirex.github.io/post/linux/set-gtk-file-picker/">
+        <h2 class="post-title">Set Gtk File Picker</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on June 26, 2021
+  
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Fahim Montasir Misbah
+    
+  
+  
+
+</span>
+
+    </p>
+    <div class="post-entry">
+        
+        I&rsquo;m using Archcraft with bspwm right now. It uses qt applications as default mostly. I don&rsquo;t like the default qt file picker dialogue it uses. And couldn&rsquo;t find any good guideline to change the picker. So I&rsquo;m going to write down a workaround I got from @ahmubashshir.
+We need some dependencies :
+ qt5ct kvantum-qt5 xdg-desktop-portal-gtk  Create a config file under ~/qt5ct/qt5ct.conf with the following content :
+[Appearance] standard_dialogs=gtk3 style=kvantum-dark Now set the following environment variable at startup.
+exec QT_QPA_PLATFORMTHEME=qt5ct As I&rsquo;m using bspwm I&rsquo;ve put that on bspwmrc.
+        <a href="https://fahimscirex.github.io/post/linux/set-gtk-file-picker/" class="post-read-more">[Read More]</a>
+        
+    </div>
+
+    
+    <div class="blog-tags">
+        
+        <a href="https://fahimscirex.github.io/tags/linux/">Linux</a>&nbsp;
+        
+        <a href="https://fahimscirex.github.io/tags/qt5ct/">qt5ct</a>&nbsp;
+        
+    </div>
+    
+
+</article>
           
             <article class="post-preview">
     <a href="https://fahimscirex.github.io/post/linux/onedrive-synchronization/">
@@ -692,7 +741,7 @@ WGCF WGCF is an unofficial, cross-platform CLI for Cloudflare Warp. It works wit
     </p>
     
     <p class="credits theme-by text-muted">
-      <a href="https://gohugo.io">Hugo v0.83.1</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+      <a href="https://gohugo.io">Hugo v0.84.1</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
       
     </p>
   </div>
