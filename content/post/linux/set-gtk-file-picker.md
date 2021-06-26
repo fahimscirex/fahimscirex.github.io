@@ -9,7 +9,7 @@ tags:
    - qt5ct
 bigimg: [{ src: "/img/cover.webp" }]
 ---
-I'm using Archcraft with bspwm right now. It uses qt applications as default mostly. I don't like the default qt file picker dialogue it uses. And couldn't find any good guideline to change the picker. So I'm going to write down a workaround I got from [@ahmubashshir](https://github.com/ahmubashshir).
+I'm using Archcraft with bspwm right now. It uses qt applications as default mostly. I don't like the default qt file picker dialog it uses. And couldn't find any good guideline to change the picker. So I'm going to write down a workaround I got from [@ahmubashshir](https://github.com/ahmubashshir).
 
 We need some dependencies :
 
