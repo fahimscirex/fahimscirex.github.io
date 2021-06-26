@@ -21,6 +21,7 @@ summaryLength = "80"
   mainSections = ["post","posts"]
   logo = "img/avatar.webp" # Expecting square dimensions
   favicon = "img/favicon.ico"
+  image = "img/blog-banner.webp"
   dateFormat = "January 2, 2006"
 #  commit = true
 #  rss = true
