@@ -5,7 +5,7 @@
     "name": "{{ .Site.Title }}",
     {{ with .Site.Params.alternatePageName }}"alternateName": "{{ . }}",{{ end }}
     "url": "{{ .Site.BaseURL }}",
-    "description" : "{{ .Site.Params.description }} ,
+    "description" : "{{ .Site.Params.description }}",
     "image" : "{{ .Site.Params.image | absURL }}"
 }
 </script>
