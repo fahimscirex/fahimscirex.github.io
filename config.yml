@@ -28,8 +28,8 @@ params:
 
     ShowReadingTime: true
     ShowShareButtons: true
-    ShowPostNavLinks: true
-    ShowBreadCrumbs: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     disableSpecial1stPost: true
     disableScrollToTop: false
