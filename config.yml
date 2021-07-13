@@ -21,15 +21,15 @@ params:
     keywords: [Blog, fahimscirex, FOSS]
     author: Fahim Montasir Misbah
     # author: ["Me", "You"] # multiple authors
-    images: ["img/blog-banner.webp"]
+    images: ["/img/blog-banner.webp"]
     DateFormat: "January 2, 2006"
     defaultTheme: auto # dark, light
     disableThemeToggle: false
 
     ShowReadingTime: true
     ShowShareButtons: true
-    ShowPostNavLinks: false
-    ShowBreadCrumbs: false
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
     disableSpecial1stPost: true
     disableScrollToTop: false
@@ -84,6 +84,8 @@ params:
           url: "https://github.com/fahimscirex"
         - name: goodreads
           url: "https://goodreads.com/fahimscirex"
+        - name: irc
+          url: "irc:fahimscirex"
 
     analytics:
         google:
@@ -123,10 +125,6 @@ menu:
           name: Categories
           url: /categories/
           weight: 20
-        - identifier: about
-          name: About
-          url: /about
-          weight: 30
         - identifier: contact
           name: Contact
           url: "/about/#contact"

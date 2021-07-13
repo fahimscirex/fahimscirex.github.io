@@ -7,6 +7,7 @@ categories:
 tags:
     - Journal
     - Windows 10
+description: 
 
 bigimg: [{ src: "/img/cover.webp" }]
 ---
@@ -24,7 +25,7 @@ Let's jump into it.
   
   I suggest to use the official ISO or something closer to it. Cause customized ISO doesn't work most of the time for this type of work.
 
-- ***A ESP partition.***
+- ***An ESP partition.***
   
   EFI System Partitions are in fat32. If you don't have a partition already, create one using diskpart with following commands. If you don't know how to open CMD Prompt then scroll a bit.
   
