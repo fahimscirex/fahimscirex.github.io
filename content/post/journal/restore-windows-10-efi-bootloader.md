@@ -46,7 +46,7 @@ Let's jump into it.
 
 3. Go to Troubleshoot > Advanced Options > Command Prompt.
 
-4. We're going to assign a letter to out ESP/Boot partition. Let's assume my ESP volume number is 1.
+4. We're going to assign a letter to ESP/Boot partition. Let's assume my ESP volume number is 1.
 
 ```shell
 > diskpart
