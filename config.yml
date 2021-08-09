@@ -132,7 +132,7 @@ params:
             SiteVerificationTag: "yBRESuR4j8lYoZ7IGugAaYEZ0c6dU0uj8n7Y-wrXPdg"
 
     label:
-         text: "/"
+         text: ""
          icon: /img/avatar-circle.webp
          iconHeight: 35
 
