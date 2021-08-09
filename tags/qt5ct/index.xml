@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>qt5ct on Fahim Montasir Misbah</title>
-    <link>/tags/qt5ct/</link>
+    <link>https://fahimscirex.github.io/tags/qt5ct/</link>
     <description>Recent content in qt5ct on Fahim Montasir Misbah</description>
     <image>
-      <url>/img/blog-banner.webp</url>
-      <link>/img/blog-banner.webp</link>
+      <url>https://fahimscirex.github.io/img/blog-banner.webp</url>
+      <link>https://fahimscirex.github.io/img/blog-banner.webp</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 26 Jun 2021 11:22:14 +0600</lastBuildDate><atom:link href="/tags/qt5ct/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Jun 2021 11:22:14 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/tags/qt5ct/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Set Gtk File Picker</title>
-      <link>/post/linux/set-gtk-file-picker/</link>
+      <link>https://fahimscirex.github.io/post/linux/set-gtk-file-picker/</link>
       <pubDate>Sat, 26 Jun 2021 11:22:14 +0600</pubDate>
       
-      <guid>/post/linux/set-gtk-file-picker/</guid>
+      <guid>https://fahimscirex.github.io/post/linux/set-gtk-file-picker/</guid>
       <description>I&amp;rsquo;m using Archcraft with bspwm right now. It uses qt applications as default mostly. I don&amp;rsquo;t like the default qt file picker dialog it uses. And couldn&amp;rsquo;t find any good guideline to change the picker. So I&amp;rsquo;m going to write down a workaround I got from @ahmubashshir.
 We need some dependencies :
  qt5ct kvantum-qt5 xdg-desktop-portal-gtk  Create a config file under ~/qt5ct/qt5ct.conf with the following content :

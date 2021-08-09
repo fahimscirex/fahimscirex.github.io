@@ -2,118 +2,118 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/bn/categories/book-review/</loc>
+    <loc>https://fahimscirex.github.io/bn/categories/book-review/</loc>
     <lastmod>2021-08-09T10:51:56+06:00</lastmod>
   </url><url>
-    <loc>/bn/tags/books/</loc>
+    <loc>https://fahimscirex.github.io/bn/tags/books/</loc>
     <lastmod>2021-08-09T10:51:56+06:00</lastmod>
   </url><url>
-    <loc>/bn/categories/</loc>
-    <lastmod>2021-08-09T10:51:56+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="bn"
-                href="/bn/categories/"
-                />
-  </url><url>
-    <loc>/bn/</loc>
+    <loc>https://fahimscirex.github.io/bn/categories/</loc>
     <lastmod>2021-08-09T10:51:56+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="https://fahimscirex.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="bn"
-                href="/bn/"
+                href="https://fahimscirex.github.io/bn/categories/"
                 />
   </url><url>
-    <loc>/bn/post/</loc>
+    <loc>https://fahimscirex.github.io/bn/</loc>
     <lastmod>2021-08-09T10:51:56+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/post/"
+                href="https://fahimscirex.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="bn"
-                href="/bn/post/"
+                href="https://fahimscirex.github.io/bn/"
                 />
   </url><url>
-    <loc>/bn/tags/</loc>
+    <loc>https://fahimscirex.github.io/bn/post/</loc>
     <lastmod>2021-08-09T10:51:56+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="https://fahimscirex.github.io/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="bn"
-                href="/bn/tags/"
+                href="https://fahimscirex.github.io/bn/post/"
                 />
   </url><url>
-    <loc>/bn/post/books/aaj-chitrar-biye/</loc>
+    <loc>https://fahimscirex.github.io/bn/tags/</loc>
+    <lastmod>2021-08-09T10:51:56+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fahimscirex.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn"
+                href="https://fahimscirex.github.io/bn/tags/"
+                />
+  </url><url>
+    <loc>https://fahimscirex.github.io/bn/post/books/aaj-chitrar-biye/</loc>
     <lastmod>2021-08-09T10:51:56+06:00</lastmod>
   </url><url>
-    <loc>/bn/post/books/akash-bariye-dao/</loc>
+    <loc>https://fahimscirex.github.io/bn/post/books/akash-bariye-dao/</loc>
     <lastmod>2021-03-03T07:14:03+06:00</lastmod>
   </url><url>
-    <loc>/bn/post/linux/gaming-on-linux/</loc>
+    <loc>https://fahimscirex.github.io/bn/post/linux/gaming-on-linux/</loc>
     <lastmod>2021-03-01T11:14:19+06:00</lastmod>
   </url><url>
-    <loc>/bn/tags/linux/</loc>
-    <lastmod>2021-03-01T11:14:19+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/linux/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="bn"
-                href="/bn/tags/linux/"
-                />
-  </url><url>
-    <loc>/bn/categories/linux/</loc>
+    <loc>https://fahimscirex.github.io/bn/tags/linux/</loc>
     <lastmod>2021-03-01T11:14:19+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/linux/"
+                href="https://fahimscirex.github.io/tags/linux/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="bn"
-                href="/bn/categories/linux/"
+                href="https://fahimscirex.github.io/bn/tags/linux/"
                 />
   </url><url>
-    <loc>/bn/post/books/purono-koutuk/</loc>
+    <loc>https://fahimscirex.github.io/bn/categories/linux/</loc>
+    <lastmod>2021-03-01T11:14:19+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fahimscirex.github.io/categories/linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn"
+                href="https://fahimscirex.github.io/bn/categories/linux/"
+                />
+  </url><url>
+    <loc>https://fahimscirex.github.io/bn/post/books/purono-koutuk/</loc>
     <lastmod>2020-02-19T19:23:00+00:00</lastmod>
   </url><url>
-    <loc>/bn/post/books/nikhojkabbo/</loc>
+    <loc>https://fahimscirex.github.io/bn/post/books/nikhojkabbo/</loc>
     <lastmod>2019-11-27T15:46:00+00:00</lastmod>
   </url><url>
-    <loc>/bn/post/books/fight-club/</loc>
+    <loc>https://fahimscirex.github.io/bn/post/books/fight-club/</loc>
     <lastmod>2019-03-17T10:49:00+00:00</lastmod>
   </url><url>
-    <loc>/bn/series/</loc>
+    <loc>https://fahimscirex.github.io/bn/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/series/"
+                href="https://fahimscirex.github.io/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="bn"
-                href="/bn/series/"
+                href="https://fahimscirex.github.io/bn/series/"
                 />
   </url>
 </urlset>
