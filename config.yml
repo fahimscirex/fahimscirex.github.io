@@ -131,10 +131,10 @@ params:
         google:
             SiteVerificationTag: "yBRESuR4j8lYoZ7IGugAaYEZ0c6dU0uj8n7Y-wrXPdg"
 
-    label:
-         text: ""
-         icon: /img/avatar-circle.webp
-         iconHeight: 35
+ #   label:
+ #        text: ""
+ #        icon: /img/avatar-circle.webp
+ #        iconHeight: 35
 
     assets:
         # disableHLJS: true # to disable highlight.js
