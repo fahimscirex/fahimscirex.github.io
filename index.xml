@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Fahim Montasir Misbah</title>
-    <link>https://fahimscirex.github.io/</link>
-    <description>Recent content on Fahim Montasir Misbah</description>
+    <title>fahimscirex</title>
+    <link>/</link>
+    <description>Recent content on fahimscirex</description>
     <image>
-      <url>https://fahimscirex.github.io/img/blog-banner.webp</url>
-      <link>https://fahimscirex.github.io/img/blog-banner.webp</link>
+      <url>/img/blog-banner.webp</url>
+      <link>/img/blog-banner.webp</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 26 Jun 2021 12:40:51 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Jun 2021 12:40:51 +0600</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Restoring Windows 10 EFI/GPT Bootloader</title>
-      <link>https://fahimscirex.github.io/post/journal/restore-windows-10-efi-bootloader/</link>
+      <link>/post/journal/restore-windows-10-efi-bootloader/</link>
       <pubDate>Sat, 26 Jun 2021 12:40:51 +0600</pubDate>
       
-      <guid>https://fahimscirex.github.io/post/journal/restore-windows-10-efi-bootloader/</guid>
+      <guid>/post/journal/restore-windows-10-efi-bootloader/</guid>
       <description>Few days ago I installed Archcraft again. The latest update has some cool stuffs, I wanted to try them. As usual both of my bootloader was gone, I use a dual booted system. I&amp;rsquo;ve faced that issue many times and fixed that on my own. But this time it was a litte different, this happened for the first time after switching to UEFI from Legacy. Also it was the first time after I&amp;rsquo;ve started using systemd-boot instead of GRUB.</description>
     </item>
     
     <item>
       <title>Set Gtk File Picker</title>
-      <link>https://fahimscirex.github.io/post/linux/set-gtk-file-picker/</link>
+      <link>/post/linux/set-gtk-file-picker/</link>
       <pubDate>Sat, 26 Jun 2021 11:22:14 +0600</pubDate>
       
-      <guid>https://fahimscirex.github.io/post/linux/set-gtk-file-picker/</guid>
+      <guid>/post/linux/set-gtk-file-picker/</guid>
       <description>I&amp;rsquo;m using Archcraft with bspwm right now. It uses qt applications as default mostly. I don&amp;rsquo;t like the default qt file picker dialog it uses. And couldn&amp;rsquo;t find any good guideline to change the picker. So I&amp;rsquo;m going to write down a workaround I got from @ahmubashshir.
 We need some dependencies :
  qt5ct kvantum-qt5 xdg-desktop-portal-gtk  Create a config file under ~/qt5ct/qt5ct.conf with the following content :
@@ -33,10 +33,10 @@ We need some dependencies :
     
     <item>
       <title>OneDrive Synchronization in Linux</title>
-      <link>https://fahimscirex.github.io/post/linux/onedrive-synchronization/</link>
+      <link>/post/linux/onedrive-synchronization/</link>
       <pubDate>Sat, 12 Jun 2021 22:15:05 +0600</pubDate>
       
-      <guid>https://fahimscirex.github.io/post/linux/onedrive-synchronization/</guid>
+      <guid>/post/linux/onedrive-synchronization/</guid>
       <description>OneDrive doesn&amp;rsquo;t have any official client in Linux. So after getting a 5TB OneDrive storage I went for two clients
   onedrive-abraunegg: abraunegg&amp;rsquo;s fork of OneDrive CLI client by skilion. Basically it does the synchronization part.
   onedriver : it has a wicked simple GUI. Onedriver will mount your OneDrive storage as a native Linux file system.
@@ -45,97 +45,39 @@ We need some dependencies :
     
     <item>
       <title>Fix Your Polybar Panel Icon</title>
-      <link>https://fahimscirex.github.io/post/linux/fix-polybar-icon/</link>
+      <link>/post/linux/fix-polybar-icon/</link>
       <pubDate>Sun, 23 May 2021 01:53:19 +0600</pubDate>
       
-      <guid>https://fahimscirex.github.io/post/linux/fix-polybar-icon/</guid>
+      <guid>/post/linux/fix-polybar-icon/</guid>
       <description>Polybar let&amp;rsquo;s you choose multiple fonts and sizes for your WM panel. So if you&amp;rsquo;re having issues with the size of icons/texts in your panel you can change the size individually. Let&amp;rsquo;s get to the point. How are you supposed to do that?
 You&amp;rsquo;ve to define which font you want to use and how you want to customize it&amp;rsquo;s value. So put those values in your Polybar config under [bar/example]. Here&amp;rsquo;s an example config :</description>
     </item>
     
     <item>
       <title>Setup Warp on Linux and Get Unlimited Warp Plus Data</title>
-      <link>https://fahimscirex.github.io/post/linux/setup-cloudflare-warp/</link>
+      <link>/post/linux/setup-cloudflare-warp/</link>
       <pubDate>Sun, 28 Mar 2021 18:15:05 +0600</pubDate>
       
-      <guid>https://fahimscirex.github.io/post/linux/setup-cloudflare-warp/</guid>
-      <description>Cloudflare&amp;rsquo;s Warp is a great service to re-route DNS query and bypass blocked website. Though it has clients for Windows, Mac, Android, IOS it doesn&amp;rsquo;t have a Warp client for Linux. Still we can use an unofficial client to get our work done.
-WGCF WGCF is an unofficial, cross-platform CLI for Cloudflare Warp. It works with Wireguard. So before installing WGCF make sure you&amp;rsquo;ve installed
-  wireguard-tools
-  wireguard-dkms (if you&amp;rsquo;re using a Linux Kernel older than 5.</description>
-    </item>
-    
-    <item>
-      <title>আকাশ বাড়িয়ে দাও</title>
-      <link>https://fahimscirex.github.io/post/books/akash-bariye-dao/</link>
-      <pubDate>Wed, 03 Mar 2021 07:14:03 +0600</pubDate>
-      
-      <guid>https://fahimscirex.github.io/post/books/akash-bariye-dao/</guid>
-      <description>১৯৮৭ সালে প্রকাশিত হওয়া &amp;#39;আকাশ বাড়িয়ে দাও&amp;#39; মুহম্মদ জাফর ইকবালের লেখা অনবদ্য উপন্যাসগুলোর একটি। মুক্তিযুদ্ধ পরবর্তী সময়ে ঢাকার বাসিন্দাদের বাস্তব চিত্র উঠে এসেছে যেন। বইটিকে নিয়ে আমার প্রতিক্রিয়া ব্যক্ত করেছি এখানে।</description>
-    </item>
-    
-    <item>
-      <title>Gaming on Linux</title>
-      <link>https://fahimscirex.github.io/post/linux/gaming-on-linux/</link>
-      <pubDate>Mon, 01 Mar 2021 11:14:19 +0600</pubDate>
-      
-      <guid>https://fahimscirex.github.io/post/linux/gaming-on-linux/</guid>
-      <description>Valve এবং AMD&amp;rsquo;র কারণে লিনাক্স গেমিং আগের থেকে বেশ ভালো অবস্থানে আছে। স্টিম প্রোটন কম্প্যাটিবিলিটি লেয়ার দিয়ে অনেক গেম এখন আউট অব দ্য বক্স খেলা যাচ্ছে, আর CS:GO, Tomb Raider, Dota 2 এর মতন নেটিভ গেমস তো আছেই। Steam যে লিনাক্সে এভেলেবল সেটা অনেক পুরোনো খবর। Epic Games Launcher ও ব্যবহার করা যাচ্ছে বছর দুয়েক হলো। এছাড়াও সম্প্রতি Heroic Launcher নামে এপিক গেমস এর আরো একটা আনঅফিসিয়াল ক্লায়েন্ট পাবলিশ হয়েছে।</description>
+      <guid>/post/linux/setup-cloudflare-warp/</guid>
+      <description>Cloudflare&amp;rsquo;s Warp is a great service to re-route DNS query and bypass blocked website. Though it has clients for Windows, Mac, Android, IOS it doesn&amp;rsquo;t have a Warp client for Linux (Cloudflare released a CLI client for Linux systems). Still we can use an unofficial client to get our work done.
+WGCF WGCF is an unofficial, cross-platform CLI for Cloudflare Warp. It works with Wireguard. So before installing WGCF make sure you&amp;rsquo;ve installed</description>
     </item>
     
     <item>
       <title>Capernaum</title>
-      <link>https://fahimscirex.github.io/post/journal/capernaum/</link>
-      <pubDate>Mon, 11 Jan 2021 18:43:00 +0600</pubDate>
+      <link>/post/journal/capernaum/</link>
+      <pubDate>Mon, 11 Jan 2021 18:43:00 +0000</pubDate>
       
-      <guid>https://fahimscirex.github.io/post/journal/capernaum/</guid>
+      <guid>/post/journal/capernaum/</guid>
       <description>I can’t remember when the last time I’d watched a movie like Capernaum. But this movie has won my heart, I can say that without any doubt. Capernaum is a name of ancient Israeli city which was condemned to hell by Jesus. In french literature it is used to portray hell, chaos; a large mess that seems impossible to clean. Director Nadine Labaki has taken the word ‘Capernaum’ to signify the lifestyle of a young boy in chaotic, merciless Beirut.</description>
     </item>
     
     <item>
-      <title>পুরোনো কৌতুক</title>
-      <link>https://fahimscirex.github.io/post/books/purono-koutuk/</link>
-      <pubDate>Wed, 19 Feb 2020 19:23:00 +0600</pubDate>
-      
-      <guid>https://fahimscirex.github.io/post/books/purono-koutuk/</guid>
-      <description>বই পুরোনো কৌতুক     লেখক মুরাদুল ইসলাম   প্রকাশনী আদর্শ   মূল্য ২০০৳   প্রকাশকাল ২০১৮   পৃষ্ঠা সংখ্যা ১০৩   ঘরানা থ্রিলার     “পৃথিবীর সবচেয়ে পুরোনো কৌতুক কি জানো? ওল্ড জোক? মানুষ। মানুষই হলো কৌতুক।”
- কাহিনী সংক্ষেপ বাংলাদেশের লোকসঙ্গীত নিয়ে গবেষণাধর্মী প্রজেক্ট এর কাজে বাংলাদেশে এসেছেন ফেইন্ট মাইকস। ফিন নামেই পরিচিতরা তাকে ডাকে। বাংলাটা ভালোই বলতে পারেন, লিখতে গেলেই যা একটু বাধে আর কি!</description>
-    </item>
-    
-    <item>
-      <title>নিখোঁজকাব্য</title>
-      <link>https://fahimscirex.github.io/post/books/nikhojkabbo/</link>
-      <pubDate>Wed, 27 Nov 2019 15:46:00 +0600</pubDate>
-      
-      <guid>https://fahimscirex.github.io/post/books/nikhojkabbo/</guid>
-      <description>বই নিখোঁজকাব্য     লেখক সালমান হক   প্রকাশনী বাতিঘর   প্রথম প্রকাশ ২০১৭   প্রচ্ছদ সিরাজুল আলম নিউটন   প্রচ্ছদ মূল্য ১৮০ টাকা   ঘরানা থ্রিলার    কাহিনী সংক্ষেপ শান্তিপুর্ণভাবেই কাটছিল ইন্সপেক্টর জাহিদের দিনগুলো। কাটবে না-ই বা কেন? কয়েক দশকেও কোনো খুন-খারাপির নাম গন্ধ নেই রতনপুরে। জন্মস্থান হওয়ার সুবাদে আরও সুবিধে, সকলের পরিচিত মুখ, সেও সবাইকেই চেনে। উত্তেজনাবিহীন অকর্মণ্য দিনগুলো তাই সরলগতিতে কেটে যাচ্ছিলো। রিখটার স্কেলে যেন হুট করেই সাত উঠে গেলো। সপ্তাহখানিকের ব্যবধানে তিন তিনটা মেয়ে নিখোঁজ হয়ে গেলো রতনপুর থেকে। যেনতেন পরিবারের নয়, সবাই প্রভাবশালী বাড়ির মেয়ে। তাই মাথাব্যাথাটা এখন একটু বেশিই রতনপুর পুলিশ স্টেশনের ওসি থেকে কনস্টেবল পর্যন্ত।</description>
-    </item>
-    
-    <item>
-      <title>ফাইট ক্লাব</title>
-      <link>https://fahimscirex.github.io/post/books/fight-club/</link>
-      <pubDate>Sun, 17 Mar 2019 10:49:00 +0600</pubDate>
-      
-      <guid>https://fahimscirex.github.io/post/books/fight-club/</guid>
-      <description>বই ফাইট ক্লাব     লেখক চাক পালানিউক   অনুবাদ নাবিল মুহতাসিম   প্রকাশনী বাতিঘর   প্রথম প্রকাশ ২০১৫ (অনুবাদ)   পৃষ্ঠা ২০৮   মুদ্রিত মূল্য ২০০   ঘরানা থ্রিলার    কাহিনী সংক্ষেপঃ ভিড়ের বাইরে অন্ধকারের মধ্যে থেকে চ্যাপ্টার লিডার এর কন্ঠ শোনা যায়:
- “ফাইট ক্লাব এর প্রথম নিয়ম হচ্ছে ফাইট ক্লাব নিয়ে কোনো কথা বলা যাবে না। ফাইট ক্লাব এর দ্বিতীয় নিয়ম হচ্ছে ফাইট ক্লাব নিয়ে কোনো কথা বলা যাবে না। ফাইট ক্লাব এর তৃতীয় নিয়ম হচ্ছে একসাথে কেবলমাত্র একটা ফাইট…”</description>
-    </item>
-    
-    <item>
-      <title>About me</title>
-      <link>https://fahimscirex.github.io/page/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://fahimscirex.github.io/page/about/</guid>
-      <description>Hello good people! I&#39;m Fahim Montasir Misbah. A FOSS enthusiast from Dhaka, Bangladesh. My interests range from technology to literature. I&#39;m also into band music and movies. My Favourite Books .gr_grid_container { /* customize grid container div here. eg: width: 400px; */ width: 320px; margin: 0 auto; } .gr_grid_book_container { /* customize book cover container div here */ float: left; width: 39px; height: 60px; padding: 1px 1px; overflow: hidden; }                      Share book reviews and ratings with Fahim, and even join a book club on Goodreads.</description>
-    </item>
-    
-    <item>
       <title>Anonymous Box</title>
-      <link>https://fahimscirex.github.io/message/</link>
+      <link>/message/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://fahimscirex.github.io/message/</guid>
+      <guid>/message/</guid>
       <description>Send an Anonymous Message to Fahim Montasir</description>
     </item>
     

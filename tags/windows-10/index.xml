@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Windows 10 on Fahim Montasir Misbah</title>
-    <link>https://fahimscirex.github.io/tags/windows-10/</link>
-    <description>Recent content in Windows 10 on Fahim Montasir Misbah</description>
+    <title>Windows 10 on fahimscirex</title>
+    <link>/tags/windows-10/</link>
+    <description>Recent content in Windows 10 on fahimscirex</description>
     <image>
-      <url>https://fahimscirex.github.io/img/blog-banner.webp</url>
-      <link>https://fahimscirex.github.io/img/blog-banner.webp</link>
+      <url>/img/blog-banner.webp</url>
+      <link>/img/blog-banner.webp</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 26 Jun 2021 12:40:51 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/tags/windows-10/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Jun 2021 12:40:51 +0600</lastBuildDate><atom:link href="/tags/windows-10/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Restoring Windows 10 EFI/GPT Bootloader</title>
-      <link>https://fahimscirex.github.io/post/journal/restore-windows-10-efi-bootloader/</link>
+      <link>/post/journal/restore-windows-10-efi-bootloader/</link>
       <pubDate>Sat, 26 Jun 2021 12:40:51 +0600</pubDate>
       
-      <guid>https://fahimscirex.github.io/post/journal/restore-windows-10-efi-bootloader/</guid>
+      <guid>/post/journal/restore-windows-10-efi-bootloader/</guid>
       <description>Few days ago I installed Archcraft again. The latest update has some cool stuffs, I wanted to try them. As usual both of my bootloader was gone, I use a dual booted system. I&amp;rsquo;ve faced that issue many times and fixed that on my own. But this time it was a litte different, this happened for the first time after switching to UEFI from Legacy. Also it was the first time after I&amp;rsquo;ve started using systemd-boot instead of GRUB.</description>
     </item>
     

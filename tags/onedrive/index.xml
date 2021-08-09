@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>OneDrive on Fahim Montasir Misbah</title>
-    <link>https://fahimscirex.github.io/tags/onedrive/</link>
-    <description>Recent content in OneDrive on Fahim Montasir Misbah</description>
+    <title>OneDrive on fahimscirex</title>
+    <link>/tags/onedrive/</link>
+    <description>Recent content in OneDrive on fahimscirex</description>
     <image>
-      <url>https://fahimscirex.github.io/img/blog-banner.webp</url>
-      <link>https://fahimscirex.github.io/img/blog-banner.webp</link>
+      <url>/img/blog-banner.webp</url>
+      <link>/img/blog-banner.webp</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 12 Jun 2021 22:15:05 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/tags/onedrive/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Jun 2021 22:15:05 +0600</lastBuildDate><atom:link href="/tags/onedrive/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OneDrive Synchronization in Linux</title>
-      <link>https://fahimscirex.github.io/post/linux/onedrive-synchronization/</link>
+      <link>/post/linux/onedrive-synchronization/</link>
       <pubDate>Sat, 12 Jun 2021 22:15:05 +0600</pubDate>
       
-      <guid>https://fahimscirex.github.io/post/linux/onedrive-synchronization/</guid>
+      <guid>/post/linux/onedrive-synchronization/</guid>
       <description>OneDrive doesn&amp;rsquo;t have any official client in Linux. So after getting a 5TB OneDrive storage I went for two clients
   onedrive-abraunegg: abraunegg&amp;rsquo;s fork of OneDrive CLI client by skilion. Basically it does the synchronization part.
   onedriver : it has a wicked simple GUI. Onedriver will mount your OneDrive storage as a native Linux file system.

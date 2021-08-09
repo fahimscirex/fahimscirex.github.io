@@ -1,29 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Pages on Fahim Montasir Misbah</title>
-    <link>https://fahimscirex.github.io/page/</link>
-    <description>Recent content in Pages on Fahim Montasir Misbah</description>
+    <title>Pages on fahimscirex</title>
+    <link>/page/</link>
+    <description>Recent content in Pages on fahimscirex</description>
     <image>
-      <url>https://fahimscirex.github.io/img/blog-banner.webp</url>
-      <link>https://fahimscirex.github.io/img/blog-banner.webp</link>
+      <url>/img/blog-banner.webp</url>
+      <link>/img/blog-banner.webp</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://fahimscirex.github.io/page/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About me</title>
-      <link>https://fahimscirex.github.io/page/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://fahimscirex.github.io/page/about/</guid>
-      <description>Hello good people! I&#39;m Fahim Montasir Misbah. A FOSS enthusiast from Dhaka, Bangladesh. My interests range from technology to literature. I&#39;m also into band music and movies. My Favourite Books .gr_grid_container { /* customize grid container div here. eg: width: 400px; */ width: 320px; margin: 0 auto; } .gr_grid_book_container { /* customize book cover container div here */ float: left; width: 39px; height: 60px; padding: 1px 1px; overflow: hidden; }                      Share book reviews and ratings with Fahim, and even join a book club on Goodreads.</description>
-    </item>
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Anonymous Box</title>
-      <link>https://fahimscirex.github.io/message/</link>
+      <link>/message/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://fahimscirex.github.io/message/</guid>
+      <guid>/message/</guid>
       <description>Send an Anonymous Message to Fahim Montasir</description>
     </item>
     

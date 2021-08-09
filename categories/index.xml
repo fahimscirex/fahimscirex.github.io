@@ -1,48 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on Fahim Montasir Misbah</title>
-    <link>https://fahimscirex.github.io/categories/</link>
-    <description>Recent content in Categories on Fahim Montasir Misbah</description>
+    <title>Categories on fahimscirex</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on fahimscirex</description>
     <image>
-      <url>https://fahimscirex.github.io/img/blog-banner.webp</url>
-      <link>https://fahimscirex.github.io/img/blog-banner.webp</link>
+      <url>/img/blog-banner.webp</url>
+      <link>/img/blog-banner.webp</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 26 Jun 2021 12:40:51 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Jun 2021 12:40:51 +0600</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Journal</title>
-      <link>https://fahimscirex.github.io/categories/journal/</link>
+      <link>/categories/journal/</link>
       <pubDate>Sat, 26 Jun 2021 12:40:51 +0600</pubDate>
       
-      <guid>https://fahimscirex.github.io/categories/journal/</guid>
+      <guid>/categories/journal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>https://fahimscirex.github.io/categories/linux/</link>
+      <link>/categories/linux/</link>
       <pubDate>Sat, 26 Jun 2021 11:22:14 +0600</pubDate>
       
-      <guid>https://fahimscirex.github.io/categories/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Book Review</title>
-      <link>https://fahimscirex.github.io/categories/book-review/</link>
-      <pubDate>Wed, 03 Mar 2021 07:14:03 +0600</pubDate>
-      
-      <guid>https://fahimscirex.github.io/categories/book-review/</guid>
+      <guid>/categories/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Movies</title>
-      <link>https://fahimscirex.github.io/categories/movies/</link>
-      <pubDate>Mon, 11 Jan 2021 18:43:00 +0600</pubDate>
+      <link>/categories/movies/</link>
+      <pubDate>Mon, 11 Jan 2021 18:43:00 +0000</pubDate>
       
-      <guid>https://fahimscirex.github.io/categories/movies/</guid>
+      <guid>/categories/movies/</guid>
       <description></description>
     </item>
     
