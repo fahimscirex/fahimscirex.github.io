@@ -9,7 +9,7 @@ tags:
 - WARP
 bigimg: [{ src: "/img/cover.webp" }]
 ---
-Cloudflare's Warp is a great service to re-route DNS query and bypass blocked website. Though it has clients for Windows, Mac, Android, IOS it doesn't have a Warp client for Linux. Still we can use an unofficial client to get our work done.
+Cloudflare's Warp is a great service to re-route DNS query and bypass blocked website. Though it has clients for Windows, Mac, Android, IOS ~~it doesn't have a Warp client for Linux~~ (Cloudflare released a CLI client for Linux systems). Still we can use an unofficial client to get our work done.
 
 
 ## WGCF
@@ -19,6 +19,7 @@ Cloudflare's Warp is a great service to re-route DNS query and bypass blocked we
 - `wireguard-tools`
 
 - `wireguard-dkms` (if you're using a Linux Kernel older than 5.6)
+- `resolvconf` (as [@fazlerabbi](https://gitlab.com/fazlerabbi37/) informed me that he couldn't find resolvconf preinstalled on some operating systems) 
 
 > Note : You've to restart your system if you install wireguard-dkms.
 

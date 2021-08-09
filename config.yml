@@ -1,18 +1,82 @@
-baseURL: "https://fahimscirex.github.io"
-title: Fahim Montasir Misbah
+baseURL: ""
+title: fahimscirex
 paginate: 5
 theme: papermod
 
+enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-
-#googleAnalytics: UA-123-45
+enableEmoji: true
+# googleAnalytics: UA-123-45
 
 minify:
     disableXML: true
-    minifyOutput: true
+    # minifyOutput: true
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        menu:
+            main:
+                - name: Search
+                  url: search
+                  weight: 5
+                - name: Categories
+                  url: categories
+                  weight: 10
+                - name: Contact
+                  url: contact
+                  weight: 10
+             #   - name: Categories
+             #     url: categories/
+             #     weight: 10
+
+    bn:
+        languageName: ":bn:"
+        languageAltTitle: Bangla
+        weight: 2
+        title: fahimscirex
+        profileMode:
+            enabled: false
+            title: PaperMod
+            # imageUrl: "#"
+            # imageTitle: my image
+            # imageWidth: 120
+            # imageHeight: 120
+            subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+            buttons:
+                - name: Blog
+                  url: posts
+                - name: Tags
+                  url: tags
+        menu:
+            main:
+                - name: খোঁজ - দ্য সার্চ
+                  url: https://fahimscirex.github.io/search
+                  weight: 5
+                - name: বিভাগ
+                  url: https://fahimscirex.github.io/categories
+                  weight: 10
+                - name: যোগাযোগ
+                  url: https://fahimscirex.github.io/contact
+                  weight: 10
+        #        - name: xxxx
+        #          url: xxxx
+        #          weight: 10
+        homeInfoParams:
+                Title: "ফাহিম মোন্তাসির মিসবাহ"
+                Content: >
+                        ![Fahim Montasir](/img/avatar-circle.webp)
+
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -39,39 +103,10 @@ params:
     showtoc: false
     tocopen: false
 
-    assets:
-        # disableHLJS: true # to disable highlight.js
-        # disableFingerprinting: true
-        favicon: "img/favicon.ico"
-        favicon16x16: "img/favicon.ico"
-        #favicon32x32: "<link / abs url>"
-        apple_touch_icon: "img/favicon.ico"
-        #safari_pinned_tab: "<link / abs url>"
-
-    label:
-        text: "fahimscirex"
-        icon: "/img/avatar.webp"
-        iconHeight: 35
-
-    # profile-mode
-    profileMode:
-        enabled: false # needs to be explicitly set
-        title: Fahim Montasir Misbah
-        subtitle: "Can't see whats coming."
-        imageUrl: "img/avatar.webp"
-        imageWidth: 120
-        imageHeight: 120
-        imageTitle: Fahim Montasir Misbah
-        buttons:
-            - name: Posts
-              url: posts
-            - name: Tags
-              url: tags
-
-    # home-info mode
     homeInfoParams:
-        Title: "Hey there!"
-        Content: I'm Fahim Montasir Misbah. A Foss enthusiast from Dhaka,Bangladesh. This GitHub Page has been my personal blog for a while. My blog posts are mostly about Linux stuffs. I also write about Books, Movies, Musics and other random stuffs. So, make yourself at home. And let me know if you have any suggestions.
+        Title: "Fahim Montasir Misbah"
+        Content: >
+             ![Fahim Montasir](/img/avatar-circle.webp)
 
     socialIcons:
         - name: telegram
@@ -84,29 +119,37 @@ params:
           url: "https://github.com/fahimscirex"
         - name: goodreads
           url: "https://goodreads.com/fahimscirex"
-        - name: irc
-          url: "irc:fahimscirex"
-
-    analytics:
-        google:
-            SiteVerificationTag: "yBRESuR4j8lYoZ7IGugAaYEZ0c6dU0uj8n7Y-wrXPdg"
-#        bing:
-#            SiteVerificationTag: "XYZabc"
-#        yandex:
-#            SiteVerificationTag: "XYZabc"
-
-    cover:
-        hidden: false # hide everywhere but not in structured data
-        hiddenInList: true # hide on list pages and home
-        hiddenInSingle: true # hide on single page
+        - name: twitter
+          url: "https://twitter.com/fahimscirex"
 
     editPost:
         URL: "https://github.com/fahimscirex/fahimscirex.github.io/content"
         Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link
 
-    # for search
-    # https://fusejs.io/api/options.html
+    analytics:
+        google:
+            SiteVerificationTag: "yBRESuR4j8lYoZ7IGugAaYEZ0c6dU0uj8n7Y-wrXPdg"
+
+    label:
+         text: "/"
+         icon: /img/avatar-circle.webp
+         iconHeight: 35
+
+    assets:
+        # disableHLJS: true # to disable highlight.js
+        # disableFingerprinting: true
+        favicon: "img/favicon.ico"
+        favicon16x16: "img/favicon.ico"
+        #favicon32x32: "<link / abs url>"
+        apple_touch_icon: "img/favicon.ico"
+        #safari_pinned_tab: "<link / abs url>"
+
+    cover:
+        hidden: true # hide everywhere but not in structured data
+        hiddenInList: true # hide on list pages and home
+        hiddenInSingle: true # hide on single page
+
     fuseOpts:
         isCaseSensitive: false
         shouldSort: true
@@ -115,31 +158,44 @@ params:
         threshold: 0.4
         minMatchCharLength: 0
         keys: ["title", "permalink", "summary", "content"]
-menu:
-    main:
-        - identifier: search
-          name: Search
-          url: /search/
-          weight: 10 
-        - identifier: categories
-          name: Categories
-          url: /categories/
-          weight: 20
-        - identifier: contact
-          name: Contact
-          url: "/about/#contact"
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-# pygmentsUseClasses: true
-# markup:
+
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
 #     highlight:
 #         # anchorLineNos: true
 #         codeFences: true
 #         guessSyntax: true
 #         lineNos: true
+#         # noClasses: false
 #         style: monokai
-outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON # is necessary
 
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
