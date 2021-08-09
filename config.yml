@@ -21,7 +21,7 @@ languages:
         weight: 1
         menu:
             main:
-                - name: Search
+                - namehttps://fahimscirex.github.io/bn/post/books/akash-bariye-dao/: Search
                   url: search
                   weight: 5
                 - name: Categories
@@ -38,7 +38,7 @@ languages:
         languageName: ":bn:"
         languageAltTitle: Bangla
         weight: 2
-        title: fahimscirex
+        title: Fahim Montasir Misbah
         profileMode:
             enabled: false
             title: PaperMod
@@ -131,10 +131,10 @@ params:
         google:
             SiteVerificationTag: "yBRESuR4j8lYoZ7IGugAaYEZ0c6dU0uj8n7Y-wrXPdg"
 
- #   label:
- #        text: ""
- #        icon: /img/avatar-circle.webp
- #        iconHeight: 35
+    label:
+         text: "/"
+         icon: /img/avatar-circle.webp
+         iconHeight: 35
 
     assets:
         # disableHLJS: true # to disable highlight.js

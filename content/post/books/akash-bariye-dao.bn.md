@@ -5,6 +5,11 @@ tags: ["Books"]
 categories: ["Book Review"]
 TocOpen: false
 draft: false
+cover:
+    image: "/img/akash-bariye-dao.webp"
+    alt: "Akash Bariye Dao"
+    caption: "আকাশ বাড়িয়ে দাও"
+    relative: false
 description: "১৯৮৭ সালে প্রকাশিত হওয়া 'আকাশ বাড়িয়ে দাও' মুহম্মদ জাফর ইকবালের লেখা অনবদ্য উপন্যাসগুলোর একটি। মুক্তিযুদ্ধ পরবর্তী সময়ে ঢাকার বাসিন্দাদের বাস্তব চিত্র উঠে এসেছে যেন। বইটিকে নিয়ে আমার প্রতিক্রিয়া ব্যক্ত করেছি এখানে।"
 ---
 

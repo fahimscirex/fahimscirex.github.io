@@ -1,0 +1,57 @@
+---
+title: About me
+subtitle: an average guy with useless skills
+comments: false
+layout: page
+---
+{{< rawhtml >}}
+
+<h3 align="center"> Hello good people!</h3>
+I'm Fahim Montasir Misbah. A FOSS enthusiast from Dhaka, Bangladesh. My interests range from technology to literature. I'm also into band music and movies.
+
+<h3 align="center">My Favourite Books</h3>
+<style type="text/css" media="screen">
+  .gr_grid_container {
+    /* customize grid container div here. eg: width: 400px; */
+    width: 320px;
+    margin: 0 auto;
+  }
+  .gr_grid_book_container {
+    /* customize book cover container div here */
+    float: left;
+    width: 39px;
+    height: 60px;
+    padding: 1px 1px;
+    overflow: hidden;
+  }
+</style>
+<div id="gr_grid_widget_1614567389">
+  <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
+    <div class="gr_grid_container">
+<div class="gr_grid_book_container"><a title="ফাইট ক্লাব" rel="nofollow" href="https://www.goodreads.com/book/show/24832129"><img alt="ফাইট ক্লাব" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1423074761l/24832129._SY75_.jpg" /></a></div>
+<div class="gr_grid_book_container"><a title="The Old Man and the Sea" rel="nofollow" href="https://www.goodreads.com/book/show/2165.The_Old_Man_and_the_Sea"><img alt="The Old Man and the Sea" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1329189714l/2165._SY75_.jpg" /></a></div>
+<div class="gr_grid_book_container"><a title="ফেলুদা সমগ্র  ১" rel="nofollow" href="https://www.goodreads.com/book/show/9602495"><img alt="ফেলুদা সমগ্র  ১" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1289975099l/9602495._SY75_.jpg" /></a></div>
+<div class="gr_grid_book_container"><a title="ফেলুদা সমগ্র  ২" rel="nofollow" href="https://www.goodreads.com/book/show/13498737"><img alt="ফেলুদা সমগ্র  ২" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1330108034l/13498737._SY75_.jpg" /></a></div>
+<div class="gr_grid_book_container"><a title="King Solomon's Mines (Allan Quatermain, #1)" rel="nofollow" href="https://www.goodreads.com/book/show/23814.King_Solomon_s_Mines"><img alt="King Solomon's Mines" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1418964233l/23814._SY75_.jpg" /></a></div>
+<div class="gr_grid_book_container"><a title="রবিনসন ক্রুসো" rel="nofollow" href="https://www.goodreads.com/book/show/34835814"><img alt="রবিনসন ক্রুসো" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1491859385l/34835814._SY75_.jpg" /></a></div>
+<div class="gr_grid_book_container"><a title="বাদশাহী আংটি (ফেলুদা, #2)" rel="nofollow" href="https://www.goodreads.com/book/show/17902092"><img alt="বাদশাহী আংটি" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1368025914l/17902092._SY75_.jpg" /></a></div>
+<div class="gr_grid_book_container"><a title="সোনার কেল্লা (ফেলুদা, #6)" rel="nofollow" href="https://www.goodreads.com/book/show/20956687"><img alt="সোনার কেল্লা" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1480083870l/20956687._SY75_.jpg" /></a></div>
+<div class="gr_grid_book_container"><a title="গোরস্থানে সাবধান" rel="nofollow" href="https://www.goodreads.com/book/show/23454002"><img alt="গোরস্থানে সাবধান" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1414385630l/23454002._SX50_.jpg" /></a></div>
+<div class="gr_grid_book_container"><a title="বাক্স-রহস্য (ফেলুদা, #7)" rel="nofollow" href="https://www.goodreads.com/book/show/12664136--"><img alt="বাক্স-রহস্য" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1368119257l/12664136._SY75_.jpg" /></a></div>
+<div class="gr_grid_book_container"><a title="যত কাণ্ড কাঠমাণ্ডুতে" rel="nofollow" href="https://www.goodreads.com/book/show/23454020"><img alt="যত কাণ্ড কাঠমাণ্ডুতে" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1414386402l/23454020._SY75_.jpg" /></a></div>
+<div class="gr_grid_book_container"><a title="শঙ্কু সমগ্র" rel="nofollow" href="https://www.goodreads.com/book/show/670686._"><img alt="শঙ্কু সমগ্র" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470202217l/670686._SY75_.jpg" /></a></div>
+<div class="gr_grid_book_container"><a title="Looking for Alaska" rel="nofollow" href="https://www.goodreads.com/book/show/99561.Looking_for_Alaska"><img alt="Looking for Alaska" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394798630l/99561._SY75_.jpg" /></a></div>
+<div class="gr_grid_book_container"><a title="Designs in Crime (Nancy Drew: Files, #89)" rel="nofollow" href="https://www.goodreads.com/book/show/1013486.Designs_in_Crime"><img alt="Designs in Crime" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1180236223l/1013486._SY75_.jpg" /></a></div>
+<div class="gr_grid_book_container"><a title="The Boy in the Striped Pajamas" rel="nofollow" href="https://www.goodreads.com/book/show/39999.The_Boy_in_the_Striped_Pajamas"><img alt="The Boy in the Striped Pajamas" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1366228171l/39999._SY75_.jpg" /></a></div>
+<div class="gr_grid_book_container"><a title="The Adventures of Sherlock Holmes (Sherlock Holmes, #3)" rel="nofollow" href="https://www.goodreads.com/book/show/3590.The_Adventures_of_Sherlock_Holmes"><img alt="The Adventures of Sherlock Holmes" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1164045516l/3590._SY75_.jpg" /></a></div>
+<div class="gr_grid_book_container"><a title="শেষের কবিতা" rel="nofollow" href="https://www.goodreads.com/book/show/11386578"><img alt="শেষের কবিতা" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1305695456l/11386578._SX50_.jpg" /></a></div>
+<div class="gr_grid_book_container"><a title="নন্দিত নরকে" rel="nofollow" href="https://www.goodreads.com/book/show/17458632"><img alt="নন্দিত নরকে" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1362361365l/17458632._SY75_.jpg" /></a></div>
+<div class="gr_grid_book_container"><a title="The Girl with the Dragon Tattoo (Millennium, #1)" rel="nofollow" href="https://www.goodreads.com/book/show/2429135.The_Girl_with_the_Dragon_Tattoo"><img alt="The Girl with the Dragon Tattoo" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327868566l/2429135._SX50_.jpg" /></a></div>
+<div class="gr_grid_book_container"><a title="A Study in Scarlet (Sherlock Holmes, #1)" rel="nofollow" href="https://www.goodreads.com/book/show/102868.A_Study_in_Scarlet"><img alt="A Study in Scarlet" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519031842l/102868._SX50_.jpg" /></a></div>
+<noscript><br/>Share <a rel="nofollow" href="/">book reviews</a> and ratings with Fahim, and even join a <a rel="nofollow" href="/group">book club</a> on Goodreads.</noscript>
+</div>
+
+</div>
+<script src="https://www.goodreads.com/review/grid_widget/64082230.Bookshelf?cover_size=small&hide_link=true&hide_title=true&num_books=24&order=a&shelf=read&sort=asin&widget_id=1614567389" type="text/javascript" charset="utf-8"></script>
+
+{{< /rawhtml >}}

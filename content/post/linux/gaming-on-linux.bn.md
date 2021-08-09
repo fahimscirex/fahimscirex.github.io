@@ -6,7 +6,11 @@ categories:
 - Linux
 tags:
 - Linux
-bigimg: [{ src: "/img/cover.webp" }]
+cover:
+    image: "/img/gaming-on-linux.webp"
+    alt: "Gaming on Linux"
+    caption: "Gaming on Linux"
+    relative: false
 ---
 Valve এবং AMD'র কারণে লিনাক্স গেমিং আগের থেকে বেশ ভালো অবস্থানে আছে। স্টিম প্রোটন কম্প্যাটিবিলিটি লেয়ার দিয়ে অনেক গেম এখন আউট অব দ্য বক্স খেলা যাচ্ছে, আর CS:GO, Tomb Raider, Dota 2 এর মতন নেটিভ গেমস তো আছেই। Steam যে লিনাক্সে এভেলেবল সেটা অনেক পুরোনো খবর। Epic Games Launcher ও ব্যবহার করা যাচ্ছে বছর দুয়েক হলো। এছাড়াও সম্প্রতি Heroic Launcher নামে এপিক গেমস এর আরো একটা আনঅফিসিয়াল ক্লায়েন্ট পাবলিশ হয়েছে।
 
