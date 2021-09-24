@@ -19,7 +19,7 @@
       <description>I&amp;rsquo;m using Archcraft with bspwm right now. It uses qt applications as default mostly. I don&amp;rsquo;t like the default qt file picker dialog it uses. And couldn&amp;rsquo;t find any good guideline to change the picker. So I&amp;rsquo;m going to write down a workaround I got from @ahmubashshir.
 We need some dependencies :
  qt5ct kvantum-qt5 xdg-desktop-portal-gtk  Create a config file under ~/qt5ct/qt5ct.conf with the following content :
-[Appearance] standard_dialogs=gtk3 style=kvantum-dark Now set the following environment variable at startup.</description>
+1 2 3  [Appearance] standard_dialogs=gtk3 style=kvantum-dark   Now set the following environment variable at startup.</description>
     </item>
     
   </channel>

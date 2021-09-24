@@ -86,8 +86,8 @@ You&rsquo;ve to define which font you want to use and how you want to customize 
   "keywords": [
     "Linux", "Polybar"
   ],
-  "articleBody": "Polybar let’s you choose multiple fonts and sizes for your WM panel. So if you’re having issues with the size of icons/texts in your panel you can change the size individually. Let’s get to the point. How are you supposed to do that?\nYou’ve to define which font you want to use and how you want to customize it’s value. So put those values in your Polybar config under [bar/example]. Here’s an example config :\n[bar/example] ; font-N = ;font-0 = \"Tamsyn:pixelsize=12;0\" font-1 = \"Roboto:size=11:weight=bold;2\" font-2 = \"Noto Sans:size=11;1\" font-3 = \"Iosevka Nerd Font:size=18;3\" If you’re wondering what the value after semicolon does. It is used to move the font to the up or to the down.\nLet’s assume I’m having problem with a Spotify module icon in my panel. That icon is way big than others. So i’m gonna fix that by changing the icon font size. Usually Nerd Fonts is used in Polybar to get a icon, so I’m gonna choose Iosevka Nerd Font. As you can see I’ve added that in the config already.\nThat Spotify module config looks like this :\n[module/spotify-icon] inherit = module/apps content =  content-font = 3 click-left = env LD_PRELOAD=/usr/lib/spotify-adblock.so spotify %U \u0026 All you’ve to do is, add the content-font value. Here 3 directs to font-3.\nThat’s all! I’m linking the Polybar wiki here, just in case you might need it. :D\n",
-  "wordCount" : "235",
+  "articleBody": "Polybar let’s you choose multiple fonts and sizes for your WM panel. So if you’re having issues with the size of icons/texts in your panel you can change the size individually. Let’s get to the point. How are you supposed to do that?\nYou’ve to define which font you want to use and how you want to customize it’s value. So put those values in your Polybar config under [bar/example]. Here’s an example config :\n1 2 3 4 5 6  [bar/example] ; font-N = ;font-0 = \"Tamsyn:pixelsize=12;0\" font-1 = \"Roboto:size=11:weight=bold;2\" font-2 = \"Noto Sans:size=11;1\" font-3 = \"Iosevka Nerd Font:size=18;3\"   If you’re wondering what the value after semicolon does. It is used to move the font to the up or to the down.\nLet’s assume I’m having problem with a Spotify module icon in my panel. That icon is way big than others. So i’m gonna fix that by changing the icon font size. Usually Nerd Fonts is used in Polybar to get a icon, so I’m gonna choose Iosevka Nerd Font. As you can see I’ve added that in the config already.\nThat Spotify module config looks like this :\n1 2 3 4 5  [module/spotify-icon] inherit = module/apps content =  content-font = 3 click-left = env LD_PRELOAD=/usr/lib/spotify-adblock.so spotify %U \u0026   All you’ve to do is, add the content-font value. Here 3 directs to font-3.\nThat’s all! I’m linking the Polybar wiki here, just in case you might need it. :D\n",
+  "wordCount" : "246",
   "inLanguage": "en",
   "datePublished": "2021-05-23T01:53:19+06:00",
   "dateModified": "2021-05-23T01:53:19+06:00",
@@ -197,8 +197,8 @@ You&rsquo;ve to define which font you want to use and how you want to customize 
         </div>
         <ul id="menu">
             <li>
-                <a href="https://fahimscirex.github.io/search" title="">
-                    <span></span>
+                <a href="https://fahimscirex.github.io/search" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
                 </a>
             </li>
             <li>
@@ -226,21 +226,44 @@ You&rsquo;ve to define which font you want to use and how you want to customize 
   </header> 
   <div class="post-content"><p><a href="https://github.com/polybar/polybar">Polybar</a> let&rsquo;s you choose multiple fonts and sizes for your WM panel. So if you&rsquo;re having issues with the size of icons/texts in your panel you can change the size individually. Let&rsquo;s get to the point. How are you supposed to do that?</p>
 <p>You&rsquo;ve to define which font you want to use and how you want to customize it&rsquo;s value. So put those values in your Polybar config under <code>[bar/example]</code>. Here&rsquo;s an example config :</p>
-<pre tabindex="0"><code>[bar/example]
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">[bar/example]
 ; font-N = &lt;fontconfig pattern&gt;;&lt;vertical offset&gt;
-font-0 = &quot;Tamsyn:pixelsize=12;0&quot;
-font-1 = &quot;Roboto:size=11:weight=bold;2&quot;
-font-2 = &quot;Noto Sans:size=11;1&quot;
-font-3 = &quot;Iosevka Nerd Font:size=18;3&quot;
-</code></pre><p>If you&rsquo;re wondering what the value after semicolon does. It is used to move the font to the up or to the down.</p>
+font-0 = &#34;Tamsyn:pixelsize=12;0&#34;
+font-1 = &#34;Roboto:size=11:weight=bold;2&#34;
+font-2 = &#34;Noto Sans:size=11;1&#34;
+font-3 = &#34;Iosevka Nerd Font:size=18;3&#34;
+</code></pre></td></tr></table>
+</div>
+</div><p>If you&rsquo;re wondering what the value after semicolon does. It is used to move the font to the up or to the down.</p>
 <p>Let&rsquo;s assume I&rsquo;m having problem with a Spotify module icon in my panel. That icon is way big than others. So i&rsquo;m gonna fix that by changing the icon font size. Usually <a href="nerdfonts.com">Nerd Fonts</a> is used in Polybar to get a icon, so I&rsquo;m gonna choose Iosevka Nerd Font. As you can see I&rsquo;ve added that in the config already.</p>
 <p>That Spotify module config looks like this :</p>
-<pre tabindex="0"><code>[module/spotify-icon]
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">[module/spotify-icon]
 inherit = module/apps
 content = 
 content-font = 3
 click-left = env LD_PRELOAD=/usr/lib/spotify-adblock.so spotify %U &amp;
-</code></pre><p>All you&rsquo;ve to do is, add the <code>content-font</code> value. Here 3 directs to <code>font-3</code>.</p>
+</code></pre></td></tr></table>
+</div>
+</div><p>All you&rsquo;ve to do is, add the <code>content-font</code> value. Here 3 directs to <code>font-3</code>.</p>
 <p>That&rsquo;s all! I&rsquo;m linking the Polybar wiki <a href="https://github.com/polybar/polybar/wiki/Fonts">here</a>, just in case you might need it. :D</p>
 
 
