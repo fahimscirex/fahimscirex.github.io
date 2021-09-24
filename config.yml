@@ -49,7 +49,7 @@ languages:
                   url: https://fahimscirex.github.io/bn/categories
                   weight: 10
                 - name: যোগাযোগ
-                  url: https://fahimscirex.github.io/contact
+                  url: https://fahimscirex.github.io/about/#contact
                   weight: 10
         #        - name: xxxx
         #          url: xxxx
