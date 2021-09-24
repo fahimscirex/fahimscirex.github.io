@@ -7,11 +7,11 @@
 <meta name="robots" content="index, follow">
 <title>Posts | Fahim Montasir Misbah</title>
 <meta name="keywords" content="" />
-<meta name="description" content="A FOSS enthusiast from Dhaka, Bangladesh. Covering Linux, Books, Movies, Music and random stuffs in this blog.">
+<meta name="description" content="Posts - Fahim Montasir Misbah">
 <meta name="author" content="Fahim Montasir Misbah">
 <link rel="canonical" href="https://fahimscirex.github.io/post/" />
 <meta name="google-site-verification" content="yBRESuR4j8lYoZ7IGugAaYEZ0c6dU0uj8n7Y-wrXPdg" />
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.40d19034142e8e40f51b08a1c357c1c23736c8de896deebf352d41881db65845.css" integrity="sha256-QNGQNBQujkD1Gwihw1fBwjc2yN6Jbe6/NS1BiB22WEU=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.3682fea6901b57621b6b61d65394573845e4200c417769e8446deb1324fe0f70.css" integrity="sha256-NoL&#43;ppAbV2Iba2HWU5RXOEXkIAxBd2noRG3rEyT&#43;D3A=" rel="preload stylesheet" as="style">
 <link rel="preload" href="/img/avatar-circle.webp" as="image">
 <link rel="icon" href="https://fahimscirex.github.io/img/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://fahimscirex.github.io/img/favicon.ico">
@@ -24,22 +24,43 @@
 <link rel="alternate" type="application/rss+xml" href="https://fahimscirex.github.io/post/index.xml">
 <link rel="alternate" hreflang="en" href="https://fahimscirex.github.io/post/" />
 <link rel="alternate" hreflang="bn" href="https://fahimscirex.github.io/bn/post/" />
-<script src="js/tracker.js"></script>
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
 
-<script>
-	console.log('Default attributes', ackeeTracker.attributes())
-	console.log('Detailed attributes', ackeeTracker.attributes(true))
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
 
-	ackeeTracker.create('https://ackee-analytics.netlify.app', {
-	
-	detailed: true,
-	
-	ignoreLocalhost: false,
-	
-	ignoreOwnVisits: true
+            .list {
+                background: var(--theme);
+            }
 
-	}).record('fe6e0e1f-c41e-4249-8a26-452e20bbc3d2')
-</script><meta property="og:title" content="Posts" />
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Posts" />
 <meta property="og:description" content="A FOSS enthusiast from Dhaka, Bangladesh. Covering Linux, Books, Movies, Music and random stuffs in this blog." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://fahimscirex.github.io/post/" /><meta property="og:image" content="https://fahimscirex.github.io/img/blog-banner.webp"/><meta property="og:site_name" content="Fahim Montasir Misbah" />
@@ -78,48 +99,11 @@
     }
 
 </script>
-<noscript>
-    <style type="text/css">
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
-
-    </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: #1d1e20;
-                --entry: #2e2e33;
-                --primary: rgba(255, 255, 255, 0.84);
-                --secondary: rgba(255, 255, 255, 0.56);
-                --tertiary: rgba(255, 255, 255, 0.16);
-                --content: rgba(255, 255, 255, 0.74);
-                --hljs-bg: #2e2e33;
-                --code-bg: #37383e;
-                --border: #333;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
-</noscript>
 
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="/" accesskey="h" title="/ (Alt + H)">
+            <a href="https://fahimscirex.github.io/" accesskey="h" title="/ (Alt + H)">
                 <img src="/img/avatar-circle.webp" alt="logo" aria-label="logo"
                     height="35">/</a>
             <span class="logo-switches">
@@ -177,7 +161,8 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2>Restoring Windows 10 EFI/GPT Bootloader</h2>
+    <h2>Restoring Windows 10 EFI/GPT Bootloader
+    </h2>
   </header>
   <section class="entry-content">
     <p>Few days ago I installed Archcraft again. The latest update has some cool stuffs, I wanted to try them. As usual both of my bootloader was gone, I use a dual booted system. I’ve faced that issue many times and fixed that on my own. But this time it was a litte different, this happened for the first time after switching to UEFI from Legacy. Also it was the first time after I’ve started using systemd-boot instead of GRUB....</p>
@@ -187,7 +172,8 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2>Set Gtk File Picker</h2>
+    <h2>Set Gtk File Picker
+    </h2>
   </header>
   <section class="entry-content">
     <p>I’m using Archcraft with bspwm right now. It uses qt applications as default mostly. I don’t like the default qt file picker dialog it uses. And couldn’t find any good guideline to change the picker. So I’m going to write down a workaround I got from @ahmubashshir.
@@ -200,7 +186,8 @@ We need some dependencies :
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2>OneDrive Synchronization in Linux</h2>
+    <h2>OneDrive Synchronization in Linux
+    </h2>
   </header>
   <section class="entry-content">
     <p>OneDrive doesn’t have any official client in Linux. So after getting a 5TB OneDrive storage I went for two clients
@@ -213,7 +200,8 @@ We need some dependencies :
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2>Fix Your Polybar Panel Icon</h2>
+    <h2>Fix Your Polybar Panel Icon
+    </h2>
   </header>
   <section class="entry-content">
     <p>Polybar let’s you choose multiple fonts and sizes for your WM panel. So if you’re having issues with the size of icons/texts in your panel you can change the size individually. Let’s get to the point. How are you supposed to do that?
@@ -224,7 +212,8 @@ You’ve to define which font you want to use and how you want to customize it�
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2>Setup Warp on Linux and Get Unlimited Warp Plus Data</h2>
+    <h2>Setup Warp on Linux and Get Unlimited Warp Plus Data
+    </h2>
   </header>
   <section class="entry-content">
     <p>Cloudflare’s Warp is a great service to re-route DNS query and bypass blocked website. Though it has clients for Windows, Mac, Android, IOS it doesn’t have a Warp client for Linux (Cloudflare released a CLI client for Linux systems). Still we can use an unofficial client to get our work done.
@@ -238,7 +227,8 @@ WGCF WGCF is an unofficial, cross-platform CLI for Cloudflare Warp. It works wit
   </nav>
 </footer>
     </main>
-    <footer class="footer">
+    
+<footer class="footer">
     <span>&copy; 2021 <a href="https://fahimscirex.github.io/">Fahim Montasir Misbah</a></span>
     <span>
         Powered by
@@ -246,12 +236,10 @@ WGCF WGCF is an unofficial, cross-platform CLI for Cloudflare Warp. It works wit
         <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
-    <button class="top-link" id="top-link" type="button" accesskey="g">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-            <path d="M12 6H0l6-6z" />
-        </svg>
-    </button>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
 </a>
 
 <script>
