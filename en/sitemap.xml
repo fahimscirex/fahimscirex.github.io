@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://fahimscirex.github.io/categories/</loc>
-    <lastmod>2021-06-26T12:40:51+06:00</lastmod>
+    <lastmod>2021-10-15T19:17:55+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bn"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://fahimscirex.github.io/</loc>
-    <lastmod>2021-06-26T12:40:51+06:00</lastmod>
+    <lastmod>2021-10-15T19:17:55+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bn"
@@ -28,14 +28,17 @@
                 href="https://fahimscirex.github.io/"
                 />
   </url><url>
-    <loc>https://fahimscirex.github.io/tags/journal/</loc>
-    <lastmod>2021-06-26T12:40:51+06:00</lastmod>
+    <loc>https://fahimscirex.github.io/tags/github/</loc>
+    <lastmod>2021-10-15T19:17:55+06:00</lastmod>
+  </url><url>
+    <loc>https://fahimscirex.github.io/post/journal/deploy-userbot-with-github-action/</loc>
+    <lastmod>2021-10-15T19:17:55+06:00</lastmod>
   </url><url>
     <loc>https://fahimscirex.github.io/categories/journal/</loc>
-    <lastmod>2021-06-26T12:40:51+06:00</lastmod>
+    <lastmod>2021-10-15T19:17:55+06:00</lastmod>
   </url><url>
     <loc>https://fahimscirex.github.io/post/</loc>
-    <lastmod>2021-06-26T12:40:51+06:00</lastmod>
+    <lastmod>2021-10-15T19:17:55+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bn"
@@ -47,11 +50,8 @@
                 href="https://fahimscirex.github.io/post/"
                 />
   </url><url>
-    <loc>https://fahimscirex.github.io/post/journal/restore-windows-10-efi-bootloader/</loc>
-    <lastmod>2021-06-26T12:40:51+06:00</lastmod>
-  </url><url>
     <loc>https://fahimscirex.github.io/tags/</loc>
-    <lastmod>2021-06-26T12:40:51+06:00</lastmod>
+    <lastmod>2021-10-15T19:17:55+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bn"
@@ -62,6 +62,18 @@
                 hreflang="en"
                 href="https://fahimscirex.github.io/tags/"
                 />
+  </url><url>
+    <loc>https://fahimscirex.github.io/tags/telegram/</loc>
+    <lastmod>2021-10-15T19:17:55+06:00</lastmod>
+  </url><url>
+    <loc>https://fahimscirex.github.io/tags/userbot/</loc>
+    <lastmod>2021-10-15T19:17:55+06:00</lastmod>
+  </url><url>
+    <loc>https://fahimscirex.github.io/tags/journal/</loc>
+    <lastmod>2021-06-26T12:40:51+06:00</lastmod>
+  </url><url>
+    <loc>https://fahimscirex.github.io/post/journal/restore-windows-10-efi-bootloader/</loc>
+    <lastmod>2021-06-26T12:40:51+06:00</lastmod>
   </url><url>
     <loc>https://fahimscirex.github.io/tags/windows-10/</loc>
     <lastmod>2021-06-26T12:40:51+06:00</lastmod>
