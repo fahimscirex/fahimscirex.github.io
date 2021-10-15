@@ -16,7 +16,8 @@
       <pubDate>Fri, 15 Oct 2021 19:17:55 +0600</pubDate>
       
       <guid>https://fahimscirex.github.io/post/journal/deploy-userbot-with-github-action/</guid>
-      <description>Most of the Cloud Platform doesn&amp;rsquo;t allow hosting userbot. Your account could get banned if you try to host any or if you&amp;rsquo;re lucky you&amp;rsquo;ll be able to use your bot for a while. Setting up a new account frequently and hosting bot on it is a hell of a work, that&amp;rsquo;s why it&amp;rsquo;s wise to use GitHub Actions. GitHub Actions&#39; Workflows aren&amp;rsquo;t meant to be used as a Cloud Platform (eg.</description>
+      <description>Most of the Cloud Platform doesn&amp;rsquo;t allow hosting userbot. Your account could get banned if you try to host any or if you&amp;rsquo;re lucky you&amp;rsquo;ll be able to use your bot for a while. Setting up a new account frequently and hosting bot on it is a hell of a work, that&amp;rsquo;s why it&amp;rsquo;s wise to use GitHub Actions.
+GitHub Actions&#39; Workflows aren&amp;rsquo;t meant to be used as a Cloud Platform (eg.</description>
     </item>
     
     <item>
