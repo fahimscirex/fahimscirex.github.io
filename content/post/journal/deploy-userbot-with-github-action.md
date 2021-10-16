@@ -18,7 +18,7 @@ Before taking you to the procedure there's one thing you should know. **Your bot
 
 For example if you use ytdl to download a video usually it goes into download folder and stays there unless you delete it. But with GitHub Action those downloaded files will be gone when your Actions time is finished. I hope you got me.
 
-I'll share Action script with support for **Ultroid** and **TG-Userbot**. 
+I'll share Action script with support for [Ultroid](https://ultroid.tech) and [TG-Userbot](https://github.com/TG-UserBot/TG-UserBot). 
 
 ## Requirements
 - GitHub Account
@@ -39,7 +39,7 @@ or
 Why private? Cause you'll keep your personal data here. You would never like to share your APIs or Sessions with others, right? BTW, I'm not going write about what will be in those files. Check their respective documentation to learn more. But I can give a suggestion, you should use Railway to host a Redis server.
 
 ## Add Secrets in Public Repo
-As your forked repo is going to stay public or you won't get unlimited Action time, you've to add some secrets. So that you can access the data of your private repo. Go to `https://{your_forked_repo}/settings/secrets/actions` to add secrets.
+As your forked repo is going to stay public or you won't get unlimited Action time, you've to add some secrets. So that you can access the data of your private repo. Go to *https://{your_forked_repo}/settings/secrets/actions* to add secrets.
 
 You've to add these following secrets -
 
