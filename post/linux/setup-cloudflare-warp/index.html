@@ -7,8 +7,8 @@
 <meta name="robots" content="index, follow">
 <title>Setup Warp on Linux and Get Unlimited Warp Plus Data | Fahim Montasir Misbah</title>
 <meta name="keywords" content="Linux, WARP" />
-<meta name="description" content="Cloudflare&rsquo;s Warp is a great service to re-route DNS query and bypass blocked website. Though it has clients for Windows, Mac, Android, IOS it doesn&rsquo;t have a Warp client for Linux (Cloudflare released a CLI client for Linux systems). Still we can use an unofficial client to get our work done.
-WGCF WGCF is an unofficial, cross-platform CLI for Cloudflare Warp. It works with Wireguard. So before installing WGCF make sure you&rsquo;ve installed">
+<meta name="description" content="Update : 23/10/2021 &gt; As there&rsquo;s a official CLI out there. So I&rsquo;m updating the post with instructions for that too.
+ Cloudflare&rsquo;s Warp is a great service to re-route DNS query and bypass blocked website. Though it has clients for Windows, Mac, Android, IOS it doesn&rsquo;t have a Warp client for Linux. Still we can use an unofficial client to get our work done. It has clients for Windows, Mac, Linux, Android, IOS.">
 <meta name="author" content="Fahim Montasir Misbah">
 <link rel="canonical" href="https://fahimscirex.github.io/post/linux/setup-cloudflare-warp/" />
 <meta name="google-site-verification" content="yBRESuR4j8lYoZ7IGugAaYEZ0c6dU0uj8n7Y-wrXPdg" />
@@ -64,8 +64,8 @@ WGCF WGCF is an unofficial, cross-platform CLI for Cloudflare Warp. It works wit
 </noscript>
 
 <script async src="https://ackee-analytics.netlify.app/tracker.js" data-ackee-server="https://ackee-analytics.netlify.app" data-ackee-domain-id="fe6e0e1f-c41e-4249-8a26-452e20bbc3d2"></script><meta property="og:title" content="Setup Warp on Linux and Get Unlimited Warp Plus Data" />
-<meta property="og:description" content="Cloudflare&rsquo;s Warp is a great service to re-route DNS query and bypass blocked website. Though it has clients for Windows, Mac, Android, IOS it doesn&rsquo;t have a Warp client for Linux (Cloudflare released a CLI client for Linux systems). Still we can use an unofficial client to get our work done.
-WGCF WGCF is an unofficial, cross-platform CLI for Cloudflare Warp. It works with Wireguard. So before installing WGCF make sure you&rsquo;ve installed" />
+<meta property="og:description" content="Update : 23/10/2021 &gt; As there&rsquo;s a official CLI out there. So I&rsquo;m updating the post with instructions for that too.
+ Cloudflare&rsquo;s Warp is a great service to re-route DNS query and bypass blocked website. Though it has clients for Windows, Mac, Android, IOS it doesn&rsquo;t have a Warp client for Linux. Still we can use an unofficial client to get our work done. It has clients for Windows, Mac, Linux, Android, IOS." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://fahimscirex.github.io/post/linux/setup-cloudflare-warp/" /><meta property="og:image" content="https://fahimscirex.github.io/img/blog-banner.webp"/><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2021-03-28T18:15:05&#43;06:00" />
@@ -75,8 +75,8 @@ WGCF WGCF is an unofficial, cross-platform CLI for Cloudflare Warp. It works wit
 <meta name="twitter:image" content="https://fahimscirex.github.io/img/blog-banner.webp"/>
 
 <meta name="twitter:title" content="Setup Warp on Linux and Get Unlimited Warp Plus Data"/>
-<meta name="twitter:description" content="Cloudflare&rsquo;s Warp is a great service to re-route DNS query and bypass blocked website. Though it has clients for Windows, Mac, Android, IOS it doesn&rsquo;t have a Warp client for Linux (Cloudflare released a CLI client for Linux systems). Still we can use an unofficial client to get our work done.
-WGCF WGCF is an unofficial, cross-platform CLI for Cloudflare Warp. It works with Wireguard. So before installing WGCF make sure you&rsquo;ve installed"/>
+<meta name="twitter:description" content="Update : 23/10/2021 &gt; As there&rsquo;s a official CLI out there. So I&rsquo;m updating the post with instructions for that too.
+ Cloudflare&rsquo;s Warp is a great service to re-route DNS query and bypass blocked website. Though it has clients for Windows, Mac, Android, IOS it doesn&rsquo;t have a Warp client for Linux. Still we can use an unofficial client to get our work done. It has clients for Windows, Mac, Linux, Android, IOS."/>
 
 
 <script type="application/ld+json">
@@ -105,12 +105,12 @@ WGCF WGCF is an unofficial, cross-platform CLI for Cloudflare Warp. It works wit
   "@type": "BlogPosting",
   "headline": "Setup Warp on Linux and Get Unlimited Warp Plus Data",
   "name": "Setup Warp on Linux and Get Unlimited Warp Plus Data",
-  "description": "Cloudflare\u0026rsquo;s Warp is a great service to re-route DNS query and bypass blocked website. Though it has clients for Windows, Mac, Android, IOS it doesn\u0026rsquo;t have a Warp client for Linux (Cloudflare released a CLI client for Linux systems). Still we can use an unofficial client to get our work done.\nWGCF WGCF is an unofficial, cross-platform CLI for Cloudflare Warp. It works with Wireguard. So before installing WGCF make sure you\u0026rsquo;ve installed",
+  "description": "Update : 23/10/2021 \u0026gt; As there\u0026rsquo;s a official CLI out there. So I\u0026rsquo;m updating the post with instructions for that too.\n Cloudflare\u0026rsquo;s Warp is a great service to re-route DNS query and bypass blocked website. Though it has clients for Windows, Mac, Android, IOS it doesn\u0026rsquo;t have a Warp client for Linux. Still we can use an unofficial client to get our work done. It has clients for Windows, Mac, Linux, Android, IOS.",
   "keywords": [
     "Linux", "WARP"
   ],
-  "articleBody": "Cloudflare’s Warp is a great service to re-route DNS query and bypass blocked website. Though it has clients for Windows, Mac, Android, IOS it doesn’t have a Warp client for Linux (Cloudflare released a CLI client for Linux systems). Still we can use an unofficial client to get our work done.\nWGCF WGCF is an unofficial, cross-platform CLI for Cloudflare Warp. It works with Wireguard. So before installing WGCF make sure you’ve installed\n  wireguard-tools\n  wireguard-dkms (if you’re using a Linux Kernel older than 5.6)\n  resolvconf (as @fazlerabbi informed me that he couldn’t find resolvconf preinstalled on some operating systems)\n   Note : You’ve to restart your system if you install wireguard-dkms.\n You can install pre-compiled binary file from it’s releases or you can install it from AUR if you’re using Arch derivatives.\nInstall binary package Download the package you need from release page. Then rename the file wgcf, make it executable and copy it to /bin directory.\n1 2  chmod +x wgcf sudo cp wgcf /bin   Or you can install from AUR if you use Arch\n1  yay -S wgcf   Now we will create a Warp account\n1  wgcf register   And generate a Wireguard configuration using that account information\n1  wgcf generate   We’ve to connect to Warp using that Wireguard configuration. It’d be much easier if you put that configuration file in /etc/wireguard\n1  sudo cp wgcf-profile.conf /etc/wireguard   Let’s connect now\n1  wg-quick up wgcf-profile   If you want to disconnect, run\n1  wg-quick down wgcf-profile   Probably you’d like to run Warp every time when your system boots. You can do that with help of systemd\n1  systemctl enable --now wireguard@wgcf-profile   Troubleshoot I’m facing some issue frequently. For some unknown reason Wireguard can’t connect through my generated configuration profile multiple times. I’ve found a way out to resolve that. If you face the same issue you’ve to delete the previous profiles and regenerate new one, except your account profile. To do that you can run this :\n1  sudo rm -rf wgcf-profile.conf \u0026\u0026 wgcf generate \u0026\u0026 sudo rm -rf /etc/wireguard/wgcf-profile.conf \u0026\u0026 sudo cp wgcf-profile.conf /etc/wireguard   Now start the service again. If you want, you can set an alias for this or make a bash script for convenient usage.\nGetting Warp Plus Data for Free There’s a python script from alilapro to get free Warp Plus data. We can use that Warp Plus data in Linux also. But we need to get a Device ID to run that. To do that go to wgcf-account.toml and copy the device id. You can use that ID in alilapro script to get free Warp Plus data.\nLink your Warp account with other device using 1.1.1.1   Open 1.1.1.1 app. I’m using Android here.\n  From hamburger menu go to Account  Key. Copy the key and save it somewhere else we will need this.\n  Go to Advanced  Diagonistics (optional)\n  Under Client Configuration you’ll see a ID. Copy that and save it. (optional)\n  Now we’ve to put our license key into wgcf-account.toml. Open the toml file, replace the existing license key with yours and update your configuration profile using wgcf update and repeat the previous process.\n1 2  wgcf update sudo cp wgcf-profile.conf /etc/wireguard   Now you can use Device ID which you got from toml file or Configuration ID of your 1.1.1.1 in alilapro script.\n",
-  "wordCount" : "547",
+  "articleBody": " Update : 23/10/2021  As there’s a official CLI out there. So I’m updating the post with instructions for that too.\n Cloudflare’s Warp is a great service to re-route DNS query and bypass blocked website. Though it has clients for Windows, Mac, Android, IOS it doesn’t have a Warp client for Linux. Still we can use an unofficial client to get our work done. It has clients for Windows, Mac, Linux, Android, IOS. You can use it in Linux through the official CLI client or with WGCF.\nMethod 1 : WARP Desktop Client Head over to this page and follow the instructions to setup repository for your distro.\nInstallation  Ubuntu : sudo apt install cloudflare-warp RHEL/CentOS : sudo yum install cloudflare-warp Arch : yay -Syu cloudflare-warp-bin  Register and Connect You have to register for the first time\n1  warp-cli register   Now connect to WARP\n1  warp-cli connect   Run curl https://www.cloudflare.com/cdn-cgi/trace/ if the output shows warp=on you’re successfully connected to WARP.\nTo disconnect from WARP\n1  warp-cli disconnect   Enable Service You can enable WARP service if you don’t want to enter password after every boot.\n1  systemctl enable --now warp-svc   Always Stay Connected to WARP You may want to use WARP all the time. To do that run this command.\n1  warp-cli enable-always-on   Or else it’s not necessary.\nTo check all available commands run warp-cli -h.\nMethod 2 : WGCF WGCF is an unofficial, cross-platform CLI for Cloudflare Warp. It works with Wireguard. So before installing WGCF make sure you’ve installed\n  wireguard-tools\n  wireguard-dkms (if you’re using a Linux Kernel older than 5.6)\n  resolvconf (as @fazlerabbi informed me that he couldn’t find resolvconf preinstalled on some operating systems)\n   Note : You’ve to restart your system if you install wireguard-dkms.\n You can install pre-compiled binary file from it’s releases or you can install it from AUR if you’re using Arch derivatives.\nInstall binary package Download the package you need from release page. Then rename the file wgcf, make it executable and copy it to /bin directory.\n1 2  chmod +x wgcf sudo cp wgcf /bin   Or you can install from AUR if you use Arch\n1  yay -S wgcf   Now we will create a Warp account\n1  wgcf register   And generate a Wireguard configuration using that account information\n1  wgcf generate   We’ve to connect to Warp using that Wireguard configuration. It’d be much easier if you put that configuration file in /etc/wireguard\n1  sudo cp wgcf-profile.conf /etc/wireguard   Let’s connect now\n1  wg-quick up wgcf-profile   If you want to disconnect, run\n1  wg-quick down wgcf-profile   Probably you’d like to run Warp every time when your system boots. You can do that with help of systemd\n1  systemctl enable --now wireguard@wgcf-profile   Troubleshoot I’m facing some issue frequently. For some unknown reason Wireguard can’t connect through my generated configuration profile multiple times. I’ve found a way out to resolve that. If you face the same issue you’ve to delete the previous profiles and regenerate new one, except your account profile. To do that you can run this :\n1  sudo rm -rf wgcf-profile.conf \u0026\u0026 wgcf generate \u0026\u0026 sudo rm -rf /etc/wireguard/wgcf-profile.conf \u0026\u0026 sudo cp wgcf-profile.conf /etc/wireguard   Now start the service again. If you want, you can set an alias for this or make a bash script for convenient usage.\nGetting Warp Plus Data for Free There’s a python script from alilapro to get free Warp Plus data. We can use that Warp Plus data in Linux also. But we need to get a Device ID to run that. To do that go to wgcf-account.toml and copy the device id. You can use that ID in alilapro script to get free Warp Plus data.\nLink your Warp account with other device using 1.1.1.1   Open 1.1.1.1 app. I’m using Android here.\n  From hamburger menu go to Account  Key. Copy the key and save it somewhere else we will need this.\n  Go to Advanced  Diagonistics (optional)\n  Under Client Configuration you’ll see a ID. Copy that and save it. (optional)\n  Now we’ve to put our license key into wgcf-account.toml. Open the toml file, replace the existing license key with yours and update your configuration profile using wgcf update and repeat the previous process.\n1 2  wgcf update sudo cp wgcf-profile.conf /etc/wireguard   Now you can use Device ID which you got from toml file or Configuration ID of your 1.1.1.1 in alilapro script.\n",
+  "wordCount" : "724",
   "inLanguage": "en",
   "datePublished": "2021-03-28T18:15:05+06:00",
   "dateModified": "2021-03-28T18:15:05+06:00",
@@ -209,8 +209,71 @@ WGCF WGCF is an unofficial, cross-platform CLI for Cloudflare Warp. It works wit
       Setup Warp on Linux and Get Unlimited Warp Plus Data
     </h1>
   </header> 
-  <div class="post-content"><p>Cloudflare&rsquo;s Warp is a great service to re-route DNS query and bypass blocked website. Though it has clients for Windows, Mac, Android, IOS <del>it doesn&rsquo;t have a Warp client for Linux</del> (Cloudflare released a CLI client for Linux systems). Still we can use an unofficial client to get our work done.</p>
-<h2 id="wgcf">WGCF<a hidden class="anchor" aria-hidden="true" href="#wgcf">#</a></h2>
+  <div class="post-content"><blockquote>
+<p><strong>Update : 23/10/2021</strong> &gt; As there&rsquo;s a official CLI out there. So I&rsquo;m updating the post with instructions for that too.</p>
+</blockquote>
+<p>Cloudflare&rsquo;s Warp is a great service to re-route DNS query and bypass blocked website. <del>Though it has clients for Windows, Mac, Android, IOS it doesn&rsquo;t have a Warp client for Linux. Still we can use an unofficial client to get our work done.</del> It has clients for Windows, Mac, Linux, Android, IOS. You can use it in Linux through the official CLI client or with WGCF.</p>
+<h2 id="method-1--warp-desktop-client">Method 1 : WARP Desktop Client<a hidden class="anchor" aria-hidden="true" href="#method-1--warp-desktop-client">#</a></h2>
+<p>Head over to <a href="https://pkg.cloudflareclient.com/install">this</a>
+page and follow the instructions to setup repository for your distro.</p>
+<h3 id="installation">Installation<a hidden class="anchor" aria-hidden="true" href="#installation">#</a></h3>
+<ul>
+<li>Ubuntu  : <code>sudo apt install cloudflare-warp</code></li>
+<li>RHEL/CentOS : <code>sudo yum install cloudflare-warp</code></li>
+<li>Arch    : <code>yay -Syu cloudflare-warp-bin</code></li>
+</ul>
+<h3 id="register-and-connect">Register and Connect<a hidden class="anchor" aria-hidden="true" href="#register-and-connect">#</a></h3>
+<p>You have to register for the first time</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">warp-cli register
+</code></pre></td></tr></table>
+</div>
+</div><p>Now connect to WARP</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">warp-cli connect
+</code></pre></td></tr></table>
+</div>
+</div><p>Run <code>curl https://www.cloudflare.com/cdn-cgi/trace/</code> if the output shows <code>warp=on</code> you&rsquo;re successfully connected to WARP.</p>
+<p>To disconnect from WARP</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">warp-cli disconnect
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="enable-service">Enable Service<a hidden class="anchor" aria-hidden="true" href="#enable-service">#</a></h3>
+<p>You can enable WARP service if you don&rsquo;t want to enter password after every boot.</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">systemctl enable --now warp-svc
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="always-stay-connected-to-warp">Always Stay Connected to WARP<a hidden class="anchor" aria-hidden="true" href="#always-stay-connected-to-warp">#</a></h3>
+<p>You may want to use WARP all the time. To do that run this command.</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">warp-cli enable-always-on
+</code></pre></td></tr></table>
+</div>
+</div><p>Or else it&rsquo;s not necessary.</p>
+<p>To check all available commands run <code>warp-cli -h</code>.</p>
+<h2 id="method-2--wgcf">Method 2 : WGCF<a hidden class="anchor" aria-hidden="true" href="#method-2--wgcf">#</a></h2>
 <p><a href="https://github.com/ViRb3/wgcf"><strong>WGCF</strong></a> is an unofficial, cross-platform CLI for Cloudflare Warp. It works with Wireguard. So before installing <strong>WGCF</strong> make sure you&rsquo;ve installed</p>
 <ul>
 <li>
@@ -227,7 +290,7 @@ WGCF WGCF is an unofficial, cross-platform CLI for Cloudflare Warp. It works wit
 <p>Note : You&rsquo;ve to restart your system if you install wireguard-dkms.</p>
 </blockquote>
 <p>You can install pre-compiled binary file from it&rsquo;s <a href="https://github.com/ViRb3/wgcf/releases">releases</a> or you can install it from AUR if you&rsquo;re using Arch derivatives.</p>
-<h2 id="install-binary-package">Install binary package<a hidden class="anchor" aria-hidden="true" href="#install-binary-package">#</a></h2>
+<h3 id="install-binary-package">Install binary package<a hidden class="anchor" aria-hidden="true" href="#install-binary-package">#</a></h3>
 <p>Download the package you need from release page. Then rename the file <code>wgcf</code>, make it executable and copy it to <code>/bin</code> directory.</p>
 <div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
@@ -302,7 +365,7 @@ sudo cp wgcf /bin
 <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">systemctl enable --now wireguard@wgcf-profile
 </code></pre></td></tr></table>
 </div>
-</div><h2 id="troubleshoot">Troubleshoot<a hidden class="anchor" aria-hidden="true" href="#troubleshoot">#</a></h2>
+</div><h3 id="troubleshoot">Troubleshoot<a hidden class="anchor" aria-hidden="true" href="#troubleshoot">#</a></h3>
 <p>I&rsquo;m facing some issue frequently. For some unknown reason Wireguard can&rsquo;t connect through my generated configuration profile multiple times. I&rsquo;ve found a way out to resolve that. If you face the same issue you&rsquo;ve to delete the previous profiles and regenerate new one, except your account profile. To do that you can run this :</p>
 <div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
@@ -315,7 +378,7 @@ sudo cp wgcf /bin
 </div><p>Now start the service again. If you want, you can set an alias for this or make a bash script for convenient usage.</p>
 <h2 id="getting-warp-plus-data-for-free">Getting Warp Plus Data for Free<a hidden class="anchor" aria-hidden="true" href="#getting-warp-plus-data-for-free">#</a></h2>
 <p>There&rsquo;s a python script from <a href="https://github.com/ALIILAPRO/warp-plus-cloudflare">alilapro</a> to get free Warp Plus data. We can use that Warp Plus data in Linux also. But we need to get a Device ID to run that. To do that go to <code>wgcf-account.toml</code> and copy the <code>device id</code>. You can use that ID in alilapro script to get free Warp Plus data.</p>
-<h2 id="link-your-warp-account-with-other-device-using-1111">Link your Warp account with other device using 1.1.1.1<a hidden class="anchor" aria-hidden="true" href="#link-your-warp-account-with-other-device-using-1111">#</a></h2>
+<h3 id="link-your-warp-account-with-other-device-using-1111">Link your Warp account with other device using 1.1.1.1<a hidden class="anchor" aria-hidden="true" href="#link-your-warp-account-with-other-device-using-1111">#</a></h3>
 <ul>
 <li>
 <p>Open 1.1.1.1 app. I&rsquo;m using Android here.</p>
