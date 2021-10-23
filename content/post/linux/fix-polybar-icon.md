@@ -25,7 +25,7 @@ font-3 = "Iosevka Nerd Font:size=18;3"
 
 If you're wondering what the value after semicolon does. It is used to move the font to the up or to the down.
 
-Let's assume I'm having problem with a Spotify module icon in my panel. That icon is way big than others. So i'm gonna fix that by changing the icon font size. Usually [Nerd Fonts](nerdfonts.com) is used in Polybar to get a icon, so I'm gonna choose Iosevka Nerd Font. As you can see I've added that in the config already.
+Let's assume I'm having problem with a Spotify module icon in my panel. That icon is way big than others. So i'm gonna fix that by changing the icon font size. Usually [Nerd Fonts](https://nerdfonts.com) is used in Polybar to get a icon, so I'm gonna choose Iosevka Nerd Font. As you can see I've added that in the config already.
 
 That Spotify module config looks like this :
 
