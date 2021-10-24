@@ -12,7 +12,7 @@ enableEmoji: true
 
 minify:
     disableXML: true
-    # minifyOutput: true
+    minifyOutput: true
 
 languages:
     en:
@@ -27,15 +27,15 @@ languages:
                   url: categories
                   weight: 10
                 - name: Contact
-                  url: contact
+                  url: https://fahimscirex.github.io/about/#contact
                   weight: 10
              #   - name: Categories
              #     url: categories/
              #     weight: 10
 
     bn:
-        languageName: ":bn:"
-        languageAltTitle: Bangla
+        languageName: "Bangla"
+        languageAltTitle: Bengali
         weight: 2
         title: Fahim Montasir Misbah
         profileMode:
@@ -46,7 +46,7 @@ languages:
                   url: https://fahimscirex.github.io/search
                   weight: 5
                 - name: বিভাগ
-                  url: https://fahimscirex.github.io/bn/categories
+                  url: categories
                   weight: 10
                 - name: যোগাযোগ
                   url: https://fahimscirex.github.io/about/#contact
@@ -69,8 +69,8 @@ outputs:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: Fahim Montasir Misbah
-    description: "A FOSS enthusiast from Dhaka, Bangladesh. Covering Linux, Books, Movies, Music and random stuffs in this blog."
-    keywords: [Blog, fahimscirex, FOSS]
+    description: "Hey there! I share my thoughts about technology, books and other stuffs here. You may want to know about some cool hacks, so check out my blog!"
+    keywords: [Blog, Books, Linux, FOSS, fahimscirex]
     author: Fahim Montasir Misbah
     # author: ["Me", "You"] # multiple authors
     images: ["/img/blog-banner.webp"]
@@ -86,9 +86,9 @@ params:
     disableSpecial1stPost: true
     disableScrollToTop: false
     comments: true
-    hidemeta: true
+    hidemeta: false
     hideSummary: false
-    showtoc: false
+    showtoc: true
     tocopen: false
 
     homeInfoParams:
@@ -154,15 +154,28 @@ taxonomies:
 
 markup:
     goldmark:
+        extensions:
+            definitionList: true
+            footnote: true
+            linkify: true
+            strikethrough: true
+            table: true
+            taskList: true
+            typographer: true
         renderer:
             unsafe: true
     highlight:
-        # anchorLineNos: true
+        anchorLineNos: false
         codeFences: true
         guessSyntax: true
-        lineNos: true
-        # noClasses: false
-        style: monokai
+        hl_Lines: ""
+        lineAnchors: ""
+        lineNoStart: 1
+        lineNos: false
+        lineNumbersInTable: true
+        noClasses: true
+        style: nord
+        tabWidth: 4
 
 privacy:
     vimeo:
