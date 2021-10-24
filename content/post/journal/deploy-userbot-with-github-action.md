@@ -8,11 +8,12 @@ tags:
 - Userbot
 - Telegram
 - GitHub
+description: Most of the Cloud Platform bans account for hosting userbots. Well, good news for you! You don't have to worry about getting banned again. Here's how.
 ---
 
 Most of the Cloud Platform doesn't allow hosting userbot. Your account could get banned if you try to host any or if you're lucky you'll be able to use your bot for a while. Setting up a new account frequently and hosting bot on it is a hell of a work, that's why it's wise to use GitHub Actions.
 
-GitHub Actions' Workflows aren't meant to be used as a Cloud Platform (eg. Heroku, Railway) but if it can get your job done then why won't you take the advantage? Even you won't have to pay a single penny.
+GitHub Actions' Workflows aren't meant to be used as a Cloud Platform (eg. Heroku, Railway) but if it can get your job done then why won't you take the advantage? Moreover, you won't have to pay a single penny.
 
 Before taking you to the procedure there's one thing you should know. **Your bot will restart in every 6 hours**. Cause maximum Action timeout is 360 minutes. Well, Heroku apps also restarts in every 6 hours but the main difference here is, your data won't be stored on GitHub. 
 
@@ -49,4 +50,4 @@ You've to add these following secrets -
 - `GH_TOKEN` : Go to https://github.com/settings/tokens to generate a token. Tick repo, workflow and user and hit generate. Copy the token and add it to the secrets.
 
 ## Deploy Your Bot
-Our work is done. Now run a workflow and check the logs. If everything goes well your bot will restart in every six hours. You can check loop.txt to know when your bot was restarted.
+Our work is done. Now run a workflow and check the logs. If everything goes well your bot will restart in every six hours. You can check loop.txt to know when your bot restarted.

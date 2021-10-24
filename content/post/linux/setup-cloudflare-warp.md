@@ -7,7 +7,7 @@ categories:
 tags:
 - Linux
 - WARP
-bigimg: [{ src: "/img/cover.webp" }]
+description: Using WARP you can encrypt your DNS requests as well as bypass blocked sites. Here's how you can get unlimited WARP+ data and use that on Linux.
 ---
 
 > **Update : 23/10/2021** > As there's a official CLI out there. So I'm updating the post with instructions for that too.

@@ -7,9 +7,7 @@ categories:
 tags:
     - Journal
     - Windows 10
-description: 
-
-bigimg: [{ src: "/img/cover.webp" }]
+description: Bootloader partition is gone? Can't boot to Windows after installing Linux? Don't worry, follow this guide and restore your bootloader partition.
 ---
 Few days ago I installed Archcraft again. The latest update has some cool stuffs, I wanted to try them. As usual both of my bootloader was gone, I use a dual booted system. I've faced that issue many times and fixed that on my own. But this time it was a litte different, this happened for the first time after switching to UEFI from Legacy. Also it was the first time after I've started using systemd-boot instead of GRUB.
 

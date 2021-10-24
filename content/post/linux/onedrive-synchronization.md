@@ -7,7 +7,7 @@ categories:
 tags:
    - Linux
    - OneDrive
-bigimg: [{ src: "/img/cover.webp" }]
+description: OneDrive doesn't have any official client for Linux but still you can do the synchronization. Check out how.
 ---
 OneDrive doesn't have any official client in Linux. So after getting a 5TB OneDrive storage I went for two clients 
 

@@ -7,7 +7,7 @@ categories:
 tags:
 - Linux
 - Polybar
-bigimg: [{ src: "/img/cover.webp" }]
+description: If you're having issues with the size of icons/texts in your panel you can change the size individually. Here's how-to guide for you.
 ---
 
 [Polybar](https://github.com/polybar/polybar) let's you choose multiple fonts and sizes for your WM panel. So if you're having issues with the size of icons/texts in your panel you can change the size individually. Let's get to the point. How are you supposed to do that?
