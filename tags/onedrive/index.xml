@@ -16,10 +16,7 @@
       <pubDate>Sat, 12 Jun 2021 22:15:05 +0600</pubDate>
       
       <guid>https://fahimscirex.github.io/post/linux/onedrive-synchronization/</guid>
-      <description>OneDrive doesn&amp;rsquo;t have any official client in Linux. So after getting a 5TB OneDrive storage I went for two clients
-  onedrive-abraunegg: abraunegg&amp;rsquo;s fork of OneDrive CLI client by skilion. Basically it does the synchronization part.
-  onedriver : it has a wicked simple GUI. Onedriver will mount your OneDrive storage as a native Linux file system.
-  Installation Let&amp;rsquo;s install them first. I&amp;rsquo;m going to install onedriver-git, cause it has some extra GUI functions.</description>
+      <description>OneDrive doesn&amp;#39;t have any official client for Linux but still you can do the synchronization. Check out how.</description>
     </item>
     
   </channel>

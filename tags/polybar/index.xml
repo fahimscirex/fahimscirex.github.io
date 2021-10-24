@@ -16,8 +16,7 @@
       <pubDate>Sun, 23 May 2021 01:53:19 +0600</pubDate>
       
       <guid>https://fahimscirex.github.io/post/linux/fix-polybar-icon/</guid>
-      <description>Polybar let&amp;rsquo;s you choose multiple fonts and sizes for your WM panel. So if you&amp;rsquo;re having issues with the size of icons/texts in your panel you can change the size individually. Let&amp;rsquo;s get to the point. How are you supposed to do that?
-You&amp;rsquo;ve to define which font you want to use and how you want to customize it&amp;rsquo;s value. So put those values in your Polybar config under [bar/example]. Here&amp;rsquo;s an example config :</description>
+      <description>If you&amp;#39;re having issues with the size of icons/texts in your panel you can change the size individually. Here&amp;#39;s how-to guide for you.</description>
     </item>
     
   </channel>

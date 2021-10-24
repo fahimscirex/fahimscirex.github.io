@@ -16,7 +16,7 @@
       <pubDate>Sat, 26 Jun 2021 12:40:51 +0600</pubDate>
       
       <guid>https://fahimscirex.github.io/post/journal/restore-windows-10-efi-bootloader/</guid>
-      <description>Few days ago I installed Archcraft again. The latest update has some cool stuffs, I wanted to try them. As usual both of my bootloader was gone, I use a dual booted system. I&amp;rsquo;ve faced that issue many times and fixed that on my own. But this time it was a litte different, this happened for the first time after switching to UEFI from Legacy. Also it was the first time after I&amp;rsquo;ve started using systemd-boot instead of GRUB.</description>
+      <description>Bootloader partition is gone? Can&amp;#39;t boot to Windows after installing Linux? Don&amp;#39;t worry, follow this guide and restore your bootloader partition.</description>
     </item>
     
     <item>
