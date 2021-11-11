@@ -16,21 +16,21 @@
       <pubDate>Sat, 26 Jun 2021 11:22:14 +0600</pubDate>
       
       <guid>https://fahimscirex.github.io/post/linux/set-gtk-file-picker/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m using Archcraft with bspwm right now. It uses qt applications as default mostly. I don&amp;rsquo;t like the default qt file picker dialog it uses. And couldn&amp;rsquo;t find any good guideline to change the picker. So I&amp;rsquo;m going to write down a workaround I got from &lt;a href=&#34;https://github.com/ahmubashshir&#34;&gt;@ahmubashshir&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;We need some dependencies :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;qt5ct&lt;/li&gt;
-&lt;li&gt;kvantum-qt5&lt;/li&gt;
-&lt;li&gt;xdg-desktop-portal-gtk&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Create a config file under &lt;code&gt;~/qt5ct/qt5ct.conf&lt;/code&gt; with the following content :&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#81a1c1&#34;&gt;[&lt;/span&gt;Appearance&lt;span style=&#34;color:#81a1c1&#34;&gt;]&lt;/span&gt;
-standard_dialogs&lt;span style=&#34;color:#81a1c1&#34;&gt;=&lt;/span&gt;gtk3
-style&lt;span style=&#34;color:#81a1c1&#34;&gt;=&lt;/span&gt;kvantum-dark
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now set the following environment variable at startup.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#81a1c1&#34;&gt;exec&lt;/span&gt; QT_QPA_PLATFORMTHEME&lt;span style=&#34;color:#81a1c1&#34;&gt;=&lt;/span&gt;qt5ct
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;As I&amp;rsquo;m using bspwm I&amp;rsquo;ve put that on bspwmrc. You can put that on &lt;code&gt;~/.xprofile&lt;/code&gt; or something like that if you&amp;rsquo;re using X11.&lt;/p&gt;
-&lt;p&gt;That&amp;rsquo;s all you need to do. If you don&amp;rsquo;t know anything about environment variable, I suggest you to &lt;a href=&#34;https://duck.com&#34;&gt;duck&lt;/a&gt; about that.&lt;/p&gt;
+      <description>&amp;lt;p&amp;gt;I&amp;amp;rsquo;m using Archcraft with bspwm right now. It uses qt applications as default mostly. I don&amp;amp;rsquo;t like the default qt file picker dialog it uses. And couldn&amp;amp;rsquo;t find any good guideline to change the picker. So I&amp;amp;rsquo;m going to write down a workaround I got from &amp;lt;a href=&amp;#34;https://github.com/ahmubashshir&amp;#34;&amp;gt;@ahmubashshir&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;We need some dependencies :&amp;lt;/p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;qt5ct&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;kvantum-qt5&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;xdg-desktop-portal-gtk&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&amp;lt;p&amp;gt;Create a config file under &amp;lt;code&amp;gt;~/qt5ct/qt5ct.conf&amp;lt;/code&amp;gt; with the following content :&amp;lt;/p&amp;gt;
+&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-bash&amp;#34; data-lang=&amp;#34;bash&amp;#34;&amp;gt;&amp;lt;span style=&amp;#34;color:#81a1c1&amp;#34;&amp;gt;[&amp;lt;/span&amp;gt;Appearance&amp;lt;span style=&amp;#34;color:#81a1c1&amp;#34;&amp;gt;]&amp;lt;/span&amp;gt;
+standard_dialogs&amp;lt;span style=&amp;#34;color:#81a1c1&amp;#34;&amp;gt;=&amp;lt;/span&amp;gt;gtk3
+style&amp;lt;span style=&amp;#34;color:#81a1c1&amp;#34;&amp;gt;=&amp;lt;/span&amp;gt;kvantum-dark
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;Now set the following environment variable at startup.&amp;lt;/p&amp;gt;
+&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-bash&amp;#34; data-lang=&amp;#34;bash&amp;#34;&amp;gt;&amp;lt;span style=&amp;#34;color:#81a1c1&amp;#34;&amp;gt;exec&amp;lt;/span&amp;gt; QT_QPA_PLATFORMTHEME&amp;lt;span style=&amp;#34;color:#81a1c1&amp;#34;&amp;gt;=&amp;lt;/span&amp;gt;qt5ct
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;As I&amp;amp;rsquo;m using bspwm I&amp;amp;rsquo;ve put that on bspwmrc. You can put that on &amp;lt;code&amp;gt;~/.xprofile&amp;lt;/code&amp;gt; or something like that if you&amp;amp;rsquo;re using X11.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;That&amp;amp;rsquo;s all you need to do. If you don&amp;amp;rsquo;t know anything about environment variable, I suggest you to &amp;lt;a href=&amp;#34;https://duck.com&amp;#34;&amp;gt;duck&amp;lt;/a&amp;gt; about that.&amp;lt;/p&amp;gt;
 </description>
     </item>
     
@@ -40,7 +40,40 @@ style&lt;span style=&#34;color:#81a1c1&#34;&gt;=&lt;/span&gt;kvantum-dark
       <pubDate>Sat, 12 Jun 2021 22:15:05 +0600</pubDate>
       
       <guid>https://fahimscirex.github.io/post/linux/onedrive-synchronization/</guid>
-      <description>OneDrive doesn&amp;#39;t have any official client for Linux but still you can do the synchronization. Check out how.</description>
+      <description>&amp;lt;p&amp;gt;OneDrive doesn&amp;amp;rsquo;t have any official client in Linux. So after getting a 5TB OneDrive storage I went for two clients&amp;lt;/p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;a href=&amp;#34;https://github.com/abraunegg/onedrive/&amp;#34;&amp;gt;onedrive-abraunegg&amp;lt;/a&amp;gt;: abraunegg&amp;amp;rsquo;s fork of OneDrive CLI client by skilion. Basically it does the synchronization part.&amp;lt;/p&amp;gt;
+&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;a href=&amp;#34;https://github.com/jstaf/onedriver&amp;#34;&amp;gt;onedriver&amp;lt;/a&amp;gt; : it has a wicked simple GUI. Onedriver will mount your OneDrive storage as a native Linux file system.&amp;lt;/p&amp;gt;
+&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&amp;lt;h2 id=&amp;#34;installation&amp;#34;&amp;gt;Installation&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;Let&amp;amp;rsquo;s install them first. I&amp;amp;rsquo;m going to install onedriver-git, cause it has some extra GUI functions.&amp;lt;/p&amp;gt;
+&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-bash&amp;#34; data-lang=&amp;#34;bash&amp;#34;&amp;gt;$ yay -S onedrive-abraunegg onedriver-git
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;For other distribution please check those repo.&amp;lt;/p&amp;gt;
+&amp;lt;h2 id=&amp;#34;authorization&amp;#34;&amp;gt;Authorization&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;onedrive-abraunegg&amp;lt;/code&amp;gt; can be run by just entering &amp;lt;code&amp;gt;$ onedrive&amp;lt;/code&amp;gt;, it will show a specific link and ask for authorization. I&amp;amp;rsquo;m going to follow that link, complete authorization, copy the URL of that blank authorization page and finally paste it to the terminal.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;For &amp;lt;code&amp;gt;onedriver&amp;lt;/code&amp;gt; either you can use GUI or terminal. Run &amp;lt;code&amp;gt;$ onedriver -a&amp;lt;/code&amp;gt; and Login to OneDrive. Mount the OneDrive storage and enjoy. And we&amp;amp;rsquo;re done with onedriver here, rest of the post is about &amp;lt;code&amp;gt;onedrive&amp;lt;/code&amp;gt; or you can say &amp;lt;code&amp;gt;onedrive-abraunegg&amp;lt;/code&amp;gt;.&amp;lt;/p&amp;gt;
+&amp;lt;h2 id=&amp;#34;setup&amp;#34;&amp;gt;Setup&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;We need a config file to use &amp;lt;code&amp;gt;onedrive&amp;lt;/code&amp;gt; properly, package comes with a config, we&amp;amp;rsquo;ve to copy that to user config folder.&amp;lt;/p&amp;gt;
+&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-bash&amp;#34; data-lang=&amp;#34;bash&amp;#34;&amp;gt;$ mkdir -p ~/.config/onedrive/
+$ cp /usr/share/doc/onedrive/config ~/.config/onedrive/config
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;You may want to edit the config file, so that anything doesn&amp;amp;rsquo;t go wrong. I&amp;amp;rsquo;ll suggest you to change &amp;lt;code&amp;gt;sync_dir&amp;lt;/code&amp;gt; to different location and &amp;lt;code&amp;gt;upload_only&amp;lt;/code&amp;gt; and &amp;lt;code&amp;gt;no_remote_delete&amp;lt;/code&amp;gt; to true. But if you&amp;amp;rsquo;re willing to store your cloud data to your local system you should keep &amp;lt;code&amp;gt;upload_only&amp;lt;/code&amp;gt; unchanged.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Now put some files in your sync folder or if you already have data in your cloud simply run &amp;lt;code&amp;gt;$ onedrive --synchronization&amp;lt;/code&amp;gt; and your sychronization will start. Also you can run &amp;lt;code&amp;gt;$ onedrive -m&amp;lt;/code&amp;gt; it will monitor changes in sync directory and will sync automatically.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;If you change  the  filters  (skip_file or skip_dir in your configs) you must execute &amp;lt;code&amp;gt;$onedrive --synchronize --resync&amp;lt;/code&amp;gt;.&amp;lt;/p&amp;gt;
+&amp;lt;h2 id=&amp;#34;systemd-intigration&amp;#34;&amp;gt;Systemd Intigration&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;It&amp;amp;rsquo;s convenient to start &amp;lt;code&amp;gt;onedrive&amp;lt;/code&amp;gt; as a systemd service.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Enable service as root user&amp;lt;/p&amp;gt;
+&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-bash&amp;#34; data-lang=&amp;#34;bash&amp;#34;&amp;gt;$ systemctl &amp;lt;span style=&amp;#34;color:#81a1c1&amp;#34;&amp;gt;enable&amp;lt;/span&amp;gt; --now onedrive
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;Or,&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Enable as non-root user (recommended)&amp;lt;/p&amp;gt;
+&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-bash&amp;#34; data-lang=&amp;#34;bash&amp;#34;&amp;gt;$ systemctl --user &amp;lt;span style=&amp;#34;color:#81a1c1&amp;#34;&amp;gt;enable&amp;lt;/span&amp;gt; --now onedrive
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;To stop the service&amp;lt;/p&amp;gt;
+&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-bash&amp;#34; data-lang=&amp;#34;bash&amp;#34;&amp;gt;$ systemctl --user disable --now onedrive
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;If you think you need more detailed instruction for usage check the GitHub &amp;lt;a href=&amp;#34;https://github.com/abraunegg/onedrive/blob/master/docs/USAGE.md&amp;#34;&amp;gt;repo&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+</description>
     </item>
     
     <item>
@@ -49,7 +82,25 @@ style&lt;span style=&#34;color:#81a1c1&#34;&gt;=&lt;/span&gt;kvantum-dark
       <pubDate>Sun, 23 May 2021 01:53:19 +0600</pubDate>
       
       <guid>https://fahimscirex.github.io/post/linux/fix-polybar-icon/</guid>
-      <description>If you&amp;#39;re having issues with the size of icons/texts in your panel you can change the size individually. Here&amp;#39;s how-to guide for you.</description>
+      <description>&amp;lt;p&amp;gt;&amp;lt;a href=&amp;#34;https://github.com/polybar/polybar&amp;#34;&amp;gt;Polybar&amp;lt;/a&amp;gt; let&amp;amp;rsquo;s you choose multiple fonts and sizes for your WM panel. So if you&amp;amp;rsquo;re having issues with the size of icons/texts in your panel you can change the size individually. Let&amp;amp;rsquo;s get to the point. How are you supposed to do that?&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;You&amp;amp;rsquo;ve to define which font you want to use and how you want to customize it&amp;amp;rsquo;s value. So put those values in your Polybar config under &amp;lt;code&amp;gt;[bar/example]&amp;lt;/code&amp;gt;. Here&amp;amp;rsquo;s an example config :&amp;lt;/p&amp;gt;
+&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-fallback&amp;#34; data-lang=&amp;#34;fallback&amp;#34;&amp;gt;[bar/example]
+; font-N = &amp;amp;lt;fontconfig pattern&amp;amp;gt;;&amp;amp;lt;vertical offset&amp;amp;gt;
+font-0 = &amp;amp;#34;Tamsyn:pixelsize=12;0&amp;amp;#34;
+font-1 = &amp;amp;#34;Roboto:size=11:weight=bold;2&amp;amp;#34;
+font-2 = &amp;amp;#34;Noto Sans:size=11;1&amp;amp;#34;
+font-3 = &amp;amp;#34;Iosevka Nerd Font:size=18;3&amp;amp;#34;
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;If you&amp;amp;rsquo;re wondering what the value after semicolon does. It is used to move the font to the up or to the down.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Let&amp;amp;rsquo;s assume I&amp;amp;rsquo;m having problem with a Spotify module icon in my panel. That icon is way big than others. So i&amp;amp;rsquo;m gonna fix that by changing the icon font size. Usually &amp;lt;a href=&amp;#34;https://nerdfonts.com&amp;#34;&amp;gt;Nerd Fonts&amp;lt;/a&amp;gt; is used in Polybar to get a icon, so I&amp;amp;rsquo;m gonna choose Iosevka Nerd Font. As you can see I&amp;amp;rsquo;ve added that in the config already.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;That Spotify module config looks like this :&amp;lt;/p&amp;gt;
+&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-fallback&amp;#34; data-lang=&amp;#34;fallback&amp;#34;&amp;gt;[module/spotify-icon]
+inherit = module/apps
+content = 
+content-font = 3
+click-left = env LD_PRELOAD=/usr/lib/spotify-adblock.so spotify %U &amp;amp;amp;
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;All you&amp;amp;rsquo;ve to do is, add the &amp;lt;code&amp;gt;content-font&amp;lt;/code&amp;gt; value. Here 3 directs to &amp;lt;code&amp;gt;font-3&amp;lt;/code&amp;gt;.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;That&amp;amp;rsquo;s all! I&amp;amp;rsquo;m linking the Polybar wiki &amp;lt;a href=&amp;#34;https://github.com/polybar/polybar/wiki/Fonts&amp;#34;&amp;gt;here&amp;lt;/a&amp;gt;, just in case you might need it. :D&amp;lt;/p&amp;gt;
+</description>
     </item>
     
     <item>
@@ -58,7 +109,96 @@ style&lt;span style=&#34;color:#81a1c1&#34;&gt;=&lt;/span&gt;kvantum-dark
       <pubDate>Sun, 28 Mar 2021 18:15:05 +0600</pubDate>
       
       <guid>https://fahimscirex.github.io/post/linux/setup-cloudflare-warp/</guid>
-      <description>Using WARP you can encrypt your DNS requests as well as bypass blocked sites. Here&amp;#39;s how you can get unlimited WARP&#43; data and use that on Linux.</description>
+      <description>&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Update : 23/10/2021&amp;lt;/strong&amp;gt; &amp;amp;gt; As there&amp;amp;rsquo;s a official CLI out there. So I&amp;amp;rsquo;m updating the post with instructions for that too.&amp;lt;/p&amp;gt;
+&amp;lt;/blockquote&amp;gt;
+&amp;lt;p&amp;gt;Cloudflare&amp;amp;rsquo;s Warp is a great service to re-route DNS query and bypass blocked website. &amp;lt;del&amp;gt;Though it has clients for Windows, Mac, Android, IOS it doesn&amp;amp;rsquo;t have a Warp client for Linux. Still we can use an unofficial client to get our work done.&amp;lt;/del&amp;gt; It has clients for Windows, Mac, Linux, Android, IOS. You can use it in Linux through the official CLI client or with WGCF.&amp;lt;/p&amp;gt;
+&amp;lt;h2 id=&amp;#34;method-1--warp-desktop-client&amp;#34;&amp;gt;Method 1 : WARP Desktop Client&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;Head over to &amp;lt;a href=&amp;#34;https://pkg.cloudflareclient.com/install&amp;#34;&amp;gt;this&amp;lt;/a&amp;gt;
+page and follow the instructions to setup repository for your distro.&amp;lt;/p&amp;gt;
+&amp;lt;h3 id=&amp;#34;installation&amp;#34;&amp;gt;Installation&amp;lt;/h3&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;Ubuntu  : &amp;lt;code&amp;gt;sudo apt install cloudflare-warp&amp;lt;/code&amp;gt;&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;RHEL/CentOS : &amp;lt;code&amp;gt;sudo yum install cloudflare-warp&amp;lt;/code&amp;gt;&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Arch    : &amp;lt;code&amp;gt;yay -Syu cloudflare-warp-bin&amp;lt;/code&amp;gt;&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&amp;lt;h3 id=&amp;#34;register-and-connect&amp;#34;&amp;gt;Register and Connect&amp;lt;/h3&amp;gt;
+&amp;lt;p&amp;gt;You have to register for the first time&amp;lt;/p&amp;gt;
+&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-bash&amp;#34; data-lang=&amp;#34;bash&amp;#34;&amp;gt;warp-cli register
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;Now connect to WARP&amp;lt;/p&amp;gt;
+&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-bash&amp;#34; data-lang=&amp;#34;bash&amp;#34;&amp;gt;warp-cli connect
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;Run &amp;lt;code&amp;gt;curl https://www.cloudflare.com/cdn-cgi/trace/&amp;lt;/code&amp;gt; if the output shows &amp;lt;code&amp;gt;warp=on&amp;lt;/code&amp;gt; you&amp;amp;rsquo;re successfully connected to WARP.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;To disconnect from WARP&amp;lt;/p&amp;gt;
+&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-bash&amp;#34; data-lang=&amp;#34;bash&amp;#34;&amp;gt;warp-cli disconnect
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;h3 id=&amp;#34;enable-service&amp;#34;&amp;gt;Enable Service&amp;lt;/h3&amp;gt;
+&amp;lt;p&amp;gt;You can enable WARP service if you don&amp;amp;rsquo;t want to enter password after every boot.&amp;lt;/p&amp;gt;
+&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-bash&amp;#34; data-lang=&amp;#34;bash&amp;#34;&amp;gt;systemctl &amp;lt;span style=&amp;#34;color:#81a1c1&amp;#34;&amp;gt;enable&amp;lt;/span&amp;gt; --now warp-svc
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;h3 id=&amp;#34;always-stay-connected-to-warp&amp;#34;&amp;gt;Always Stay Connected to WARP&amp;lt;/h3&amp;gt;
+&amp;lt;p&amp;gt;You may want to use WARP all the time. To do that run this command.&amp;lt;/p&amp;gt;
+&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-bash&amp;#34; data-lang=&amp;#34;bash&amp;#34;&amp;gt;warp-cli enable-always-on
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;Or else it&amp;amp;rsquo;s not necessary.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;To check all available commands run &amp;lt;code&amp;gt;warp-cli -h&amp;lt;/code&amp;gt;.&amp;lt;/p&amp;gt;
+&amp;lt;h2 id=&amp;#34;method-2--wgcf&amp;#34;&amp;gt;Method 2 : WGCF&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;a href=&amp;#34;https://github.com/ViRb3/wgcf&amp;#34;&amp;gt;&amp;lt;strong&amp;gt;WGCF&amp;lt;/strong&amp;gt;&amp;lt;/a&amp;gt; is an unofficial, cross-platform CLI for Cloudflare Warp. It works with Wireguard. So before installing &amp;lt;strong&amp;gt;WGCF&amp;lt;/strong&amp;gt; make sure you&amp;amp;rsquo;ve installed&amp;lt;/p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;wireguard-tools&amp;lt;/code&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;wireguard-dkms&amp;lt;/code&amp;gt; (if you&amp;amp;rsquo;re using a Linux Kernel older than 5.6)&amp;lt;/p&amp;gt;
+&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;resolvconf&amp;lt;/code&amp;gt; (as &amp;lt;a href=&amp;#34;https://gitlab.com/fazlerabbi37/&amp;#34;&amp;gt;@fazlerabbi&amp;lt;/a&amp;gt; informed me that he couldn&amp;amp;rsquo;t find resolvconf preinstalled on some operating systems)&amp;lt;/p&amp;gt;
+&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;Note : You&amp;amp;rsquo;ve to restart your system if you install wireguard-dkms.&amp;lt;/p&amp;gt;
+&amp;lt;/blockquote&amp;gt;
+&amp;lt;p&amp;gt;You can install pre-compiled binary file from it&amp;amp;rsquo;s &amp;lt;a href=&amp;#34;https://github.com/ViRb3/wgcf/releases&amp;#34;&amp;gt;releases&amp;lt;/a&amp;gt; or you can install it from AUR if you&amp;amp;rsquo;re using Arch derivatives.&amp;lt;/p&amp;gt;
+&amp;lt;h3 id=&amp;#34;install-binary-package&amp;#34;&amp;gt;Install binary package&amp;lt;/h3&amp;gt;
+&amp;lt;p&amp;gt;Download the package you need from release page. Then rename the file &amp;lt;code&amp;gt;wgcf&amp;lt;/code&amp;gt;, make it executable and copy it to &amp;lt;code&amp;gt;/bin&amp;lt;/code&amp;gt; directory.&amp;lt;/p&amp;gt;
+&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-bash&amp;#34; data-lang=&amp;#34;bash&amp;#34;&amp;gt;chmod &#43;x wgcf
+sudo cp wgcf /bin
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;Or you can install from AUR if you use Arch&amp;lt;/p&amp;gt;
+&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-bash&amp;#34; data-lang=&amp;#34;bash&amp;#34;&amp;gt;yay -S wgcf
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;Now we will create a Warp account&amp;lt;/p&amp;gt;
+&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-bash&amp;#34; data-lang=&amp;#34;bash&amp;#34;&amp;gt;wgcf register
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;And generate a Wireguard configuration using that account information&amp;lt;/p&amp;gt;
+&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-bash&amp;#34; data-lang=&amp;#34;bash&amp;#34;&amp;gt;wgcf generate
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;We&amp;amp;rsquo;ve to connect to Warp using that Wireguard configuration. It&amp;amp;rsquo;d be much easier if you put that configuration file in &amp;lt;code&amp;gt;/etc/wireguard&amp;lt;/code&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-bash&amp;#34; data-lang=&amp;#34;bash&amp;#34;&amp;gt;sudo cp wgcf-profile.conf /etc/wireguard
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;Let&amp;amp;rsquo;s connect now&amp;lt;/p&amp;gt;
+&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-bash&amp;#34; data-lang=&amp;#34;bash&amp;#34;&amp;gt;wg-quick up wgcf-profile
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;If you want to disconnect, run&amp;lt;/p&amp;gt;
+&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-bash&amp;#34; data-lang=&amp;#34;bash&amp;#34;&amp;gt;wg-quick down wgcf-profile
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;Probably you&amp;amp;rsquo;d like to run Warp every time when your system boots. You can do that with help of systemd&amp;lt;/p&amp;gt;
+&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-bash&amp;#34; data-lang=&amp;#34;bash&amp;#34;&amp;gt;systemctl &amp;lt;span style=&amp;#34;color:#81a1c1&amp;#34;&amp;gt;enable&amp;lt;/span&amp;gt; --now wireguard@wgcf-profile
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;h3 id=&amp;#34;troubleshoot&amp;#34;&amp;gt;Troubleshoot&amp;lt;/h3&amp;gt;
+&amp;lt;p&amp;gt;I&amp;amp;rsquo;m facing some issue frequently. For some unknown reason Wireguard can&amp;amp;rsquo;t connect through my generated configuration profile multiple times. I&amp;amp;rsquo;ve found a way out to resolve that. If you face the same issue you&amp;amp;rsquo;ve to delete the previous profiles and regenerate new one, except your account profile. To do that you can run this :&amp;lt;/p&amp;gt;
+&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-bash&amp;#34; data-lang=&amp;#34;bash&amp;#34;&amp;gt;sudo rm -rf wgcf-profile.conf &amp;lt;span style=&amp;#34;color:#81a1c1&amp;#34;&amp;gt;&amp;amp;amp;&amp;amp;amp;&amp;lt;/span&amp;gt; wgcf generate &amp;lt;span style=&amp;#34;color:#81a1c1&amp;#34;&amp;gt;&amp;amp;amp;&amp;amp;amp;&amp;lt;/span&amp;gt; sudo rm -rf /etc/wireguard/wgcf-profile.conf &amp;lt;span style=&amp;#34;color:#81a1c1&amp;#34;&amp;gt;&amp;amp;amp;&amp;amp;amp;&amp;lt;/span&amp;gt; sudo cp wgcf-profile.conf /etc/wireguard
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;Now start the service again. If you want, you can set an alias for this or make a bash script for convenient usage.&amp;lt;/p&amp;gt;
+&amp;lt;h2 id=&amp;#34;getting-warp-plus-data-for-free&amp;#34;&amp;gt;Getting Warp Plus Data for Free&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;There&amp;amp;rsquo;s a python script from &amp;lt;a href=&amp;#34;https://github.com/ALIILAPRO/warp-plus-cloudflare&amp;#34;&amp;gt;alilapro&amp;lt;/a&amp;gt; to get free Warp Plus data. We can use that Warp Plus data in Linux also. But we need to get a Device ID to run that. To do that go to &amp;lt;code&amp;gt;wgcf-account.toml&amp;lt;/code&amp;gt; and copy the &amp;lt;code&amp;gt;device id&amp;lt;/code&amp;gt;. You can use that ID in alilapro script to get free Warp Plus data.&amp;lt;/p&amp;gt;
+&amp;lt;h3 id=&amp;#34;link-your-warp-account-with-other-device-using-1111&amp;#34;&amp;gt;Link your Warp account with other device using 1.1.1.1&amp;lt;/h3&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;
+&amp;lt;p&amp;gt;Open 1.1.1.1 app. I&amp;amp;rsquo;m using Android here.&amp;lt;/p&amp;gt;
+&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;
+&amp;lt;p&amp;gt;From hamburger menu go to &amp;lt;code&amp;gt;Account&amp;lt;/code&amp;gt; &amp;amp;gt; &amp;lt;code&amp;gt;Key&amp;lt;/code&amp;gt;. Copy the key and save it somewhere else we will need this.&amp;lt;/p&amp;gt;
+&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;
+&amp;lt;p&amp;gt;Go to &amp;lt;code&amp;gt;Advanced&amp;lt;/code&amp;gt; &amp;amp;gt; &amp;lt;code&amp;gt;Diagonistics&amp;lt;/code&amp;gt; (optional)&amp;lt;/p&amp;gt;
+&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;
+&amp;lt;p&amp;gt;Under &amp;lt;code&amp;gt;Client Configuration&amp;lt;/code&amp;gt; you&amp;amp;rsquo;ll see a ID. Copy that and save it. (optional)&amp;lt;/p&amp;gt;
+&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&amp;lt;p&amp;gt;Now we&amp;amp;rsquo;ve to put our license key into &amp;lt;code&amp;gt;wgcf-account.toml&amp;lt;/code&amp;gt;. Open the toml file, replace the existing license key with yours and update your configuration profile using &amp;lt;code&amp;gt;wgcf update&amp;lt;/code&amp;gt; and repeat the previous process.&amp;lt;/p&amp;gt;
+&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-bash&amp;#34; data-lang=&amp;#34;bash&amp;#34;&amp;gt;wgcf update
+sudo cp wgcf-profile.conf /etc/wireguard
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;Now you can use Device ID which you got from toml file or Configuration ID of your 1.1.1.1 in alilapro script.&amp;lt;/p&amp;gt;
+</description>
     </item>
     
   </channel>
