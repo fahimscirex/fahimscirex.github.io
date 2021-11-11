@@ -9,23 +9,28 @@
       <link>https://fahimscirex.github.io/img/blog-banner.webp</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>fahimscirex@tutanota.com (Fahim Montasir Misbah)</managingEditor>
+    <webMaster>fahimscirex@tutanota.com (Fahim Montasir Misbah)</webMaster>
+    <copyright>Fahim Montasir Misbah</copyright>
     <lastBuildDate>Mon, 09 Aug 2021 10:51:56 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/bn/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Books</title>
       <link>https://fahimscirex.github.io/bn/tags/books/</link>
       <pubDate>Mon, 09 Aug 2021 10:51:56 +0600</pubDate>
-      
+      <author>fahimscirex@tutanota.com (Fahim Montasir Misbah)</author>
       <guid>https://fahimscirex.github.io/bn/tags/books/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Linux</title>
       <link>https://fahimscirex.github.io/bn/tags/linux/</link>
       <pubDate>Mon, 01 Mar 2021 11:14:19 +0600</pubDate>
-      
+      <author>fahimscirex@tutanota.com (Fahim Montasir Misbah)</author>
       <guid>https://fahimscirex.github.io/bn/tags/linux/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
   </channel>

@@ -9,47 +9,51 @@
       <link>https://fahimscirex.github.io/img/blog-banner.webp</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>fahimscirex@tutanota.com (Fahim Montasir Misbah)</managingEditor>
+    <webMaster>fahimscirex@tutanota.com (Fahim Montasir Misbah)</webMaster>
+    <copyright>Fahim Montasir Misbah</copyright>
     <lastBuildDate>Sat, 12 Jun 2021 22:15:05 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/tags/onedrive/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OneDrive Synchronization in Linux</title>
       <link>https://fahimscirex.github.io/post/linux/onedrive-synchronization/</link>
       <pubDate>Sat, 12 Jun 2021 22:15:05 +0600</pubDate>
-      
+      <author>fahimscirex@tutanota.com (Fahim Montasir Misbah)</author>
       <guid>https://fahimscirex.github.io/post/linux/onedrive-synchronization/</guid>
-      <description>&amp;lt;p&amp;gt;OneDrive doesn&amp;amp;rsquo;t have any official client in Linux. So after getting a 5TB OneDrive storage I went for two clients&amp;lt;/p&amp;gt;
-&amp;lt;ul&amp;gt;
-&amp;lt;li&amp;gt;
-&amp;lt;p&amp;gt;&amp;lt;a href=&amp;#34;https://github.com/abraunegg/onedrive/&amp;#34;&amp;gt;onedrive-abraunegg&amp;lt;/a&amp;gt;: abraunegg&amp;amp;rsquo;s fork of OneDrive CLI client by skilion. Basically it does the synchronization part.&amp;lt;/p&amp;gt;
-&amp;lt;/li&amp;gt;
-&amp;lt;li&amp;gt;
-&amp;lt;p&amp;gt;&amp;lt;a href=&amp;#34;https://github.com/jstaf/onedriver&amp;#34;&amp;gt;onedriver&amp;lt;/a&amp;gt; : it has a wicked simple GUI. Onedriver will mount your OneDrive storage as a native Linux file system.&amp;lt;/p&amp;gt;
-&amp;lt;/li&amp;gt;
-&amp;lt;/ul&amp;gt;
-&amp;lt;h2 id=&amp;#34;installation&amp;#34;&amp;gt;Installation&amp;lt;/h2&amp;gt;
-&amp;lt;p&amp;gt;Let&amp;amp;rsquo;s install them first. I&amp;amp;rsquo;m going to install onedriver-git, cause it has some extra GUI functions.&amp;lt;/p&amp;gt;
-&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-bash&amp;#34; data-lang=&amp;#34;bash&amp;#34;&amp;gt;$ yay -S onedrive-abraunegg onedriver-git
-&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;For other distribution please check those repo.&amp;lt;/p&amp;gt;
-&amp;lt;h2 id=&amp;#34;authorization&amp;#34;&amp;gt;Authorization&amp;lt;/h2&amp;gt;
-&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;onedrive-abraunegg&amp;lt;/code&amp;gt; can be run by just entering &amp;lt;code&amp;gt;$ onedrive&amp;lt;/code&amp;gt;, it will show a specific link and ask for authorization. I&amp;amp;rsquo;m going to follow that link, complete authorization, copy the URL of that blank authorization page and finally paste it to the terminal.&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;For &amp;lt;code&amp;gt;onedriver&amp;lt;/code&amp;gt; either you can use GUI or terminal. Run &amp;lt;code&amp;gt;$ onedriver -a&amp;lt;/code&amp;gt; and Login to OneDrive. Mount the OneDrive storage and enjoy. And we&amp;amp;rsquo;re done with onedriver here, rest of the post is about &amp;lt;code&amp;gt;onedrive&amp;lt;/code&amp;gt; or you can say &amp;lt;code&amp;gt;onedrive-abraunegg&amp;lt;/code&amp;gt;.&amp;lt;/p&amp;gt;
-&amp;lt;h2 id=&amp;#34;setup&amp;#34;&amp;gt;Setup&amp;lt;/h2&amp;gt;
-&amp;lt;p&amp;gt;We need a config file to use &amp;lt;code&amp;gt;onedrive&amp;lt;/code&amp;gt; properly, package comes with a config, we&amp;amp;rsquo;ve to copy that to user config folder.&amp;lt;/p&amp;gt;
-&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-bash&amp;#34; data-lang=&amp;#34;bash&amp;#34;&amp;gt;$ mkdir -p ~/.config/onedrive/
+      <description>OneDrive doesn&amp;#39;t have any official client for Linux but still you can do the synchronization. Check out how.</description>
+      <content:encoded><![CDATA[<p>OneDrive doesn&rsquo;t have any official client in Linux. So after getting a 5TB OneDrive storage I went for two clients</p>
+<ul>
+<li>
+<p><a href="https://github.com/abraunegg/onedrive/">onedrive-abraunegg</a>: abraunegg&rsquo;s fork of OneDrive CLI client by skilion. Basically it does the synchronization part.</p>
+</li>
+<li>
+<p><a href="https://github.com/jstaf/onedriver">onedriver</a> : it has a wicked simple GUI. Onedriver will mount your OneDrive storage as a native Linux file system.</p>
+</li>
+</ul>
+<h2 id="installation">Installation</h2>
+<p>Let&rsquo;s install them first. I&rsquo;m going to install onedriver-git, cause it has some extra GUI functions.</p>
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ yay -S onedrive-abraunegg onedriver-git
+</code></pre></div><p>For other distribution please check those repo.</p>
+<h2 id="authorization">Authorization</h2>
+<p><code>onedrive-abraunegg</code> can be run by just entering <code>$ onedrive</code>, it will show a specific link and ask for authorization. I&rsquo;m going to follow that link, complete authorization, copy the URL of that blank authorization page and finally paste it to the terminal.</p>
+<p>For <code>onedriver</code> either you can use GUI or terminal. Run <code>$ onedriver -a</code> and Login to OneDrive. Mount the OneDrive storage and enjoy. And we&rsquo;re done with onedriver here, rest of the post is about <code>onedrive</code> or you can say <code>onedrive-abraunegg</code>.</p>
+<h2 id="setup">Setup</h2>
+<p>We need a config file to use <code>onedrive</code> properly, package comes with a config, we&rsquo;ve to copy that to user config folder.</p>
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ mkdir -p ~/.config/onedrive/
 $ cp /usr/share/doc/onedrive/config ~/.config/onedrive/config
-&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;You may want to edit the config file, so that anything doesn&amp;amp;rsquo;t go wrong. I&amp;amp;rsquo;ll suggest you to change &amp;lt;code&amp;gt;sync_dir&amp;lt;/code&amp;gt; to different location and &amp;lt;code&amp;gt;upload_only&amp;lt;/code&amp;gt; and &amp;lt;code&amp;gt;no_remote_delete&amp;lt;/code&amp;gt; to true. But if you&amp;amp;rsquo;re willing to store your cloud data to your local system you should keep &amp;lt;code&amp;gt;upload_only&amp;lt;/code&amp;gt; unchanged.&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;Now put some files in your sync folder or if you already have data in your cloud simply run &amp;lt;code&amp;gt;$ onedrive --synchronization&amp;lt;/code&amp;gt; and your sychronization will start. Also you can run &amp;lt;code&amp;gt;$ onedrive -m&amp;lt;/code&amp;gt; it will monitor changes in sync directory and will sync automatically.&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;If you change  the  filters  (skip_file or skip_dir in your configs) you must execute &amp;lt;code&amp;gt;$onedrive --synchronize --resync&amp;lt;/code&amp;gt;.&amp;lt;/p&amp;gt;
-&amp;lt;h2 id=&amp;#34;systemd-intigration&amp;#34;&amp;gt;Systemd Intigration&amp;lt;/h2&amp;gt;
-&amp;lt;p&amp;gt;It&amp;amp;rsquo;s convenient to start &amp;lt;code&amp;gt;onedrive&amp;lt;/code&amp;gt; as a systemd service.&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;Enable service as root user&amp;lt;/p&amp;gt;
-&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-bash&amp;#34; data-lang=&amp;#34;bash&amp;#34;&amp;gt;$ systemctl &amp;lt;span style=&amp;#34;color:#81a1c1&amp;#34;&amp;gt;enable&amp;lt;/span&amp;gt; --now onedrive
-&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;Or,&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;Enable as non-root user (recommended)&amp;lt;/p&amp;gt;
-&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-bash&amp;#34; data-lang=&amp;#34;bash&amp;#34;&amp;gt;$ systemctl --user &amp;lt;span style=&amp;#34;color:#81a1c1&amp;#34;&amp;gt;enable&amp;lt;/span&amp;gt; --now onedrive
-&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;To stop the service&amp;lt;/p&amp;gt;
-&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-bash&amp;#34; data-lang=&amp;#34;bash&amp;#34;&amp;gt;$ systemctl --user disable --now onedrive
-&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;If you think you need more detailed instruction for usage check the GitHub &amp;lt;a href=&amp;#34;https://github.com/abraunegg/onedrive/blob/master/docs/USAGE.md&amp;#34;&amp;gt;repo&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
-</description>
+</code></pre></div><p>You may want to edit the config file, so that anything doesn&rsquo;t go wrong. I&rsquo;ll suggest you to change <code>sync_dir</code> to different location and <code>upload_only</code> and <code>no_remote_delete</code> to true. But if you&rsquo;re willing to store your cloud data to your local system you should keep <code>upload_only</code> unchanged.</p>
+<p>Now put some files in your sync folder or if you already have data in your cloud simply run <code>$ onedrive --synchronization</code> and your sychronization will start. Also you can run <code>$ onedrive -m</code> it will monitor changes in sync directory and will sync automatically.</p>
+<p>If you change  the  filters  (skip_file or skip_dir in your configs) you must execute <code>$onedrive --synchronize --resync</code>.</p>
+<h2 id="systemd-intigration">Systemd Intigration</h2>
+<p>It&rsquo;s convenient to start <code>onedrive</code> as a systemd service.</p>
+<p>Enable service as root user</p>
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ systemctl <span style="color:#81a1c1">enable</span> --now onedrive
+</code></pre></div><p>Or,</p>
+<p>Enable as non-root user (recommended)</p>
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ systemctl --user <span style="color:#81a1c1">enable</span> --now onedrive
+</code></pre></div><p>To stop the service</p>
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ systemctl --user disable --now onedrive
+</code></pre></div><p>If you think you need more detailed instruction for usage check the GitHub <a href="https://github.com/abraunegg/onedrive/blob/master/docs/USAGE.md">repo</a>.</p>
+]]></content:encoded>
     </item>
     
   </channel>
