@@ -19,7 +19,62 @@
       <pubDate>Sat, 26 Jun 2021 12:40:51 +0600</pubDate>
       <author>fahimscirex@tutanota.com (Fahim Montasir Misbah)</author>
       <guid>https://fahimscirex.github.io/post/journal/restore-windows-10-efi-bootloader/</guid>
-      <description>Bootloader partition is gone? Can&amp;#39;t boot to Windows after installing Linux? Don&amp;#39;t worry, follow this guide and restore your bootloader partition.</description>
+      <description>&amp;lt;p&amp;gt;Few days ago I installed Archcraft again. The latest update has some cool stuffs, I wanted to try them. As usual both of my bootloader was gone, I use a dual booted system. I&amp;amp;rsquo;ve faced that issue many times and fixed that on my own. But this time it was a litte different, this happened for the first time after switching to UEFI from Legacy. Also it was the first time after I&amp;amp;rsquo;ve started using systemd-boot instead of GRUB.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;So the thing was my /boot partition got deleted, I don&amp;amp;rsquo;t know exactly how that happened. Cause /boot is a separate partition. AFAIK /boot doesn&amp;amp;rsquo;t get deleted during installation. Probably it was because ABIF, that tool formatted /boot partition.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;As I didn&amp;amp;rsquo;t have backup of my /boot partition, I was panicked that I would&amp;amp;rsquo;ve to reinstall Windows to restore the Windows Boot Manager. I spend hours searching for a solution to recreate the Windows 10 bootloader, tried everything I got and finally got a really simple solution.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Let&amp;amp;rsquo;s jump into it.&amp;lt;/p&amp;gt;
+&amp;lt;h1 id=&amp;#34;what-will-you-need-to-restore-windows-boot-manager-on-a-gptuefi-system&amp;#34;&amp;gt;What will you need to restore Windows Boot Manager on a GPT/UEFI system?&amp;lt;/h1&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;em&amp;gt;&amp;lt;strong&amp;gt;A pendrive with Windows 10 .iso burned on it.&amp;lt;/strong&amp;gt;&amp;lt;/em&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;I suggest to use the official ISO or something closer to it. Cause customized ISO doesn&amp;amp;rsquo;t work most of the time for this type of work.&amp;lt;/p&amp;gt;
+&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;em&amp;gt;&amp;lt;strong&amp;gt;An ESP partition.&amp;lt;/strong&amp;gt;&amp;lt;/em&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;EFI System Partitions are in fat32. If you don&amp;amp;rsquo;t have a partition already, create one using diskpart with following commands. If you don&amp;amp;rsquo;t know how to open CMD Prompt then scroll a bit.&amp;lt;/p&amp;gt;
+&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-shell&amp;#34; data-lang=&amp;#34;shell&amp;#34;&amp;gt;&amp;amp;gt; diskpart
+&amp;amp;gt; &amp;lt;span style=&amp;#34;color:#81a1c1;font-weight:bold&amp;#34;&amp;gt;select&amp;lt;/span&amp;gt; disk &amp;lt;span style=&amp;#34;color:#b48ead&amp;#34;&amp;gt;0&amp;lt;/span&amp;gt;
+&amp;amp;gt; create partition efi size&amp;lt;span style=&amp;#34;color:#81a1c1&amp;#34;&amp;gt;=&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;#34;color:#b48ead&amp;#34;&amp;gt;500&amp;lt;/span&amp;gt; 
+&amp;amp;gt; format fs&amp;lt;span style=&amp;#34;color:#81a1c1&amp;#34;&amp;gt;=&amp;lt;/span&amp;gt;fat32 quick label&amp;lt;span style=&amp;#34;color:#81a1c1&amp;#34;&amp;gt;=&amp;lt;/span&amp;gt;SYSTEM
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;em&amp;gt;&amp;lt;strong&amp;gt;And a brain obviously.&amp;lt;/strong&amp;gt;&amp;lt;/em&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&amp;lt;h1 id=&amp;#34;restore-windows-10-bootloader&amp;#34;&amp;gt;Restore Windows 10 bootloader&amp;lt;/h1&amp;gt;
+&amp;lt;ol&amp;gt;
+&amp;lt;li&amp;gt;
+&amp;lt;p&amp;gt;Boot a Windows installation medium.&amp;lt;/p&amp;gt;
+&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;
+&amp;lt;p&amp;gt;Choose your language and click on &amp;amp;lsquo;Repair your computer&amp;amp;rsquo;.&amp;lt;/p&amp;gt;
+&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;
+&amp;lt;p&amp;gt;Go to Troubleshoot &amp;amp;gt; Advanced Options &amp;amp;gt; Command Prompt.&amp;lt;/p&amp;gt;
+&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;
+&amp;lt;p&amp;gt;We&amp;amp;rsquo;re going to assign a letter to ESP/Boot partition. Let&amp;amp;rsquo;s assume my ESP volume number is 1.&amp;lt;/p&amp;gt;
+&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-shell&amp;#34; data-lang=&amp;#34;shell&amp;#34;&amp;gt;&amp;amp;gt; diskpart
+&amp;amp;gt; &amp;lt;span style=&amp;#34;color:#81a1c1;font-weight:bold&amp;#34;&amp;gt;select&amp;lt;/span&amp;gt; disk &amp;lt;span style=&amp;#34;color:#b48ead&amp;#34;&amp;gt;0&amp;lt;/span&amp;gt;
+&amp;amp;gt; list volume
+&amp;amp;gt; &amp;lt;span style=&amp;#34;color:#81a1c1;font-weight:bold&amp;#34;&amp;gt;select&amp;lt;/span&amp;gt; volume &amp;lt;span style=&amp;#34;color:#b48ead&amp;#34;&amp;gt;1&amp;lt;/span&amp;gt;
+&amp;amp;gt; assign letter f
+&amp;amp;gt; &amp;lt;span style=&amp;#34;color:#81a1c1&amp;#34;&amp;gt;exit&amp;lt;/span&amp;gt;
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;ol start=&amp;#34;5&amp;#34;&amp;gt;
+&amp;lt;li&amp;gt;We&amp;amp;rsquo;re done with assiging. Now we will use bcdboot.exe to create a new EFI Windows bootloader. Make sure that c:\Windows is mounted.&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-shell&amp;#34; data-lang=&amp;#34;shell&amp;#34;&amp;gt;&amp;amp;gt; bcdboot c:&amp;lt;span style=&amp;#34;color:#ebcb8b&amp;#34;&amp;gt;\W&amp;lt;/span&amp;gt;indows /s f: /l en-us /f ALL
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;Here :&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;c:\Windows&amp;lt;/code&amp;gt; - is where Windows is installed.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;/s&amp;lt;/code&amp;gt; - refers to where you want to save the bootloader.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;/l&amp;lt;/code&amp;gt; - language&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;/f &amp;lt;/code&amp;gt;- I&amp;amp;rsquo;ve set ALL to copy everything. If you don&amp;amp;rsquo;t want to copy everything, just the UEFI stuffs then write UEFI instead of ALL.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Now bootloader should be copied from c: drive to f: drive. Run &amp;lt;code&amp;gt;bcdedit&amp;lt;/code&amp;gt; to confirm that.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Note : It&amp;amp;rsquo;s better to keep only one ESP. So use bcdboot on a temporary ESP partition and copy files to /boot. So that your systemd-boot stays as it is.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;That&amp;amp;rsquo;s all need to do for restoration. Hit me if goes anything wrong. :3&amp;lt;/p&amp;gt;
+</description>
       <content:encoded><![CDATA[<p>Few days ago I installed Archcraft again. The latest update has some cool stuffs, I wanted to try them. As usual both of my bootloader was gone, I use a dual booted system. I&rsquo;ve faced that issue many times and fixed that on my own. But this time it was a litte different, this happened for the first time after switching to UEFI from Legacy. Also it was the first time after I&rsquo;ve started using systemd-boot instead of GRUB.</p>
 <p>So the thing was my /boot partition got deleted, I don&rsquo;t know exactly how that happened. Cause /boot is a separate partition. AFAIK /boot doesn&rsquo;t get deleted during installation. Probably it was because ABIF, that tool formatted /boot partition.</p>
 <p>As I didn&rsquo;t have backup of my /boot partition, I was panicked that I would&rsquo;ve to reinstall Windows to restore the Windows Boot Manager. I spend hours searching for a solution to recreate the Windows 10 bootloader, tried everything I got and finally got a really simple solution.</p>
@@ -84,7 +139,10 @@
       <pubDate>Mon, 11 Jan 2021 18:43:00 +0600</pubDate>
       <author>fahimscirex@tutanota.com (Fahim Montasir Misbah)</author>
       <guid>https://fahimscirex.github.io/post/journal/capernaum/</guid>
-      <description>I can’t remember when the last time I’d watched a movie like Capernaum. But this movie has won my heart, I can say that without any doubt. Capernaum is a name of ancient Israeli city which was condemned to hell by Jesus. In french literature it is used to portray hell, chaos; a large mess that seems impossible to clean. Director Nadine Labaki has taken the word ‘Capernaum’ to signify the lifestyle of a young boy in chaotic, merciless Beirut.</description>
+      <description>&amp;lt;p&amp;gt;I can’t remember when the last time I’d watched a movie like Capernaum. But this movie has won my heart, I can say that without any doubt. Capernaum is a name of ancient Israeli city which was condemned to hell by Jesus. In french literature it is used to portray hell, chaos; a large mess that seems impossible to clean. Director Nadine Labaki has taken the word ‘Capernaum’ to signify the lifestyle of a young boy in chaotic, merciless Beirut.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;In recent time more than a million Syrian came to Lebanon as refugee. Capernaum showed an important story of their lifestyle. Zain, an little angry Syrian refugee kid who doesn’t know his birth date nor his parents has any documentation of his existence. He blames his abusive parents for bringing him in to this world, a world full of mess. I was awestruck by his performance. His personal life isn’t much different than the character he played, that’s why he made the overall environment more realistic.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Overall this movie is a debatable one also, it questions human existence. Why people take childs if they can’t ensure a better life for them?&amp;lt;/p&amp;gt;
+</description>
       <content:encoded><![CDATA[<p>I can’t remember when the last time I’d watched a movie like Capernaum. But this movie has won my heart, I can say that without any doubt. Capernaum is a name of ancient Israeli city which was condemned to hell by Jesus. In french literature it is used to portray hell, chaos; a large mess that seems impossible to clean. Director Nadine Labaki has taken the word ‘Capernaum’ to signify the lifestyle of a young boy in chaotic, merciless Beirut.</p>
 <p>In recent time more than a million Syrian came to Lebanon as refugee. Capernaum showed an important story of their lifestyle. Zain, an little angry Syrian refugee kid who doesn’t know his birth date nor his parents has any documentation of his existence. He blames his abusive parents for bringing him in to this world, a world full of mess. I was awestruck by his performance. His personal life isn’t much different than the character he played, that’s why he made the overall environment more realistic.</p>
 <p>Overall this movie is a debatable one also, it questions human existence. Why people take childs if they can’t ensure a better life for them?</p>

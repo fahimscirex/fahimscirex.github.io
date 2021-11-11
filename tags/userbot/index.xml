@@ -19,7 +19,41 @@
       <pubDate>Fri, 15 Oct 2021 19:17:55 +0600</pubDate>
       <author>fahimscirex@tutanota.com (Fahim Montasir Misbah)</author>
       <guid>https://fahimscirex.github.io/post/journal/deploy-userbot-with-github-action/</guid>
-      <description>Most of the Cloud Platform bans account for hosting userbots. Well, good news for you! You don&amp;#39;t have to worry about getting banned again. Here&amp;#39;s how.</description>
+      <description>&amp;lt;p&amp;gt;Most of the Cloud Platform doesn&amp;amp;rsquo;t allow hosting userbot. Your account could get banned if you try to host any or if you&amp;amp;rsquo;re lucky you&amp;amp;rsquo;ll be able to use your bot for a while. Setting up a new account frequently and hosting bot on it is a hell of a work, that&amp;amp;rsquo;s why it&amp;amp;rsquo;s wise to use GitHub Actions.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;GitHub Actions&amp;#39; Workflows aren&amp;amp;rsquo;t meant to be used as a Cloud Platform (eg. Heroku, Railway) but if it can get your job done then why won&amp;amp;rsquo;t you take the advantage? Moreover, you won&amp;amp;rsquo;t have to pay a single penny.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Before taking you to the procedure there&amp;amp;rsquo;s one thing you should know. &amp;lt;strong&amp;gt;Your bot will restart in every 6 hours&amp;lt;/strong&amp;gt;. Cause maximum Action timeout is 360 minutes. Well, Heroku apps also restarts in every 6 hours but the main difference here is, your data won&amp;amp;rsquo;t be stored on GitHub.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;For example if you use ytdl to download a video usually it goes into download folder and stays there unless you delete it. But with GitHub Action those downloaded files will be gone when your Actions time is finished. I hope you got me.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;I&amp;amp;rsquo;ll share Action script with support for &amp;lt;a href=&amp;#34;https://ultroid.tech&amp;#34;&amp;gt;Ultroid&amp;lt;/a&amp;gt; and &amp;lt;a href=&amp;#34;https://github.com/TG-UserBot/TG-UserBot&amp;#34;&amp;gt;TG-Userbot&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+&amp;lt;h2 id=&amp;#34;requirements&amp;#34;&amp;gt;Requirements&amp;lt;/h2&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;GitHub Account&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;One public repo&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;One private repo&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&amp;lt;h2 id=&amp;#34;fork-public-repo&amp;#34;&amp;gt;Fork Public Repo&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;Go to &amp;lt;a href=&amp;#34;https://github.com/fahimscirex/userbot-workflow&amp;#34;&amp;gt;https://github.com/fahimscirex/userbot-workflow&amp;lt;/a&amp;gt; and fork the repo.
+You&amp;amp;rsquo;re going to deploy your bot in this repository.
+Change the contents of &amp;lt;code&amp;gt;.github/workflows/deploy.yml&amp;lt;/code&amp;gt; as per your needs. If you want to use Ultroid then keep &amp;lt;code&amp;gt;ultroid.sh&amp;lt;/code&amp;gt; or else replace with &amp;lt;code&amp;gt;tguserbot.sh&amp;lt;/code&amp;gt;.&amp;lt;/p&amp;gt;
+&amp;lt;h2 id=&amp;#34;create-a-private-repo&amp;#34;&amp;gt;Create a Private Repo&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;Forked repo can&amp;amp;rsquo;t be switched to private, so you have to create this on your own. This repo is supposed to contain&amp;lt;/p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;&amp;lt;code&amp;gt;.env&amp;lt;/code&amp;gt; (for Ultroid)
+or&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;&amp;lt;code&amp;gt;config.ini&amp;lt;/code&amp;gt; (for TG-Userbot)&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&amp;lt;p&amp;gt;Why private? Cause you&amp;amp;rsquo;ll keep your personal data here. You would never like to share your APIs or Sessions with others, right? BTW, I&amp;amp;rsquo;m not going write about what will be in those files. Check their respective documentation to learn more. But I can give a suggestion, you should use Railway to host a Redis server.&amp;lt;/p&amp;gt;
+&amp;lt;h2 id=&amp;#34;add-secrets-in-public-repo&amp;#34;&amp;gt;Add Secrets in Public Repo&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;As your forked repo is going to stay public or you won&amp;amp;rsquo;t get unlimited Action time, you&amp;amp;rsquo;ve to add some secrets. So that you can access the data of your private repo. Go to &amp;lt;em&amp;gt;https://{your_forked_repo}/settings/secrets/actions&amp;lt;/em&amp;gt; to add secrets.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;You&amp;amp;rsquo;ve to add these following secrets -&amp;lt;/p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;&amp;lt;code&amp;gt;GH_NAME&amp;lt;/code&amp;gt; : Your GitHub username.&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;&amp;lt;code&amp;gt;GH_MAIL&amp;lt;/code&amp;gt; : Mail that you use to sign into GitHub.&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;&amp;lt;code&amp;gt;CREDS&amp;lt;/code&amp;gt; : Link to your private repo but without (https://) eg. github.com/{username}/{private repo}.&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;&amp;lt;code&amp;gt;GH_TOKEN&amp;lt;/code&amp;gt; : Go to &amp;lt;a href=&amp;#34;https://github.com/settings/tokens&amp;#34;&amp;gt;https://github.com/settings/tokens&amp;lt;/a&amp;gt; to generate a token. Tick repo, workflow and user and hit generate. Copy the token and add it to the secrets.&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&amp;lt;h2 id=&amp;#34;deploy-your-bot&amp;#34;&amp;gt;Deploy Your Bot&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;Our work is done. Now run a workflow and check the logs. If everything goes well your bot will restart in every six hours. You can check loop.txt to know when your bot restarted.&amp;lt;/p&amp;gt;
+</description>
       <content:encoded><![CDATA[<p>Most of the Cloud Platform doesn&rsquo;t allow hosting userbot. Your account could get banned if you try to host any or if you&rsquo;re lucky you&rsquo;ll be able to use your bot for a while. Setting up a new account frequently and hosting bot on it is a hell of a work, that&rsquo;s why it&rsquo;s wise to use GitHub Actions.</p>
 <p>GitHub Actions' Workflows aren&rsquo;t meant to be used as a Cloud Platform (eg. Heroku, Railway) but if it can get your job done then why won&rsquo;t you take the advantage? Moreover, you won&rsquo;t have to pay a single penny.</p>
 <p>Before taking you to the procedure there&rsquo;s one thing you should know. <strong>Your bot will restart in every 6 hours</strong>. Cause maximum Action timeout is 360 minutes. Well, Heroku apps also restarts in every 6 hours but the main difference here is, your data won&rsquo;t be stored on GitHub.</p>
