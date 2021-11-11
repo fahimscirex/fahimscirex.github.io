@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Setup Warp on Linux and Get Unlimited Warp Plus Data on Fahim Montasir Misbah</title>
+    <link>https://fahimscirex.github.io/post/linux/setup-cloudflare-warp/</link>
+    <description>Recent content in Setup Warp on Linux and Get Unlimited Warp Plus Data on Fahim Montasir Misbah</description>
+    <image>
+      <url>https://fahimscirex.github.io/img/blog-banner.webp</url>
+      <link>https://fahimscirex.github.io/img/blog-banner.webp</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 28 Mar 2021 18:15:05 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/post/linux/setup-cloudflare-warp/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
