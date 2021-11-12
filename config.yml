@@ -1,6 +1,6 @@
 baseURL: "https://fahimscirex.github.io/"
 title: Fahim Montasir Misbah
-paginate: 5
+paginate: 6
 theme: papermod
 
 enableInlineShortcodes: true
@@ -65,6 +65,9 @@ outputs:
         - HTML
         - RSS
         - JSON
+    section:
+        - HTML
+        - RSS
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -78,6 +81,7 @@ params:
     defaultTheme: auto # dark, light
     disableThemeToggle: false
 
+    ShowFullTextinRSS: true
     ShowReadingTime: true
     ShowShareButtons: true
     ShowPostNavLinks: true
@@ -100,15 +104,13 @@ params:
         - name: telegram
           url: "https://t.me/fahimscirex"    
         - name: twitter
-          url: "https://twitter.com/"
+          url: "https://twitter.com/fahimscirex"
         - name: mastodon
           url: "https://fosstodon.org/web/accounts/313800"
         - name: github
           url: "https://github.com/fahimscirex"
         - name: goodreads
           url: "https://goodreads.com/fahimscirex"
-        - name: twitter
-          url: "https://twitter.com/fahimscirex"
 
     editPost:
         URL: "https://github.com/fahimscirex/fahimscirex.github.io/content"
