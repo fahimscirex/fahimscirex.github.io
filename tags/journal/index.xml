@@ -17,6 +17,62 @@
       
       <guid>https://fahimscirex.github.io/post/journal/restore-windows-10-efi-bootloader/</guid>
       <description>Bootloader partition is gone? Can&amp;#39;t boot to Windows after installing Linux? Don&amp;#39;t worry, follow this guide and restore your bootloader partition.</description>
+      <content:encoded><![CDATA[<p>Few days ago I installed Archcraft again. The latest update has some cool stuffs, I wanted to try them. As usual both of my bootloader was gone, I use a dual booted system. I&rsquo;ve faced that issue many times and fixed that on my own. But this time it was a litte different, this happened for the first time after switching to UEFI from Legacy. Also it was the first time after I&rsquo;ve started using systemd-boot instead of GRUB.</p>
+<p>So the thing was my /boot partition got deleted, I don&rsquo;t know exactly how that happened. Cause /boot is a separate partition. AFAIK /boot doesn&rsquo;t get deleted during installation. Probably it was because ABIF, that tool formatted /boot partition.</p>
+<p>As I didn&rsquo;t have backup of my /boot partition, I was panicked that I would&rsquo;ve to reinstall Windows to restore the Windows Boot Manager. I spend hours searching for a solution to recreate the Windows 10 bootloader, tried everything I got and finally got a really simple solution.</p>
+<p>Let&rsquo;s jump into it.</p>
+<h1 id="what-will-you-need-to-restore-windows-boot-manager-on-a-gptuefi-system">What will you need to restore Windows Boot Manager on a GPT/UEFI system?</h1>
+<ul>
+<li>
+<p><em><strong>A pendrive with Windows 10 .iso burned on it.</strong></em></p>
+<p>I suggest to use the official ISO or something closer to it. Cause customized ISO doesn&rsquo;t work most of the time for this type of work.</p>
+</li>
+<li>
+<p><em><strong>An ESP partition.</strong></em></p>
+<p>EFI System Partitions are in fat32. If you don&rsquo;t have a partition already, create one using diskpart with following commands. If you don&rsquo;t know how to open CMD Prompt then scroll a bit.</p>
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">&gt; diskpart
+&gt; <span style="color:#81a1c1;font-weight:bold">select</span> disk <span style="color:#b48ead">0</span>
+&gt; create partition efi size<span style="color:#81a1c1">=</span><span style="color:#b48ead">500</span> 
+&gt; format fs<span style="color:#81a1c1">=</span>fat32 quick label<span style="color:#81a1c1">=</span>SYSTEM
+</code></pre></div></li>
+<li>
+<p><em><strong>And a brain obviously.</strong></em></p>
+</li>
+</ul>
+<h1 id="restore-windows-10-bootloader">Restore Windows 10 bootloader</h1>
+<ol>
+<li>
+<p>Boot a Windows installation medium.</p>
+</li>
+<li>
+<p>Choose your language and click on &lsquo;Repair your computer&rsquo;.</p>
+</li>
+<li>
+<p>Go to Troubleshoot &gt; Advanced Options &gt; Command Prompt.</p>
+</li>
+<li>
+<p>We&rsquo;re going to assign a letter to ESP/Boot partition. Let&rsquo;s assume my ESP volume number is 1.</p>
+</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">&gt; diskpart
+&gt; <span style="color:#81a1c1;font-weight:bold">select</span> disk <span style="color:#b48ead">0</span>
+&gt; list volume
+&gt; <span style="color:#81a1c1;font-weight:bold">select</span> volume <span style="color:#b48ead">1</span>
+&gt; assign letter f
+&gt; <span style="color:#81a1c1">exit</span>
+</code></pre></div><ol start="5">
+<li>We&rsquo;re done with assiging. Now we will use bcdboot.exe to create a new EFI Windows bootloader. Make sure that c:\Windows is mounted.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">&gt; bcdboot c:<span style="color:#ebcb8b">\W</span>indows /s f: /l en-us /f ALL
+</code></pre></div><p>Here :</p>
+<p><code>c:\Windows</code> - is where Windows is installed.</p>
+<p><code>/s</code> - refers to where you want to save the bootloader.</p>
+<p><code>/l</code> - language</p>
+<p><code>/f </code>- I&rsquo;ve set ALL to copy everything. If you don&rsquo;t want to copy everything, just the UEFI stuffs then write UEFI instead of ALL.</p>
+<p>Now bootloader should be copied from c: drive to f: drive. Run <code>bcdedit</code> to confirm that.</p>
+<p>Note : It&rsquo;s better to keep only one ESP. So use bcdboot on a temporary ESP partition and copy files to /boot. So that your systemd-boot stays as it is.</p>
+<p>That&rsquo;s all need to do for restoration. Hit me if goes anything wrong. :3</p>
+]]></content:encoded>
     </item>
     
     <item>
@@ -26,6 +82,10 @@
       
       <guid>https://fahimscirex.github.io/post/journal/capernaum/</guid>
       <description>I can’t remember when the last time I’d watched a movie like Capernaum. But this movie has won my heart, I can say that without any doubt. Capernaum is a name of ancient Israeli city which was condemned to hell by Jesus. In french literature it is used to portray hell, chaos; a large mess that seems impossible to clean. Director Nadine Labaki has taken the word ‘Capernaum’ to signify the lifestyle of a young boy in chaotic, merciless Beirut.</description>
+      <content:encoded><![CDATA[<p>I can’t remember when the last time I’d watched a movie like Capernaum. But this movie has won my heart, I can say that without any doubt. Capernaum is a name of ancient Israeli city which was condemned to hell by Jesus. In french literature it is used to portray hell, chaos; a large mess that seems impossible to clean. Director Nadine Labaki has taken the word ‘Capernaum’ to signify the lifestyle of a young boy in chaotic, merciless Beirut.</p>
+<p>In recent time more than a million Syrian came to Lebanon as refugee. Capernaum showed an important story of their lifestyle. Zain, an little angry Syrian refugee kid who doesn’t know his birth date nor his parents has any documentation of his existence. He blames his abusive parents for bringing him in to this world, a world full of mess. I was awestruck by his performance. His personal life isn’t much different than the character he played, that’s why he made the overall environment more realistic.</p>
+<p>Overall this movie is a debatable one also, it questions human existence. Why people take childs if they can’t ensure a better life for them?</p>
+]]></content:encoded>
     </item>
     
   </channel>
