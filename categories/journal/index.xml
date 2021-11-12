@@ -9,276 +9,41 @@
       <link>https://fahimscirex.github.io/img/blog-banner.webp</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>fahimscirex@tutanota.com (Fahim Montasir Misbah)</managingEditor>
-    <webMaster>fahimscirex@tutanota.com (Fahim Montasir Misbah)</webMaster>
-    <copyright>Fahim Montasir Misbah</copyright>
     <lastBuildDate>Thu, 11 Nov 2021 16:49:25 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/categories/journal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How did I migrate my user data to another ROM?</title>
       <link>https://fahimscirex.github.io/post/journal/migrate-data-to-new-rom/</link>
       <pubDate>Thu, 11 Nov 2021 16:49:25 +0600</pubDate>
-      <author>fahimscirex@tutanota.com (Fahim Montasir Misbah)</author>
+      
       <guid>https://fahimscirex.github.io/post/journal/migrate-data-to-new-rom/</guid>
-      <description>&amp;lt;p&amp;gt;While I couldn&amp;amp;rsquo;t get the Migrate app working in my device I found something that worked for me. &amp;lt;a href=&amp;#34;https://github.com/VR-25/migrator&amp;#34;&amp;gt;Migrator&amp;lt;/a&amp;gt; : A backup solution and data migration utility for Android.&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;Basically it&amp;amp;rsquo;s a collection of some shell scripts that will assist you to copy app, data, permissions and other necessary stuffs and restore them afterwards. It&amp;amp;rsquo;s usable as a Magisk module or as a standalone shell script.&amp;lt;/p&amp;gt;
-&amp;lt;ul&amp;gt;
-&amp;lt;li&amp;gt;
-&amp;lt;p&amp;gt;Before changing my ROM I did a backup of user apps by running &amp;lt;code&amp;gt;M -beM&amp;lt;/code&amp;gt;. This will copy necessary files to &amp;lt;code&amp;gt;/data/migrator/&amp;lt;/code&amp;gt;. So enough internal storage is needed to do a backup.&amp;lt;/p&amp;gt;
-&amp;lt;/li&amp;gt;
-&amp;lt;li&amp;gt;
-&amp;lt;p&amp;gt;To avoid storage issue or to use the backup in another device you may export it to external sd card by running &amp;lt;code&amp;gt;M -e -d /storage/XXXX-XXXX&amp;lt;/code&amp;gt;.&amp;lt;/p&amp;gt;
-&amp;lt;blockquote&amp;gt;
-&amp;lt;p&amp;gt;Note : XXXX-XXXX is a bunch of characters that represents your SD Card.&amp;lt;/p&amp;gt;
-&amp;lt;/blockquote&amp;gt;
-&amp;lt;/li&amp;gt;
-&amp;lt;li&amp;gt;
-&amp;lt;p&amp;gt;Change your ROM or device, delete partitions or reset the device. Install Migrator module through Magisk or just run the script and import the exported backup by running &amp;lt;code&amp;gt;M -i -d /storage/XXXX-XXXX/migrator_exported&amp;lt;/code&amp;gt;. If you didn&amp;amp;rsquo;t exported backups, importing is not needed.&amp;lt;/p&amp;gt;
-&amp;lt;/li&amp;gt;
-&amp;lt;li&amp;gt;
-&amp;lt;p&amp;gt;Finally run &amp;lt;code&amp;gt;M -re&amp;lt;/code&amp;gt; to restore everything.&amp;lt;/p&amp;gt;
-&amp;lt;/li&amp;gt;
-&amp;lt;/ul&amp;gt;
-&amp;lt;blockquote&amp;gt;
-&amp;lt;p&amp;gt;Note : You&amp;amp;rsquo;ll get more information in the README of Migrator&amp;amp;rsquo;s repo, so follow that.&amp;lt;/p&amp;gt;
-&amp;lt;/blockquote&amp;gt;
-</description>
-      <content:encoded><![CDATA[<p>While I couldn&rsquo;t get the Migrate app working in my device I found something that worked for me. <a href="https://github.com/VR-25/migrator">Migrator</a> : A backup solution and data migration utility for Android.</p>
-<p>Basically it&rsquo;s a collection of some shell scripts that will assist you to copy app, data, permissions and other necessary stuffs and restore them afterwards. It&rsquo;s usable as a Magisk module or as a standalone shell script.</p>
-<ul>
-<li>
-<p>Before changing my ROM I did a backup of user apps by running <code>M -beM</code>. This will copy necessary files to <code>/data/migrator/</code>. So enough internal storage is needed to do a backup.</p>
-</li>
-<li>
-<p>To avoid storage issue or to use the backup in another device you may export it to external sd card by running <code>M -e -d /storage/XXXX-XXXX</code>.</p>
-<blockquote>
-<p>Note : XXXX-XXXX is a bunch of characters that represents your SD Card.</p>
-</blockquote>
-</li>
-<li>
-<p>Change your ROM or device, delete partitions or reset the device. Install Migrator module through Magisk or just run the script and import the exported backup by running <code>M -i -d /storage/XXXX-XXXX/migrator_exported</code>. If you didn&rsquo;t exported backups, importing is not needed.</p>
-</li>
-<li>
-<p>Finally run <code>M -re</code> to restore everything.</p>
-</li>
-</ul>
-<blockquote>
-<p>Note : You&rsquo;ll get more information in the README of Migrator&rsquo;s repo, so follow that.</p>
-</blockquote>
-]]></content:encoded>
+      <description>Want to change your ROM but worried about your precious data? Here is an absolute solution to backup your android apps including data.</description>
     </item>
     
     <item>
       <title>Host Telegram Userbot on GitHub w/o Any Charge</title>
       <link>https://fahimscirex.github.io/post/journal/deploy-userbot-with-github-action/</link>
       <pubDate>Fri, 15 Oct 2021 19:17:55 +0600</pubDate>
-      <author>fahimscirex@tutanota.com (Fahim Montasir Misbah)</author>
+      
       <guid>https://fahimscirex.github.io/post/journal/deploy-userbot-with-github-action/</guid>
-      <description>&amp;lt;p&amp;gt;Most of the Cloud Platform doesn&amp;amp;rsquo;t allow hosting userbot. Your account could get banned if you try to host any or if you&amp;amp;rsquo;re lucky you&amp;amp;rsquo;ll be able to use your bot for a while. Setting up a new account frequently and hosting bot on it is a hell of a work, that&amp;amp;rsquo;s why it&amp;amp;rsquo;s wise to use GitHub Actions.&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;GitHub Actions&amp;#39; Workflows aren&amp;amp;rsquo;t meant to be used as a Cloud Platform (eg. Heroku, Railway) but if it can get your job done then why won&amp;amp;rsquo;t you take the advantage? Moreover, you won&amp;amp;rsquo;t have to pay a single penny.&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;Before taking you to the procedure there&amp;amp;rsquo;s one thing you should know. &amp;lt;strong&amp;gt;Your bot will restart in every 6 hours&amp;lt;/strong&amp;gt;. Cause maximum Action timeout is 360 minutes. Well, Heroku apps also restarts in every 6 hours but the main difference here is, your data won&amp;amp;rsquo;t be stored on GitHub.&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;For example if you use ytdl to download a video usually it goes into download folder and stays there unless you delete it. But with GitHub Action those downloaded files will be gone when your Actions time is finished. I hope you got me.&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;I&amp;amp;rsquo;ll share Action script with support for &amp;lt;a href=&amp;#34;https://ultroid.tech&amp;#34;&amp;gt;Ultroid&amp;lt;/a&amp;gt; and &amp;lt;a href=&amp;#34;https://github.com/TG-UserBot/TG-UserBot&amp;#34;&amp;gt;TG-Userbot&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
-&amp;lt;h2 id=&amp;#34;requirements&amp;#34;&amp;gt;Requirements&amp;lt;/h2&amp;gt;
-&amp;lt;ul&amp;gt;
-&amp;lt;li&amp;gt;GitHub Account&amp;lt;/li&amp;gt;
-&amp;lt;li&amp;gt;One public repo&amp;lt;/li&amp;gt;
-&amp;lt;li&amp;gt;One private repo&amp;lt;/li&amp;gt;
-&amp;lt;/ul&amp;gt;
-&amp;lt;h2 id=&amp;#34;fork-public-repo&amp;#34;&amp;gt;Fork Public Repo&amp;lt;/h2&amp;gt;
-&amp;lt;p&amp;gt;Go to &amp;lt;a href=&amp;#34;https://github.com/fahimscirex/userbot-workflow&amp;#34;&amp;gt;https://github.com/fahimscirex/userbot-workflow&amp;lt;/a&amp;gt; and fork the repo.
-You&amp;amp;rsquo;re going to deploy your bot in this repository.
-Change the contents of &amp;lt;code&amp;gt;.github/workflows/deploy.yml&amp;lt;/code&amp;gt; as per your needs. If you want to use Ultroid then keep &amp;lt;code&amp;gt;ultroid.sh&amp;lt;/code&amp;gt; or else replace with &amp;lt;code&amp;gt;tguserbot.sh&amp;lt;/code&amp;gt;.&amp;lt;/p&amp;gt;
-&amp;lt;h2 id=&amp;#34;create-a-private-repo&amp;#34;&amp;gt;Create a Private Repo&amp;lt;/h2&amp;gt;
-&amp;lt;p&amp;gt;Forked repo can&amp;amp;rsquo;t be switched to private, so you have to create this on your own. This repo is supposed to contain&amp;lt;/p&amp;gt;
-&amp;lt;ul&amp;gt;
-&amp;lt;li&amp;gt;&amp;lt;code&amp;gt;.env&amp;lt;/code&amp;gt; (for Ultroid)
-or&amp;lt;/li&amp;gt;
-&amp;lt;li&amp;gt;&amp;lt;code&amp;gt;config.ini&amp;lt;/code&amp;gt; (for TG-Userbot)&amp;lt;/li&amp;gt;
-&amp;lt;/ul&amp;gt;
-&amp;lt;p&amp;gt;Why private? Cause you&amp;amp;rsquo;ll keep your personal data here. You would never like to share your APIs or Sessions with others, right? BTW, I&amp;amp;rsquo;m not going write about what will be in those files. Check their respective documentation to learn more. But I can give a suggestion, you should use Railway to host a Redis server.&amp;lt;/p&amp;gt;
-&amp;lt;h2 id=&amp;#34;add-secrets-in-public-repo&amp;#34;&amp;gt;Add Secrets in Public Repo&amp;lt;/h2&amp;gt;
-&amp;lt;p&amp;gt;As your forked repo is going to stay public or you won&amp;amp;rsquo;t get unlimited Action time, you&amp;amp;rsquo;ve to add some secrets. So that you can access the data of your private repo. Go to &amp;lt;em&amp;gt;https://{your_forked_repo}/settings/secrets/actions&amp;lt;/em&amp;gt; to add secrets.&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;You&amp;amp;rsquo;ve to add these following secrets -&amp;lt;/p&amp;gt;
-&amp;lt;ul&amp;gt;
-&amp;lt;li&amp;gt;&amp;lt;code&amp;gt;GH_NAME&amp;lt;/code&amp;gt; : Your GitHub username.&amp;lt;/li&amp;gt;
-&amp;lt;li&amp;gt;&amp;lt;code&amp;gt;GH_MAIL&amp;lt;/code&amp;gt; : Mail that you use to sign into GitHub.&amp;lt;/li&amp;gt;
-&amp;lt;li&amp;gt;&amp;lt;code&amp;gt;CREDS&amp;lt;/code&amp;gt; : Link to your private repo but without (https://) eg. github.com/{username}/{private repo}.&amp;lt;/li&amp;gt;
-&amp;lt;li&amp;gt;&amp;lt;code&amp;gt;GH_TOKEN&amp;lt;/code&amp;gt; : Go to &amp;lt;a href=&amp;#34;https://github.com/settings/tokens&amp;#34;&amp;gt;https://github.com/settings/tokens&amp;lt;/a&amp;gt; to generate a token. Tick repo, workflow and user and hit generate. Copy the token and add it to the secrets.&amp;lt;/li&amp;gt;
-&amp;lt;/ul&amp;gt;
-&amp;lt;h2 id=&amp;#34;deploy-your-bot&amp;#34;&amp;gt;Deploy Your Bot&amp;lt;/h2&amp;gt;
-&amp;lt;p&amp;gt;Our work is done. Now run a workflow and check the logs. If everything goes well your bot will restart in every six hours. You can check loop.txt to know when your bot restarted.&amp;lt;/p&amp;gt;
-</description>
-      <content:encoded><![CDATA[<p>Most of the Cloud Platform doesn&rsquo;t allow hosting userbot. Your account could get banned if you try to host any or if you&rsquo;re lucky you&rsquo;ll be able to use your bot for a while. Setting up a new account frequently and hosting bot on it is a hell of a work, that&rsquo;s why it&rsquo;s wise to use GitHub Actions.</p>
-<p>GitHub Actions' Workflows aren&rsquo;t meant to be used as a Cloud Platform (eg. Heroku, Railway) but if it can get your job done then why won&rsquo;t you take the advantage? Moreover, you won&rsquo;t have to pay a single penny.</p>
-<p>Before taking you to the procedure there&rsquo;s one thing you should know. <strong>Your bot will restart in every 6 hours</strong>. Cause maximum Action timeout is 360 minutes. Well, Heroku apps also restarts in every 6 hours but the main difference here is, your data won&rsquo;t be stored on GitHub.</p>
-<p>For example if you use ytdl to download a video usually it goes into download folder and stays there unless you delete it. But with GitHub Action those downloaded files will be gone when your Actions time is finished. I hope you got me.</p>
-<p>I&rsquo;ll share Action script with support for <a href="https://ultroid.tech">Ultroid</a> and <a href="https://github.com/TG-UserBot/TG-UserBot">TG-Userbot</a>.</p>
-<h2 id="requirements">Requirements</h2>
-<ul>
-<li>GitHub Account</li>
-<li>One public repo</li>
-<li>One private repo</li>
-</ul>
-<h2 id="fork-public-repo">Fork Public Repo</h2>
-<p>Go to <a href="https://github.com/fahimscirex/userbot-workflow">https://github.com/fahimscirex/userbot-workflow</a> and fork the repo.
-You&rsquo;re going to deploy your bot in this repository.
-Change the contents of <code>.github/workflows/deploy.yml</code> as per your needs. If you want to use Ultroid then keep <code>ultroid.sh</code> or else replace with <code>tguserbot.sh</code>.</p>
-<h2 id="create-a-private-repo">Create a Private Repo</h2>
-<p>Forked repo can&rsquo;t be switched to private, so you have to create this on your own. This repo is supposed to contain</p>
-<ul>
-<li><code>.env</code> (for Ultroid)
-or</li>
-<li><code>config.ini</code> (for TG-Userbot)</li>
-</ul>
-<p>Why private? Cause you&rsquo;ll keep your personal data here. You would never like to share your APIs or Sessions with others, right? BTW, I&rsquo;m not going write about what will be in those files. Check their respective documentation to learn more. But I can give a suggestion, you should use Railway to host a Redis server.</p>
-<h2 id="add-secrets-in-public-repo">Add Secrets in Public Repo</h2>
-<p>As your forked repo is going to stay public or you won&rsquo;t get unlimited Action time, you&rsquo;ve to add some secrets. So that you can access the data of your private repo. Go to <em>https://{your_forked_repo}/settings/secrets/actions</em> to add secrets.</p>
-<p>You&rsquo;ve to add these following secrets -</p>
-<ul>
-<li><code>GH_NAME</code> : Your GitHub username.</li>
-<li><code>GH_MAIL</code> : Mail that you use to sign into GitHub.</li>
-<li><code>CREDS</code> : Link to your private repo but without (https://) eg. github.com/{username}/{private repo}.</li>
-<li><code>GH_TOKEN</code> : Go to <a href="https://github.com/settings/tokens">https://github.com/settings/tokens</a> to generate a token. Tick repo, workflow and user and hit generate. Copy the token and add it to the secrets.</li>
-</ul>
-<h2 id="deploy-your-bot">Deploy Your Bot</h2>
-<p>Our work is done. Now run a workflow and check the logs. If everything goes well your bot will restart in every six hours. You can check loop.txt to know when your bot restarted.</p>
-]]></content:encoded>
+      <description>Most of the Cloud Platform bans account for hosting userbots. Well, good news for you! You don&amp;#39;t have to worry about getting banned again. Here&amp;#39;s how.</description>
     </item>
     
     <item>
       <title>Restoring Windows 10 EFI/GPT Bootloader</title>
       <link>https://fahimscirex.github.io/post/journal/restore-windows-10-efi-bootloader/</link>
       <pubDate>Sat, 26 Jun 2021 12:40:51 +0600</pubDate>
-      <author>fahimscirex@tutanota.com (Fahim Montasir Misbah)</author>
+      
       <guid>https://fahimscirex.github.io/post/journal/restore-windows-10-efi-bootloader/</guid>
-      <description>&amp;lt;p&amp;gt;Few days ago I installed Archcraft again. The latest update has some cool stuffs, I wanted to try them. As usual both of my bootloader was gone, I use a dual booted system. I&amp;amp;rsquo;ve faced that issue many times and fixed that on my own. But this time it was a litte different, this happened for the first time after switching to UEFI from Legacy. Also it was the first time after I&amp;amp;rsquo;ve started using systemd-boot instead of GRUB.&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;So the thing was my /boot partition got deleted, I don&amp;amp;rsquo;t know exactly how that happened. Cause /boot is a separate partition. AFAIK /boot doesn&amp;amp;rsquo;t get deleted during installation. Probably it was because ABIF, that tool formatted /boot partition.&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;As I didn&amp;amp;rsquo;t have backup of my /boot partition, I was panicked that I would&amp;amp;rsquo;ve to reinstall Windows to restore the Windows Boot Manager. I spend hours searching for a solution to recreate the Windows 10 bootloader, tried everything I got and finally got a really simple solution.&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;Let&amp;amp;rsquo;s jump into it.&amp;lt;/p&amp;gt;
-&amp;lt;h1 id=&amp;#34;what-will-you-need-to-restore-windows-boot-manager-on-a-gptuefi-system&amp;#34;&amp;gt;What will you need to restore Windows Boot Manager on a GPT/UEFI system?&amp;lt;/h1&amp;gt;
-&amp;lt;ul&amp;gt;
-&amp;lt;li&amp;gt;
-&amp;lt;p&amp;gt;&amp;lt;em&amp;gt;&amp;lt;strong&amp;gt;A pendrive with Windows 10 .iso burned on it.&amp;lt;/strong&amp;gt;&amp;lt;/em&amp;gt;&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;I suggest to use the official ISO or something closer to it. Cause customized ISO doesn&amp;amp;rsquo;t work most of the time for this type of work.&amp;lt;/p&amp;gt;
-&amp;lt;/li&amp;gt;
-&amp;lt;li&amp;gt;
-&amp;lt;p&amp;gt;&amp;lt;em&amp;gt;&amp;lt;strong&amp;gt;An ESP partition.&amp;lt;/strong&amp;gt;&amp;lt;/em&amp;gt;&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;EFI System Partitions are in fat32. If you don&amp;amp;rsquo;t have a partition already, create one using diskpart with following commands. If you don&amp;amp;rsquo;t know how to open CMD Prompt then scroll a bit.&amp;lt;/p&amp;gt;
-&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-shell&amp;#34; data-lang=&amp;#34;shell&amp;#34;&amp;gt;&amp;amp;gt; diskpart
-&amp;amp;gt; &amp;lt;span style=&amp;#34;color:#81a1c1;font-weight:bold&amp;#34;&amp;gt;select&amp;lt;/span&amp;gt; disk &amp;lt;span style=&amp;#34;color:#b48ead&amp;#34;&amp;gt;0&amp;lt;/span&amp;gt;
-&amp;amp;gt; create partition efi size&amp;lt;span style=&amp;#34;color:#81a1c1&amp;#34;&amp;gt;=&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;#34;color:#b48ead&amp;#34;&amp;gt;500&amp;lt;/span&amp;gt; 
-&amp;amp;gt; format fs&amp;lt;span style=&amp;#34;color:#81a1c1&amp;#34;&amp;gt;=&amp;lt;/span&amp;gt;fat32 quick label&amp;lt;span style=&amp;#34;color:#81a1c1&amp;#34;&amp;gt;=&amp;lt;/span&amp;gt;SYSTEM
-&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/li&amp;gt;
-&amp;lt;li&amp;gt;
-&amp;lt;p&amp;gt;&amp;lt;em&amp;gt;&amp;lt;strong&amp;gt;And a brain obviously.&amp;lt;/strong&amp;gt;&amp;lt;/em&amp;gt;&amp;lt;/p&amp;gt;
-&amp;lt;/li&amp;gt;
-&amp;lt;/ul&amp;gt;
-&amp;lt;h1 id=&amp;#34;restore-windows-10-bootloader&amp;#34;&amp;gt;Restore Windows 10 bootloader&amp;lt;/h1&amp;gt;
-&amp;lt;ol&amp;gt;
-&amp;lt;li&amp;gt;
-&amp;lt;p&amp;gt;Boot a Windows installation medium.&amp;lt;/p&amp;gt;
-&amp;lt;/li&amp;gt;
-&amp;lt;li&amp;gt;
-&amp;lt;p&amp;gt;Choose your language and click on &amp;amp;lsquo;Repair your computer&amp;amp;rsquo;.&amp;lt;/p&amp;gt;
-&amp;lt;/li&amp;gt;
-&amp;lt;li&amp;gt;
-&amp;lt;p&amp;gt;Go to Troubleshoot &amp;amp;gt; Advanced Options &amp;amp;gt; Command Prompt.&amp;lt;/p&amp;gt;
-&amp;lt;/li&amp;gt;
-&amp;lt;li&amp;gt;
-&amp;lt;p&amp;gt;We&amp;amp;rsquo;re going to assign a letter to ESP/Boot partition. Let&amp;amp;rsquo;s assume my ESP volume number is 1.&amp;lt;/p&amp;gt;
-&amp;lt;/li&amp;gt;
-&amp;lt;/ol&amp;gt;
-&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-shell&amp;#34; data-lang=&amp;#34;shell&amp;#34;&amp;gt;&amp;amp;gt; diskpart
-&amp;amp;gt; &amp;lt;span style=&amp;#34;color:#81a1c1;font-weight:bold&amp;#34;&amp;gt;select&amp;lt;/span&amp;gt; disk &amp;lt;span style=&amp;#34;color:#b48ead&amp;#34;&amp;gt;0&amp;lt;/span&amp;gt;
-&amp;amp;gt; list volume
-&amp;amp;gt; &amp;lt;span style=&amp;#34;color:#81a1c1;font-weight:bold&amp;#34;&amp;gt;select&amp;lt;/span&amp;gt; volume &amp;lt;span style=&amp;#34;color:#b48ead&amp;#34;&amp;gt;1&amp;lt;/span&amp;gt;
-&amp;amp;gt; assign letter f
-&amp;amp;gt; &amp;lt;span style=&amp;#34;color:#81a1c1&amp;#34;&amp;gt;exit&amp;lt;/span&amp;gt;
-&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;ol start=&amp;#34;5&amp;#34;&amp;gt;
-&amp;lt;li&amp;gt;We&amp;amp;rsquo;re done with assiging. Now we will use bcdboot.exe to create a new EFI Windows bootloader. Make sure that c:\Windows is mounted.&amp;lt;/li&amp;gt;
-&amp;lt;/ol&amp;gt;
-&amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; style=&amp;#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-shell&amp;#34; data-lang=&amp;#34;shell&amp;#34;&amp;gt;&amp;amp;gt; bcdboot c:&amp;lt;span style=&amp;#34;color:#ebcb8b&amp;#34;&amp;gt;\W&amp;lt;/span&amp;gt;indows /s f: /l en-us /f ALL
-&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;Here :&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;c:\Windows&amp;lt;/code&amp;gt; - is where Windows is installed.&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;/s&amp;lt;/code&amp;gt; - refers to where you want to save the bootloader.&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;/l&amp;lt;/code&amp;gt; - language&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;/f &amp;lt;/code&amp;gt;- I&amp;amp;rsquo;ve set ALL to copy everything. If you don&amp;amp;rsquo;t want to copy everything, just the UEFI stuffs then write UEFI instead of ALL.&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;Now bootloader should be copied from c: drive to f: drive. Run &amp;lt;code&amp;gt;bcdedit&amp;lt;/code&amp;gt; to confirm that.&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;Note : It&amp;amp;rsquo;s better to keep only one ESP. So use bcdboot on a temporary ESP partition and copy files to /boot. So that your systemd-boot stays as it is.&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;That&amp;amp;rsquo;s all need to do for restoration. Hit me if goes anything wrong. :3&amp;lt;/p&amp;gt;
-</description>
-      <content:encoded><![CDATA[<p>Few days ago I installed Archcraft again. The latest update has some cool stuffs, I wanted to try them. As usual both of my bootloader was gone, I use a dual booted system. I&rsquo;ve faced that issue many times and fixed that on my own. But this time it was a litte different, this happened for the first time after switching to UEFI from Legacy. Also it was the first time after I&rsquo;ve started using systemd-boot instead of GRUB.</p>
-<p>So the thing was my /boot partition got deleted, I don&rsquo;t know exactly how that happened. Cause /boot is a separate partition. AFAIK /boot doesn&rsquo;t get deleted during installation. Probably it was because ABIF, that tool formatted /boot partition.</p>
-<p>As I didn&rsquo;t have backup of my /boot partition, I was panicked that I would&rsquo;ve to reinstall Windows to restore the Windows Boot Manager. I spend hours searching for a solution to recreate the Windows 10 bootloader, tried everything I got and finally got a really simple solution.</p>
-<p>Let&rsquo;s jump into it.</p>
-<h1 id="what-will-you-need-to-restore-windows-boot-manager-on-a-gptuefi-system">What will you need to restore Windows Boot Manager on a GPT/UEFI system?</h1>
-<ul>
-<li>
-<p><em><strong>A pendrive with Windows 10 .iso burned on it.</strong></em></p>
-<p>I suggest to use the official ISO or something closer to it. Cause customized ISO doesn&rsquo;t work most of the time for this type of work.</p>
-</li>
-<li>
-<p><em><strong>An ESP partition.</strong></em></p>
-<p>EFI System Partitions are in fat32. If you don&rsquo;t have a partition already, create one using diskpart with following commands. If you don&rsquo;t know how to open CMD Prompt then scroll a bit.</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">&gt; diskpart
-&gt; <span style="color:#81a1c1;font-weight:bold">select</span> disk <span style="color:#b48ead">0</span>
-&gt; create partition efi size<span style="color:#81a1c1">=</span><span style="color:#b48ead">500</span> 
-&gt; format fs<span style="color:#81a1c1">=</span>fat32 quick label<span style="color:#81a1c1">=</span>SYSTEM
-</code></pre></div></li>
-<li>
-<p><em><strong>And a brain obviously.</strong></em></p>
-</li>
-</ul>
-<h1 id="restore-windows-10-bootloader">Restore Windows 10 bootloader</h1>
-<ol>
-<li>
-<p>Boot a Windows installation medium.</p>
-</li>
-<li>
-<p>Choose your language and click on &lsquo;Repair your computer&rsquo;.</p>
-</li>
-<li>
-<p>Go to Troubleshoot &gt; Advanced Options &gt; Command Prompt.</p>
-</li>
-<li>
-<p>We&rsquo;re going to assign a letter to ESP/Boot partition. Let&rsquo;s assume my ESP volume number is 1.</p>
-</li>
-</ol>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">&gt; diskpart
-&gt; <span style="color:#81a1c1;font-weight:bold">select</span> disk <span style="color:#b48ead">0</span>
-&gt; list volume
-&gt; <span style="color:#81a1c1;font-weight:bold">select</span> volume <span style="color:#b48ead">1</span>
-&gt; assign letter f
-&gt; <span style="color:#81a1c1">exit</span>
-</code></pre></div><ol start="5">
-<li>We&rsquo;re done with assiging. Now we will use bcdboot.exe to create a new EFI Windows bootloader. Make sure that c:\Windows is mounted.</li>
-</ol>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">&gt; bcdboot c:<span style="color:#ebcb8b">\W</span>indows /s f: /l en-us /f ALL
-</code></pre></div><p>Here :</p>
-<p><code>c:\Windows</code> - is where Windows is installed.</p>
-<p><code>/s</code> - refers to where you want to save the bootloader.</p>
-<p><code>/l</code> - language</p>
-<p><code>/f </code>- I&rsquo;ve set ALL to copy everything. If you don&rsquo;t want to copy everything, just the UEFI stuffs then write UEFI instead of ALL.</p>
-<p>Now bootloader should be copied from c: drive to f: drive. Run <code>bcdedit</code> to confirm that.</p>
-<p>Note : It&rsquo;s better to keep only one ESP. So use bcdboot on a temporary ESP partition and copy files to /boot. So that your systemd-boot stays as it is.</p>
-<p>That&rsquo;s all need to do for restoration. Hit me if goes anything wrong. :3</p>
-]]></content:encoded>
+      <description>Bootloader partition is gone? Can&amp;#39;t boot to Windows after installing Linux? Don&amp;#39;t worry, follow this guide and restore your bootloader partition.</description>
     </item>
     
     <item>
       <title>Capernaum</title>
       <link>https://fahimscirex.github.io/post/journal/capernaum/</link>
       <pubDate>Mon, 11 Jan 2021 18:43:00 +0600</pubDate>
-      <author>fahimscirex@tutanota.com (Fahim Montasir Misbah)</author>
+      
       <guid>https://fahimscirex.github.io/post/journal/capernaum/</guid>
-      <description>&amp;lt;p&amp;gt;I can’t remember when the last time I’d watched a movie like Capernaum. But this movie has won my heart, I can say that without any doubt. Capernaum is a name of ancient Israeli city which was condemned to hell by Jesus. In french literature it is used to portray hell, chaos; a large mess that seems impossible to clean. Director Nadine Labaki has taken the word ‘Capernaum’ to signify the lifestyle of a young boy in chaotic, merciless Beirut.&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;In recent time more than a million Syrian came to Lebanon as refugee. Capernaum showed an important story of their lifestyle. Zain, an little angry Syrian refugee kid who doesn’t know his birth date nor his parents has any documentation of his existence. He blames his abusive parents for bringing him in to this world, a world full of mess. I was awestruck by his performance. His personal life isn’t much different than the character he played, that’s why he made the overall environment more realistic.&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;Overall this movie is a debatable one also, it questions human existence. Why people take childs if they can’t ensure a better life for them?&amp;lt;/p&amp;gt;
-</description>
-      <content:encoded><![CDATA[<p>I can’t remember when the last time I’d watched a movie like Capernaum. But this movie has won my heart, I can say that without any doubt. Capernaum is a name of ancient Israeli city which was condemned to hell by Jesus. In french literature it is used to portray hell, chaos; a large mess that seems impossible to clean. Director Nadine Labaki has taken the word ‘Capernaum’ to signify the lifestyle of a young boy in chaotic, merciless Beirut.</p>
-<p>In recent time more than a million Syrian came to Lebanon as refugee. Capernaum showed an important story of their lifestyle. Zain, an little angry Syrian refugee kid who doesn’t know his birth date nor his parents has any documentation of his existence. He blames his abusive parents for bringing him in to this world, a world full of mess. I was awestruck by his performance. His personal life isn’t much different than the character he played, that’s why he made the overall environment more realistic.</p>
-<p>Overall this movie is a debatable one also, it questions human existence. Why people take childs if they can’t ensure a better life for them?</p>
-]]></content:encoded>
+      <description>I can’t remember when the last time I’d watched a movie like Capernaum. But this movie has won my heart, I can say that without any doubt. Capernaum is a name of ancient Israeli city which was condemned to hell by Jesus. In french literature it is used to portray hell, chaos; a large mess that seems impossible to clean. Director Nadine Labaki has taken the word ‘Capernaum’ to signify the lifestyle of a young boy in chaotic, merciless Beirut.</description>
     </item>
     
   </channel>

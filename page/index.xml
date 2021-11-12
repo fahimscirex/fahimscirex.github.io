@@ -8,108 +8,14 @@
       <url>https://fahimscirex.github.io/img/blog-banner.webp</url>
       <link>https://fahimscirex.github.io/img/blog-banner.webp</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>fahimscirex@tutanota.com (Fahim Montasir Misbah)</managingEditor>
-    <webMaster>fahimscirex@tutanota.com (Fahim Montasir Misbah)</webMaster>
-    <copyright>Fahim Montasir Misbah</copyright><atom:link href="https://fahimscirex.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://fahimscirex.github.io/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Anonymous Box</title>
       <link>https://fahimscirex.github.io/message/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>fahimscirex@tutanota.com (Fahim Montasir Misbah)</author>
+      
       <guid>https://fahimscirex.github.io/message/</guid>
-      <description>&amp;lt;p&amp;gt;&amp;lt;img loading=&amp;#34;lazy&amp;#34; src=&amp;#34;/img/messagebox.webp&amp;#34; alt=&amp;#34;Anonymous Box&amp;#34;  /&amp;gt;
-
-
-
-&amp;lt;br&amp;gt;
-&amp;lt;form class=&amp;#34;wj-contact&amp;#34; action=&amp;#34;https://formspree.io/f/xbjqooad&amp;#34; method=&amp;#34;POST&amp;#34;&amp;gt;
-  &amp;lt;!--  &amp;lt;input type=&amp;#34;text&amp;#34; name=&amp;#34;email&amp;#34; placeholder=&amp;#34;Email Address&amp;#34;&amp;gt; --&amp;gt;
-    &amp;lt;textarea type=&amp;#34;text&amp;#34; name=&amp;#34;content&amp;#34; rows=&amp;#34;10&amp;#34; placeholder=&amp;#34;Write your message here without revealing your identity&amp;#34;&amp;gt;&amp;lt;/textarea&amp;gt;
-    &amp;lt;input type=&amp;#34;hidden&amp;#34; name=&amp;#34;_next&amp;#34; value=&amp;#34;&amp;lt;REDIRECTION LINK&amp;gt; &amp;#34;&amp;gt;
-    &amp;lt;input type=&amp;#34;hidden&amp;#34; name=&amp;#34;_subject&amp;#34; value=&amp;#34;New Contact Form Submission&amp;#34;&amp;gt;
-    &amp;lt;input type=&amp;#34;text&amp;#34; name=&amp;#34;_gotcha&amp;#34; style=&amp;#34;display:none&amp;#34;&amp;gt;
-    &amp;lt;input type=&amp;#34;submit&amp;#34; value=&amp;#34;Submit&amp;#34;&amp;gt;
-&amp;lt;/form&amp;gt;
-
-&amp;lt;style&amp;gt;
-form.wj-contact input[type=&amp;#34;text&amp;#34;], form.wj-contact textarea[type=&amp;#34;text&amp;#34;] {
-    width: 100%;
-    vertical-align: middle;
-    margin-top: 0.25em;
-    margin-bottom: 0.5em;
-    padding: 0.75em;
-    font-family: monospace, sans-serif;
-    font-weight: lighter;
-    border-style: solid;
-    border-color: #444;
-    outline-color: #2e83e6;
-    border-width: 1px;
-    border-radius: 3px;
-    transition: box-shadow .2s ease;
-}
-
-form.wj-contact input[type=&amp;#34;submit&amp;#34;] {
-    outline: none;
-    color: white;
-    background-color: #2e83e6;
-    border-radius: 3px;
-    padding: 0.5em;
-    margin: 0.25em 0 0 0;
-    border: 1px solid transparent;
-    height: auto;
-}
-&amp;lt;/style&amp;gt;
-&amp;lt;/form&amp;gt;
-
-&amp;lt;/p&amp;gt;
-</description>
-      <content:encoded><![CDATA[<p><img loading="lazy" src="/img/messagebox.webp" alt="Anonymous Box"  />
-
-
-
-<br>
-<form class="wj-contact" action="https://formspree.io/f/xbjqooad" method="POST">
-  <!--  <input type="text" name="email" placeholder="Email Address"> -->
-    <textarea type="text" name="content" rows="10" placeholder="Write your message here without revealing your identity"></textarea>
-    <input type="hidden" name="_next" value="<REDIRECTION LINK> ">
-    <input type="hidden" name="_subject" value="New Contact Form Submission">
-    <input type="text" name="_gotcha" style="display:none">
-    <input type="submit" value="Submit">
-</form>
-
-<style>
-form.wj-contact input[type="text"], form.wj-contact textarea[type="text"] {
-    width: 100%;
-    vertical-align: middle;
-    margin-top: 0.25em;
-    margin-bottom: 0.5em;
-    padding: 0.75em;
-    font-family: monospace, sans-serif;
-    font-weight: lighter;
-    border-style: solid;
-    border-color: #444;
-    outline-color: #2e83e6;
-    border-width: 1px;
-    border-radius: 3px;
-    transition: box-shadow .2s ease;
-}
-
-form.wj-contact input[type="submit"] {
-    outline: none;
-    color: white;
-    background-color: #2e83e6;
-    border-radius: 3px;
-    padding: 0.5em;
-    margin: 0.25em 0 0 0;
-    border: 1px solid transparent;
-    height: auto;
-}
-</style>
-</form>
-
-</p>
-]]></content:encoded>
+      <description>Send an Anonymous Message to Fahim Montasir</description>
     </item>
     
   </channel>
