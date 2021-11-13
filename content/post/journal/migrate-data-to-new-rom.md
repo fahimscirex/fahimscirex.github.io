@@ -11,6 +11,7 @@ cover:
   image: "/img/migrator.webp"
   alt: "Migrator"
   caption: "Migrate your Android app data"
+  relative: false
 description: Want to change your ROM but worried about your precious data? Here is an absolute solution to backup your android apps including data.
 ---
 
