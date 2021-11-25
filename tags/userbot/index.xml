@@ -48,6 +48,8 @@ or</li>
 <li><code>GH_MAIL</code> : Mail that you use to sign into GitHub.</li>
 <li><code>CREDS</code> : Link to your private repo but without (https://) eg. github.com/{username}/{private repo}.</li>
 <li><code>GH_TOKEN</code> : Go to <a href="https://github.com/settings/tokens">https://github.com/settings/tokens</a> to generate a token. Tick repo, workflow and user and hit generate. Copy the token and add it to the secrets.</li>
+<li><code>GH_REPO</code> : Your current repo. <code>username/reponame</code> e.g. fahimscirex/userbot-workflow</li>
+<li><code>TZ</code> : Timezone. Findout your timezone and put it in your secret. e.g. Asia/Dhaka.</li>
 </ul>
 <h2 id="deploy-your-bot">Deploy Your Bot</h2>
 <p>Our work is done. Now run a workflow and check the logs. If everything goes well your bot will restart in every six hours. You can check loop.txt to know when your bot restarted.</p>
