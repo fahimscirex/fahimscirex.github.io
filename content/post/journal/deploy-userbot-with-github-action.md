@@ -48,6 +48,8 @@ You've to add these following secrets -
 - `GH_MAIL` : Mail that you use to sign into GitHub.
 - `CREDS` : Link to your private repo but without (https://) eg. github.com/{username}/{private repo}.
 - `GH_TOKEN` : Go to https://github.com/settings/tokens to generate a token. Tick repo, workflow and user and hit generate. Copy the token and add it to the secrets.
+- `GH_REPO` : Your current repo. `username/reponame` e.g. fahimscirex/userbot-workflow
+- `TZ` : Timezone. Findout your timezone and put it in your secret. e.g. Asia/Dhaka.
 
 ## Deploy Your Bot
 Our work is done. Now run a workflow and check the logs. If everything goes well your bot will restart in every six hours. You can check loop.txt to know when your bot restarted.
