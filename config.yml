@@ -113,7 +113,7 @@ params:
           url: "https://goodreads.com/fahimscirex"
 
     editPost:
-        URL: "https://github.com/fahimscirex/fahimscirex.github.io/content"
+        URL: "https://github.com/fahimscirex/fahimscirex.github.io/blob/master/content"
         Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link
 
