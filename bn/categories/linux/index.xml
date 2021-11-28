@@ -1,23 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Linux on Fahim Montasir Misbah</title>
-    <link>https://fahimscirex.github.io/bn/categories/linux/</link>
-    <description>Recent content in Linux on Fahim Montasir Misbah</description>
-    <image>
-      <url>https://fahimscirex.github.io/img/blog-banner.webp</url>
-      <link>https://fahimscirex.github.io/img/blog-banner.webp</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 01 Mar 2021 11:14:19 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/bn/categories/linux/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Gaming on Linux</title>
-      <link>https://fahimscirex.github.io/bn/post/linux/gaming-on-linux/</link>
-      <pubDate>Mon, 01 Mar 2021 11:14:19 +0600</pubDate>
-      
-      <guid>https://fahimscirex.github.io/bn/post/linux/gaming-on-linux/</guid>
-      <description>Valve এবং AMD&amp;rsquo;র কারণে লিনাক্স গেমিং আগের থেকে বেশ ভালো অবস্থানে আছে। স্টিম প্রোটন কম্প্যাটিবিলিটি লেয়ার দিয়ে অনেক গেম এখন আউট অব দ্য বক্স খেলা যাচ্ছে, আর CS:GO, Tomb Raider, Dota 2 এর মতন নেটিভ গেমস তো আছেই। Steam যে লিনাক্সে এভেলেবল সেটা অনেক পুরোনো খবর। Epic Games Launcher ও ব্যবহার করা যাচ্ছে বছর দুয়েক হলো। এছাড়াও সম্প্রতি Heroic Launcher নামে এপিক গেমস এর আরো একটা আনঅফিসিয়াল ক্লায়েন্ট পাবলিশ হয়েছে।</description>
-      <content:encoded><![CDATA[<p>Valve এবং AMD&rsquo;র কারণে লিনাক্স গেমিং আগের থেকে বেশ ভালো অবস্থানে আছে। স্টিম প্রোটন কম্প্যাটিবিলিটি লেয়ার দিয়ে অনেক গেম এখন আউট অব দ্য বক্স খেলা যাচ্ছে, আর CS:GO, Tomb Raider, Dota 2 এর মতন নেটিভ গেমস তো আছেই। Steam যে লিনাক্সে এভেলেবল সেটা অনেক পুরোনো খবর। Epic Games Launcher ও ব্যবহার করা যাচ্ছে বছর দুয়েক হলো। এছাড়াও সম্প্রতি Heroic Launcher নামে এপিক গেমস এর আরো একটা আনঅফিসিয়াল ক্লায়েন্ট পাবলিশ হয়েছে।</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Linux on Fahim Montasir Misbah</title><link>https://fahimscirex.github.io/bn/categories/linux/</link><description>Recent content in Linux on Fahim Montasir Misbah</description><image><url>https://fahimscirex.github.io/img/blog-banner.webp</url><link>https://fahimscirex.github.io/img/blog-banner.webp</link></image><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 01 Mar 2021 11:14:19 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/bn/categories/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Gaming on Linux</title><link>https://fahimscirex.github.io/bn/post/linux/gaming-on-linux/</link><pubDate>Mon, 01 Mar 2021 11:14:19 +0600</pubDate><guid>https://fahimscirex.github.io/bn/post/linux/gaming-on-linux/</guid><description>Valve এবং AMD&amp;rsquo;র কারণে লিনাক্স গেমিং আগের থেকে বেশ ভালো অবস্থানে আছে। স্টিম প্রোটন কম্প্যাটিবিলিটি লেয়ার দিয়ে অনেক গেম এখন আউট অব দ্য বক্স খেলা যাচ্ছে, আর CS:GO, Tomb Raider, Dota 2 এর মতন নেটিভ গেমস তো আছেই। Steam যে লিনাক্সে এভেলেবল সেটা অনেক পুরোনো খবর। Epic Games Launcher ও ব্যবহার করা যাচ্ছে বছর দুয়েক হলো। এছাড়াও সম্প্রতি Heroic Launcher নামে এপিক গেমস এর আরো একটা আনঅফিসিয়াল ক্লায়েন্ট পাবলিশ হয়েছে।</description><content:encoded><![CDATA[<p>Valve এবং AMD&rsquo;র কারণে লিনাক্স গেমিং আগের থেকে বেশ ভালো অবস্থানে আছে। স্টিম প্রোটন কম্প্যাটিবিলিটি লেয়ার দিয়ে অনেক গেম এখন আউট অব দ্য বক্স খেলা যাচ্ছে, আর CS:GO, Tomb Raider, Dota 2 এর মতন নেটিভ গেমস তো আছেই। Steam যে লিনাক্সে এভেলেবল সেটা অনেক পুরোনো খবর। Epic Games Launcher ও ব্যবহার করা যাচ্ছে বছর দুয়েক হলো। এছাড়াও সম্প্রতি Heroic Launcher নামে এপিক গেমস এর আরো একটা আনঅফিসিয়াল ক্লায়েন্ট পাবলিশ হয়েছে।</p>
 <p><img loading="lazy" src="/img/gaming-on-linux.webp" alt="Gaming-on-Linux"  />
 </p>
 <p>কীভাবে গেমিং করা যাবে সেই নিয়েই সামান্য ধারণা দিচ্ছি -</p>
@@ -30,8 +11,4 @@
 </ul>
 <p>লিনাক্স ডিস্ট্রোগুলোতে কোন গেম কতটুকু কম্প্যাটিবল সেই সম্পর্কে বিস্তারিত জানা যাবে ProtonDB এর মাধ্যমে। ProtonDB তে গিয়ে গেমের নাম সার্চ করলেই রেজাল্টে দেখা যায় সেই গেম সম্পর্কে ইউজারদের রিভিউ। ব্রোন্জ, প্ল্যাটিনাম, গোল্ড ইত্যাদি ট্যাগ এর মাধ্যমে প্রতিটি গেমের কম্প্যাটিবিলিটি মার্ক করা হয় এখানে।
 আশা করছি যারা লিনাক্স ইউজার আছেন তারা লিনাক্সে গেমিং সম্পর্কে মোটামুটি একটা ধারণা পেয়ে যাবেন।</p>
-]]></content:encoded>
-    </item>
-    
-  </channel>
-</rss>
+]]></content:encoded></item></channel></rss>

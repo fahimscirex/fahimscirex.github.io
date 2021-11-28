@@ -1,23 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Journal on Fahim Montasir Misbah</title>
-    <link>https://fahimscirex.github.io/categories/journal/</link>
-    <description>Recent content in Journal on Fahim Montasir Misbah</description>
-    <image>
-      <url>https://fahimscirex.github.io/img/blog-banner.webp</url>
-      <link>https://fahimscirex.github.io/img/blog-banner.webp</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 11 Nov 2021 16:49:25 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/categories/journal/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>How did I migrate my user data to another ROM?</title>
-      <link>https://fahimscirex.github.io/post/journal/migrate-data-to-new-rom/</link>
-      <pubDate>Thu, 11 Nov 2021 16:49:25 +0600</pubDate>
-      
-      <guid>https://fahimscirex.github.io/post/journal/migrate-data-to-new-rom/</guid>
-      <description>Want to change your ROM but worried about your precious data? Here is an absolute solution to backup your android apps including data.</description>
-      <content:encoded><![CDATA[<p>While I couldn&rsquo;t get the Migrate app working in my device I found something that worked for me. <a href="https://github.com/VR-25/migrator">Migrator</a> : A backup solution and data migration utility for Android.</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Journal on Fahim Montasir Misbah</title><link>https://fahimscirex.github.io/categories/journal/</link><description>Recent content in Journal on Fahim Montasir Misbah</description><image><url>https://fahimscirex.github.io/img/blog-banner.webp</url><link>https://fahimscirex.github.io/img/blog-banner.webp</link></image><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 11 Nov 2021 16:49:25 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/categories/journal/index.xml" rel="self" type="application/rss+xml"/><item><title>How did I migrate my user data to another ROM?</title><link>https://fahimscirex.github.io/post/journal/migrate-data-to-new-rom/</link><pubDate>Thu, 11 Nov 2021 16:49:25 +0600</pubDate><guid>https://fahimscirex.github.io/post/journal/migrate-data-to-new-rom/</guid><description>Want to change your ROM but worried about your precious data? Here is an absolute solution to backup your android apps including data.</description><content:encoded><![CDATA[<p>While I couldn&rsquo;t get the Migrate app working in my device I found something that worked for me. <a href="https://github.com/VR-25/migrator">Migrator</a> : A backup solution and data migration utility for Android.</p>
 <p>Basically it&rsquo;s a collection of some shell scripts that will assist you to copy app, data, permissions and other necessary stuffs and restore them afterwards. It&rsquo;s usable as a Magisk module or as a standalone shell script.</p>
 <ul>
 <li>
@@ -39,17 +20,7 @@
 <blockquote>
 <p>Note : You&rsquo;ll get more information in the README of Migrator&rsquo;s repo, so follow that.</p>
 </blockquote>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Host Telegram Userbot on GitHub w/o Any Charge</title>
-      <link>https://fahimscirex.github.io/post/journal/deploy-userbot-with-github-action/</link>
-      <pubDate>Fri, 15 Oct 2021 19:17:55 +0600</pubDate>
-      
-      <guid>https://fahimscirex.github.io/post/journal/deploy-userbot-with-github-action/</guid>
-      <description>Most of the Cloud Platform bans account for hosting userbots. Well, good news for you! You don&amp;#39;t have to worry about getting banned again. Here&amp;#39;s how.</description>
-      <content:encoded><![CDATA[<p>Most of the Cloud Platform doesn&rsquo;t allow hosting userbot. Your account could get banned if you try to host any or if you&rsquo;re lucky you&rsquo;ll be able to use your bot for a while. Setting up a new account frequently and hosting bot on it is a hell of a work, that&rsquo;s why it&rsquo;s wise to use GitHub Actions.</p>
+]]></content:encoded></item><item><title>Host Telegram Userbot on GitHub w/o Any Charge</title><link>https://fahimscirex.github.io/post/journal/deploy-userbot-with-github-action/</link><pubDate>Fri, 15 Oct 2021 19:17:55 +0600</pubDate><guid>https://fahimscirex.github.io/post/journal/deploy-userbot-with-github-action/</guid><description>Most of the Cloud Platform bans account for hosting userbots. Well, good news for you! You don&amp;#39;t have to worry about getting banned again. Here&amp;#39;s how.</description><content:encoded><![CDATA[<p>Most of the Cloud Platform doesn&rsquo;t allow hosting userbot. Your account could get banned if you try to host any or if you&rsquo;re lucky you&rsquo;ll be able to use your bot for a while. Setting up a new account frequently and hosting bot on it is a hell of a work, that&rsquo;s why it&rsquo;s wise to use GitHub Actions.</p>
 <p>GitHub Actions' Workflows aren&rsquo;t meant to be used as a Cloud Platform (eg. Heroku, Railway) but if it can get your job done then why won&rsquo;t you take the advantage? Moreover, you won&rsquo;t have to pay a single penny.</p>
 <p>Before taking you to the procedure there&rsquo;s one thing you should know. <strong>Your bot will restart in every 6 hours</strong>. Cause maximum Action timeout is 360 minutes. Well, Heroku apps also restarts in every 6 hours but the main difference here is, your data won&rsquo;t be stored on GitHub.</p>
 <p>For example if you use ytdl to download a video usually it goes into download folder and stays there unless you delete it. But with GitHub Action those downloaded files will be gone when your Actions time is finished. I hope you got me.</p>
@@ -85,17 +56,7 @@ or</li>
 </ul>
 <h2 id="deploy-your-bot">Deploy Your Bot</h2>
 <p>Our work is done. Now run a workflow and check the logs. If everything goes well your bot will restart in every six hours. You can check loop.txt to know when your bot restarted.</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Restoring Windows 10 EFI/GPT Bootloader</title>
-      <link>https://fahimscirex.github.io/post/journal/restore-windows-10-efi-bootloader/</link>
-      <pubDate>Sat, 26 Jun 2021 12:40:51 +0600</pubDate>
-      
-      <guid>https://fahimscirex.github.io/post/journal/restore-windows-10-efi-bootloader/</guid>
-      <description>Bootloader partition is gone? Can&amp;#39;t boot to Windows after installing Linux? Don&amp;#39;t worry, follow this guide and restore your bootloader partition.</description>
-      <content:encoded><![CDATA[<p>Few days ago I installed Archcraft again. The latest update has some cool stuffs, I wanted to try them. As usual both of my bootloader was gone, I use a dual booted system. I&rsquo;ve faced that issue many times and fixed that on my own. But this time it was a litte different, this happened for the first time after switching to UEFI from Legacy. Also it was the first time after I&rsquo;ve started using systemd-boot instead of GRUB.</p>
+]]></content:encoded></item><item><title>Restoring Windows 10 EFI/GPT Bootloader</title><link>https://fahimscirex.github.io/post/journal/restore-windows-10-efi-bootloader/</link><pubDate>Sat, 26 Jun 2021 12:40:51 +0600</pubDate><guid>https://fahimscirex.github.io/post/journal/restore-windows-10-efi-bootloader/</guid><description>Bootloader partition is gone? Can&amp;#39;t boot to Windows after installing Linux? Don&amp;#39;t worry, follow this guide and restore your bootloader partition.</description><content:encoded><![CDATA[<p>Few days ago I installed Archcraft again. The latest update has some cool stuffs, I wanted to try them. As usual both of my bootloader was gone, I use a dual booted system. I&rsquo;ve faced that issue many times and fixed that on my own. But this time it was a litte different, this happened for the first time after switching to UEFI from Legacy. Also it was the first time after I&rsquo;ve started using systemd-boot instead of GRUB.</p>
 <p>So the thing was my /boot partition got deleted, I don&rsquo;t know exactly how that happened. Cause /boot is a separate partition. AFAIK /boot doesn&rsquo;t get deleted during installation. Probably it was because ABIF, that tool formatted /boot partition.</p>
 <p>As I didn&rsquo;t have backup of my /boot partition, I was panicked that I would&rsquo;ve to reinstall Windows to restore the Windows Boot Manager. I spend hours searching for a solution to recreate the Windows 10 bootloader, tried everything I got and finally got a really simple solution.</p>
 <p>Let&rsquo;s jump into it.</p>
@@ -150,21 +111,7 @@ or</li>
 <p>Now bootloader should be copied from c: drive to f: drive. Run <code>bcdedit</code> to confirm that.</p>
 <p>Note : It&rsquo;s better to keep only one ESP. So use bcdboot on a temporary ESP partition and copy files to /boot. So that your systemd-boot stays as it is.</p>
 <p>That&rsquo;s all need to do for restoration. Hit me if goes anything wrong. :3</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Capernaum</title>
-      <link>https://fahimscirex.github.io/post/journal/capernaum/</link>
-      <pubDate>Mon, 11 Jan 2021 18:43:00 +0600</pubDate>
-      
-      <guid>https://fahimscirex.github.io/post/journal/capernaum/</guid>
-      <description>I can’t remember when the last time I’d watched a movie like Capernaum. But this movie has won my heart, I can say that without any doubt. Capernaum is a name of ancient Israeli city which was condemned to hell by Jesus. In french literature it is used to portray hell, chaos; a large mess that seems impossible to clean. Director Nadine Labaki has taken the word ‘Capernaum’ to signify the lifestyle of a young boy in chaotic, merciless Beirut.</description>
-      <content:encoded><![CDATA[<p>I can’t remember when the last time I’d watched a movie like Capernaum. But this movie has won my heart, I can say that without any doubt. Capernaum is a name of ancient Israeli city which was condemned to hell by Jesus. In french literature it is used to portray hell, chaos; a large mess that seems impossible to clean. Director Nadine Labaki has taken the word ‘Capernaum’ to signify the lifestyle of a young boy in chaotic, merciless Beirut.</p>
+]]></content:encoded></item><item><title>Capernaum</title><link>https://fahimscirex.github.io/post/journal/capernaum/</link><pubDate>Mon, 11 Jan 2021 18:43:00 +0600</pubDate><guid>https://fahimscirex.github.io/post/journal/capernaum/</guid><description>I can’t remember when the last time I’d watched a movie like Capernaum. But this movie has won my heart, I can say that without any doubt. Capernaum is a name of ancient Israeli city which was condemned to hell by Jesus. In french literature it is used to portray hell, chaos; a large mess that seems impossible to clean. Director Nadine Labaki has taken the word ‘Capernaum’ to signify the lifestyle of a young boy in chaotic, merciless Beirut.</description><content:encoded><![CDATA[<p>I can’t remember when the last time I’d watched a movie like Capernaum. But this movie has won my heart, I can say that without any doubt. Capernaum is a name of ancient Israeli city which was condemned to hell by Jesus. In french literature it is used to portray hell, chaos; a large mess that seems impossible to clean. Director Nadine Labaki has taken the word ‘Capernaum’ to signify the lifestyle of a young boy in chaotic, merciless Beirut.</p>
 <p>In recent time more than a million Syrian came to Lebanon as refugee. Capernaum showed an important story of their lifestyle. Zain, an little angry Syrian refugee kid who doesn’t know his birth date nor his parents has any documentation of his existence. He blames his abusive parents for bringing him in to this world, a world full of mess. I was awestruck by his performance. His personal life isn’t much different than the character he played, that’s why he made the overall environment more realistic.</p>
 <p>Overall this movie is a debatable one also, it questions human existence. Why people take childs if they can’t ensure a better life for them?</p>
-]]></content:encoded>
-    </item>
-    
-  </channel>
-</rss>
+]]></content:encoded></item></channel></rss>

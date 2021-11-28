@@ -1,23 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>OneDrive on Fahim Montasir Misbah</title>
-    <link>https://fahimscirex.github.io/tags/onedrive/</link>
-    <description>Recent content in OneDrive on Fahim Montasir Misbah</description>
-    <image>
-      <url>https://fahimscirex.github.io/img/blog-banner.webp</url>
-      <link>https://fahimscirex.github.io/img/blog-banner.webp</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 12 Jun 2021 22:15:05 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/tags/onedrive/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>OneDrive Synchronization in Linux</title>
-      <link>https://fahimscirex.github.io/post/linux/onedrive-synchronization/</link>
-      <pubDate>Sat, 12 Jun 2021 22:15:05 +0600</pubDate>
-      
-      <guid>https://fahimscirex.github.io/post/linux/onedrive-synchronization/</guid>
-      <description>OneDrive doesn&amp;#39;t have any official client for Linux but still you can do the synchronization. Check out how.</description>
-      <content:encoded><![CDATA[<p>OneDrive doesn&rsquo;t have any official client in Linux. So after getting a 5TB OneDrive storage I went for two clients</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>OneDrive on Fahim Montasir Misbah</title><link>https://fahimscirex.github.io/tags/onedrive/</link><description>Recent content in OneDrive on Fahim Montasir Misbah</description><image><url>https://fahimscirex.github.io/img/blog-banner.webp</url><link>https://fahimscirex.github.io/img/blog-banner.webp</link></image><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 12 Jun 2021 22:15:05 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/tags/onedrive/index.xml" rel="self" type="application/rss+xml"/><item><title>OneDrive Synchronization in Linux</title><link>https://fahimscirex.github.io/post/linux/onedrive-synchronization/</link><pubDate>Sat, 12 Jun 2021 22:15:05 +0600</pubDate><guid>https://fahimscirex.github.io/post/linux/onedrive-synchronization/</guid><description>OneDrive doesn&amp;#39;t have any official client for Linux but still you can do the synchronization. Check out how.</description><content:encoded><![CDATA[<p>OneDrive doesn&rsquo;t have any official client in Linux. So after getting a 5TB OneDrive storage I went for two clients</p>
 <ul>
 <li>
 <p><a href="https://github.com/abraunegg/onedrive/">onedrive-abraunegg</a>: abraunegg&rsquo;s fork of OneDrive CLI client by skilion. Basically it does the synchronization part.</p>
@@ -50,8 +31,4 @@ $ cp /usr/share/doc/onedrive/config ~/.config/onedrive/config
 </code></pre></div><p>To stop the service</p>
 <div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ systemctl --user disable --now onedrive
 </code></pre></div><p>If you think you need more detailed instruction for usage check the GitHub <a href="https://github.com/abraunegg/onedrive/blob/master/docs/USAGE.md">repo</a>.</p>
-]]></content:encoded>
-    </item>
-    
-  </channel>
-</rss>
+]]></content:encoded></item></channel></rss>
