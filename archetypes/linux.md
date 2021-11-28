@@ -6,5 +6,10 @@ categories:
 - Linux
 tags:
 - Linux
-bigimg: [{ src: "/img/cover.webp" }]
+cover:
+    image:
+    alt:
+    caption:
+    relative: false
+description:
 ---

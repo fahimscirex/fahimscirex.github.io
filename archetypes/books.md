@@ -6,6 +6,10 @@ categories:
 - Book Review
 tags:
 - Books
-layout: post
-bigimg: [{src: "/img/cover.webp"}]
+cover:
+    image:
+    alt:
+    caption:
+    relative: false
+description:
 ---
