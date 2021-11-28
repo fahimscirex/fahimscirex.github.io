@@ -10,7 +10,7 @@ tags:
 description: Using WARP you can encrypt your DNS requests as well as bypass blocked sites. Here's how you can get unlimited WARP+ data and use that on Linux.
 ---
 
-> **Update : 23/10/2021** > As there's a official CLI out there. So I'm updating the post with instructions for that too.
+> **Update : 23/10/2021** > As there's a official CLI out there, I'm updating the post with instructions for that too.
 
 
 Cloudflare's Warp is a great service to re-route DNS query and bypass blocked website. ~~Though it has clients for Windows, Mac, Android, IOS it doesn't have a Warp client for Linux. Still we can use an unofficial client to get our work done.~~ It has clients for Windows, Mac, Linux, Android, IOS. You can use it in Linux through the official CLI client or with WGCF.
