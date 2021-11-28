@@ -257,7 +257,7 @@ click-left = env LD_PRELOAD=/usr/lib/spotify-adblock.so spotify %U &amp;
       <guid>https://fahimscirex.github.io/post/linux/setup-cloudflare-warp/</guid>
       <description>Using WARP you can encrypt your DNS requests as well as bypass blocked sites. Here&amp;#39;s how you can get unlimited WARP&#43; data and use that on Linux.</description>
       <content:encoded><![CDATA[<blockquote>
-<p><strong>Update : 23/10/2021</strong> &gt; As there&rsquo;s a official CLI out there. So I&rsquo;m updating the post with instructions for that too.</p>
+<p><strong>Update : 23/10/2021</strong> &gt; As there&rsquo;s a official CLI out there, I&rsquo;m updating the post with instructions for that too.</p>
 </blockquote>
 <p>Cloudflare&rsquo;s Warp is a great service to re-route DNS query and bypass blocked website. <del>Though it has clients for Windows, Mac, Android, IOS it doesn&rsquo;t have a Warp client for Linux. Still we can use an unofficial client to get our work done.</del> It has clients for Windows, Mac, Linux, Android, IOS. You can use it in Linux through the official CLI client or with WGCF.</p>
 <h2 id="method-1--warp-desktop-client">Method 1 : WARP Desktop Client</h2>
