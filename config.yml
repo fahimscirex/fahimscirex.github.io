@@ -11,7 +11,7 @@ buildExpired: false
 enableEmoji: true
 
 minify:
-    disableXML: true
+    disableXML: false
     minifyOutput: true
 
 languages:
@@ -29,9 +29,6 @@ languages:
                 - name: Contact
                   url: https://fahimscirex.github.io/about/#contact
                   weight: 10
-             #   - name: Categories
-             #     url: categories/
-             #     weight: 10
 
     bn:
         languageName: "Bangla"
@@ -51,9 +48,6 @@ languages:
                 - name: যোগাযোগ
                   url: https://fahimscirex.github.io/about/#contact
                   weight: 10
-        #        - name: xxxx
-        #          url: xxxx
-        #          weight: 10
         homeInfoParams:
                 Title: "ফাহিম মোন্তাসির মিসবাহ"
                 Content: >
@@ -97,8 +91,9 @@ params:
 
     homeInfoParams:
         Title: "Fahim Montasir Misbah"
-        Content: >
-             ![Fahim Montasir](/img/avatar-circle.webp)
+        Content: INFP-T | FOSS ENTHUSIAST | BIBLIOPHILE
+
+    # ![Fahim Montasir](/img/avatar-circle.webp)
 
     socialIcons:
         - name: telegram
@@ -122,7 +117,7 @@ params:
             SiteVerificationTag: "yBRESuR4j8lYoZ7IGugAaYEZ0c6dU0uj8n7Y-wrXPdg"
 
     label:
-         text: "/"
+         text: "Fahim Montasir"
          icon: /img/avatar-circle.webp
          iconHeight: 35
 
