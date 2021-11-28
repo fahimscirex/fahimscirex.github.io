@@ -1,0 +1,13 @@
+/* Increased image width a bit  */
+.post-content img {
+    border-radius: 4px;
+    max-width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Increased the size of table head  */
+.post-content table th {
+    font-size: 20px;
+    text-align: start;
+}
