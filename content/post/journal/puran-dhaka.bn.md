@@ -2,6 +2,12 @@
 title: "পুরান ঢাকায় একদিন"
 date: 2022-01-08T09:11:09+06:00
 draft: false
+categories:
+- Journal
+tags:
+- Journal
+- Puran Dhaka
+- Traveling
 cover:
     image: "/img/puran-dhaka/lalbagh-fort.webp"
     alt: "Puran Dhaka"
