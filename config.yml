@@ -70,7 +70,7 @@ params:
     keywords: [Blog, Books, Linux, FOSS, fahimscirex]
     author: Fahim Montasir Misbah
     # author: ["Me", "You"] # multiple authors
-    images: ["/img/blog-banner.webp"]
+    images: ["/img/fahim-montasir-og-image.png"]
     DateFormat: "January 2, 2006"
     defaultTheme: auto # dark, light
     disableThemeToggle: false
