@@ -1,0 +1,76 @@
+env: development # to enable google analytics, opengraph, twitter-cards and schema.
+title: Plugged Into Matrix
+description: "Hey there! I share my thoughts about technology, books and other stuffs here. You may want to know about some cool hacks, so check out my blog!"
+keywords: [Blog, Books, Linux, FOSS, fahimscirex]
+author: Fahim Montasir Misbah
+# author: ["Me", "You"] # multiple authors
+images: "/img/cover.png"
+DateFormat: "January 2, 2006"
+
+defaultTheme: dark # auto, dark, light
+disableThemeToggle: false
+
+ShowFullTextinRSS: true
+ShowReadingTime: true
+ShowShareButtons: true
+ShowPostNavLinks: true
+ShowBreadCrumbs: false
+ShowCodeCopyButtons: true
+
+disableSpecial1stPost: true
+disableScrollToTop: false
+comments: true
+hidemeta: true
+hideSummary: false
+showtoc: true
+tocopen: false
+
+socialIcons:
+        - name: telegram
+          url: "https://t.me/fahimscirex"    
+        - name: twitter
+          url: "https://twitter.com/fahimscirex"
+        - name: mastodon
+          url: "https://fosstodon.org/web/accounts/313800"
+        - name: github
+          url: "https://github.com/fahimscirex"
+        - name: goodreads
+          url: "https://goodreads.com/fahimscirex"
+
+editPost:
+        URL: "https://github.com/fahimscirex/fahimscirex.github.io/blob/master/content"
+        Text: "Suggest Changes" # edit text
+        appendFilePath: true # to append file path to Edit link
+
+analytics:
+        google:
+            SiteVerificationTag: "yBRESuR4j8lYoZ7IGugAaYEZ0c6dU0uj8n7Y-wrXPdg"
+
+label:
+        text: " "
+        icon: /img/avatar-circle.webp
+        iconHeight: 35
+
+assets:
+        # disableHLJS: true # to disable highlight.js
+        disableFingerprinting: true
+        favicon: "img/favicon.ico"
+        favicon16x16: "img/favicon.ico"
+        #favicon32x32: "<link / abs url>"
+        apple_touch_icon: "img/favicon.ico"
+        #safari_pinned_tab: "<link / abs url>"
+
+cover:
+        hidden: true # hide everywhere but not in structured data
+        hiddenInList: true # hide on list pages and home
+        hiddenInSingle: true # hide on single page
+        relative: false
+
+fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "description", "content"]

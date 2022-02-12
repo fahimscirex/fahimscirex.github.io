@@ -1,0 +1,82 @@
+title: Plugged Into Matrix
+baseURL: "https://fahimscirex.gitlab.io/"
+theme: papermod
+paginate: 6
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+permalinks:
+    posts: '/:sections[1]/:filename/'
+    pages: '/:filename/'
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+    section:
+        - HTML
+        - RSS
+
+minify:
+    disableXML: false
+    minifyOutput: true
+
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
+
+markup:
+    goldmark:
+        extensions:
+            definitionList: true
+            footnote: true
+            linkify: true
+            strikethrough: true
+            table: true
+            taskList: true
+            typographer: true
+        renderer:
+            unsafe: true
+    highlight:
+        anchorLineNos: false
+        codeFences: true
+        guessSyntax: true
+        hl_Lines: ""
+        lineAnchors: ""
+        lineNoStart: 1
+        lineNos: false
+        lineNumbersInTable: true
+        noClasses: true
+        style: nord
+        tabWidth: 4
+
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true

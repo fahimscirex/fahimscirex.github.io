@@ -1,0 +1,13 @@
+main:
+  - name: খোঁজ - দ্য সার্চ
+    url: '/search/'
+    weight: 5
+  - name: আর্কাইভ
+    url: '/archive/'
+    weight: 10
+  - name: বিভাগ
+    url: categories
+    weight: 15
+  - name: যোগাযোগ
+    url: https://fahimscirex.github.io/about/#contact
+    weight: 20
