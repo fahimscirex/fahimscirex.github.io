@@ -12,6 +12,8 @@ tags:
 description: Most of the Cloud Platform bans account for hosting userbots. Well, good news for you! You don't have to worry about getting banned again. Here's how.
 ---
 
+> 13.11.2022, Update : GitHub has removed the repo, will continue removing repo which tries to host bot. This post is useless now.  
+
 Most of the Cloud Platform doesn't allow hosting userbot. Your account could get banned if you try to host any or if you're lucky you'll be able to use your bot for a while. Setting up a new account frequently and hosting bot on it is a hell of a work, that's why it's wise to use GitHub Actions.
 
 GitHub Actions' Workflows aren't meant to be used as a Cloud Platform (eg. Heroku, Railway) but if it can get your job done then why won't you take the advantage? Moreover, you won't have to pay a single penny.
