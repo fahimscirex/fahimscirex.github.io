@@ -1,3 +1,17 @@
 homeInfoParams:
-    Title: "ফাহিম মুনতাসির মিসবাহ"
-    Content: INFP-T | FOSS ENTHUSIAST | BIBLIOPHILE
+    Title: "জগাখিচুড়ি"
+    Content: হ্যালো, আমি [ফাহিম মুনতাসির মিসবাহ](/about)। জগাখিচুড়িতে আপনাকে স্বাগত। এমন নামকরণের পেছনের কারণ হলো আমার লেখার বাধাধরা কোনো বিষয় নেই। নানান রকম লেখা মিলিয়ে এই ব্লগ একরকম জগাখিচুড়িই। [ইংরেজি](/) লেখাগুলোর জন্যে আলাদা সেকশন রয়েছে, সেগুলোও দেখতে পারেন। আপনার দিন শুভ হোক :)
+
+socialIcons:
+        - name: telegram
+          url: "https://t.me/fahimscirex"    
+        - name: twitter
+          url: "https://twitter.com/fahimscirex"
+        - name: mastodon
+          url: "https://fosstodon.org/web/accounts/313800"
+        - name: github
+          url: "https://github.com/fahimscirex"
+        - name: goodreads
+          url: "https://goodreads.com/fahimscirex"
+        - name: rss
+          url: "/bn/rss.xml"

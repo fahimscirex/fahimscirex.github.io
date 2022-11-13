@@ -36,6 +36,8 @@ socialIcons:
           url: "https://github.com/fahimscirex"
         - name: goodreads
           url: "https://goodreads.com/fahimscirex"
+        - name: rss
+          url: "/rss.xml"
 
 editPost:
         URL: "https://github.com/fahimscirex/fahimscirex.github.io/blob/master/content"

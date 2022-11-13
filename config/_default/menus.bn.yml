@@ -5,7 +5,7 @@ main:
   - name: আর্কাইভ
     url: '/archive/'
     weight: 10
-  - name: বিভাগ
+  - name: বিভাগসমূহ
     url: categories
     weight: 15
   - name: যোগাযোগ
