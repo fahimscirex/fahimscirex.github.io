@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "scirex.me",
+  "Id": "7d4840c6-07d8-40c5-9c14-4a66fee0631c"
+}
