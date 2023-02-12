@@ -8,6 +8,6 @@ main:
   - name: Categories
     url: '/categories'
     weight: 15
-  - name: Contact
-    url: https://fahimscirex.github.io/about/#contact
+  - name: Resume
+    url: '/resume'
     weight: 20

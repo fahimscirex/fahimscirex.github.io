@@ -8,6 +8,6 @@ main:
   - name: বিভাগসমূহ
     url: categories
     weight: 15
-  - name: যোগাযোগ
-    url: https://fahimscirex.github.io/about/#contact
+  - name: রিজিউমি
+    url: '/resume'
     weight: 20
