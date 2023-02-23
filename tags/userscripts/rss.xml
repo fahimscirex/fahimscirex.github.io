@@ -1,4 +1,93 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>userscripts on Plugged Into Matrix</title><link>https://fahimscirex.github.io/tags/userscripts/</link><description>Recent content in userscripts on Plugged Into Matrix</description><image><url>https://fahimscirex.github.io/47</url><link>https://fahimscirex.github.io/47</link></image><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 28 Oct 2022 09:36:59 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/tags/userscripts/rss.xml" rel="self" type="application/rss+xml"/><item><title>My Take on Demolition</title><link>https://fahimscirex.github.io/jrnl/my-take-on-demolition/</link><pubDate>Tue, 31 Jan 2023 23:10:02 +0600</pubDate><guid>https://fahimscirex.github.io/jrnl/my-take-on-demolition/</guid><description><![CDATA[<p>I finished watching <a href="https://www.imdb.com/title/tt1172049/">Demolition</a> (2015) today starring Jake Gyllenhaal. I had never experienced like this before. Or maybe I did; I just don&rsquo;t remember those moments. I felt connected to the story, to Davis&rsquo;s feelings. It was like I was realizing every moment, and everything happened around it.</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>userscripts on Plugged Into Matrix</title><link>https://fahimscirex.github.io/tags/userscripts/</link><description>Recent content in userscripts on Plugged Into Matrix</description><image><url>https://fahimscirex.github.io/47</url><link>https://fahimscirex.github.io/47</link></image><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 28 Oct 2022 09:36:59 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/tags/userscripts/rss.xml" rel="self" type="application/rss+xml"/><item><title>Absolute Basics of MPV</title><link>https://fahimscirex.github.io/bits/mpv-basics/</link><pubDate>Wed, 22 Feb 2023 18:48:01 +0600</pubDate><guid>https://fahimscirex.github.io/bits/mpv-basics/</guid><description><![CDATA[<p>For media players there are plenty of options to choose from. But I like to stick with mpv, mostly because it&rsquo;s absolutely minimal and higly configurable. It doesn&rsquo;t have an UI like VLC or Pot Player, but it&rsquo;s very easy to use and you&rsquo;re not bound to anything, write your scripts and configure as you want. If you don&rsquo;t know scripting, mpv-scripts have got you covered with a huge collection of scripts from the community.</p>
+<p>Now, when I said it&rsquo;s minimal I actually meant it. Sure, default config works out of the box but you may want to take it a few step further. That&rsquo;s where this guide is going to help you, at least I hope it would.</p>
+<h2 id="configuration-file">Configuration File</h2>
+<p>The file <em>mpv.conf</em> contains all of the required configuration. The system-wide location for the config file usually is <em>/etc/mpv</em> and user-specific directory is <code>~/.config/mpv/</code>.</p>
+<p>Config file looks like this :</p>
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># Use GPU-accelerated video output by default.
+</span></span><span style="display:flex;"><span>vo=gpu
+</span></span><span style="display:flex;"><span># Use quotes for text that can contain spaces:
+</span></span><span style="display:flex;"><span>term-status-msg=&#34;Time: ${time-pos}&#34;
+</span></span></code></pre></div><h2 id="video">Video</h2>
+<p>Here is my current config that handles the video section :</p>
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>vo=gpu-next
+</span></span><span style="display:flex;"><span>gpu-api=vulkan
+</span></span><span style="display:flex;"><span>vo-vaapi-scaling=hq
+</span></span><span style="display:flex;"><span>hwdec=vaapi
+</span></span><span style="display:flex;"><span>hwdec-codecs=all
+</span></span><span style="display:flex;"><span>scale=ewa_lanczos
+</span></span><span style="display:flex;"><span>scale-blur=0.981251
+</span></span></code></pre></div><h3 id="vodriver1driver2"><code>vo=&lt;driver1,driver2,...[,]&gt;</code></h3>
+<p>By default the selected video output driver is <em>gpu</em>, as the name suggests it&rsquo;s gpu-accelarated. It&rsquo;s fairly enough, and that&rsquo;s what you should use if you don&rsquo;t want any hassle. But I use <em>gpu-next</em>, which is experimental driver and has bugs. It has almost everything what <em>gpu</em> offers, but it&rsquo;s faster, provides better quality. video drivers can be overridden using the <em>vo</em> flag</p>
+<p>Also there are drivers that are only compatible with X11, such as <em>xv</em>, <em>x11</em>, <em>vdpau</em>. Dedicated <em>rpi</em> driver for Raspberry Pi. <em>dmabuf-wayland</em> and <em>wlshm</em> for Wayland etc. Check <a href="https://mpv.io/manual/master/#video-output-drivers">this</a> for all available drivers.</p>
+<h3 id="gpu-apitype"><code>gpu-api=&lt;type&gt;</code></h3>
+<p><em>gpu-api</em> controls which type of graphics APIs will be accepted. Available options are <em>auto</em>, <em>opengl</em>, <em>vulkan</em>, <em>d3d11</em>. If you have relatively modern hardware you should use <em>vulkan</em>, as it gives better performance but if you face issues you should get back to <em>opengl</em> that&rsquo;s the default.</p>
+<h3 id="hwdecapi"><code>hwdec=&lt;api&gt;</code></h3>
+<p>Specifies which hardware decoding api should be used, see <a href="https://mpv.io/manual/master/#options-hwdec">this</a> for available options. Hardware decoding is turned off by default, as it requires modern hardware. If you don&rsquo;t want to go through which options is suitable for you, just use <em>yes</em> it will automatically use available decoders. If you explicitly want to specify then use <em>nvdec</em> for NVIDIA GPU&rsquo;s otherwise you should use <em>vaapi</em> for the most cases.</p>
+<h3 id="hwdec-codecscodec1codec2all"><code>hwdec-codecs=&lt;codec1,codec2,...|all&gt;</code></h3>
+<p>You can specify which codec you would like to use for hardware decoding. The special value <em>all</em> always allows all codecs. You can get the list of allowed codecs by running <code>mpv --vd=help</code>.</p>
+<h3 id="scalefilter"><code>scale=&lt;filter&gt;</code></h3>
+<p>It is used to upscale the video and it&rsquo;s only available if you&rsquo;re using gpu, gpu-next or libmpv as video output driver. For available filters check <a href="https://mpv.io/manual/master/#options-scale">this</a>. Upscaling isn&rsquo;t really necessary if the video you&rsquo;re playing matches the resolution of your monitor. By setting <em>scale-blur=0.981251</em> imitates <em>ewa_lanczossharp</em> filter, which is currently deprecated.</p>
+<h2 id="audio">Audio</h2>
+<p>My current config that handles audio output :</p>
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>ao=pipewire
+</span></span><span style="display:flex;"><span>volume=100
+</span></span><span style="display:flex;"><span>volume-max=200
+</span></span></code></pre></div><h3 id="aodriver1driver2"><code>ao=&lt;driver1,driver2,...[,]&gt;</code></h3>
+<p>Usually it isn&rsquo;t necessary to specify audio output drivers, mpv does that fine. Check <a href="https://mpv.io/manual/master/#audio-output-drivers-ao">this</a> for available audio output drivers. I&rsquo;m using <em>pipewire</em> as this is what I use on my system.</p>
+<h3 id="volumevalue"><code>volume=&lt;value&gt;</code></h3>
+<p>Specify the default volume that will be set when mpv starts up.</p>
+<h3 id="volume-max1000-10000"><code>volume-max=&lt;100.0-1000.0&gt;</code></h3>
+<p>Set the maximum amplification level in percent (default: 130).</p>
+<h2 id="language-priority">Language Priority</h2>
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>alang=en,eng
+</span></span><span style="display:flex;"><span>slang=en,eng
+</span></span></code></pre></div><p><em>alang</em> refers to audio language and <em>slang</em> refers to subtitle language you can add as much language as you can, mpv will follow that order.</p>
+<h2 id="screenshot">Screenshot</h2>
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>screenshot-format=png
+</span></span><span style="display:flex;"><span>screenshot-png-compression=1
+</span></span><span style="display:flex;"><span>screenshot-directory=&#34;~/Pictures/mpv-screenshots&#34;
+</span></span><span style="display:flex;"><span>screenshot-template=&#34;%F - [%P]v%#01n&#34;
+</span></span></code></pre></div><h3 id="screenshot-formattype"><code>screenshot-format=&lt;type&gt;</code></h3>
+<p>Available choices are <em>png</em>, <em>jpg</em>, <em>jpeg</em>, <em>webp</em>, <em>jxl</em>.</p>
+<h3 id="screenshot-png-compression0-9"><code>screenshot-png-compression=&lt;0-9&gt;</code></h3>
+<p>Set the PNG compression level. Higher means better compression. Too high compression might occupy enough CPU time to interrupt playback. Check <a href="https://mpv.io/manual/master/#screenshot">this</a> for other options dedicated to the formats.</p>
+<h3 id="screenshot-directorypath"><code>screenshot-directory=&lt;path&gt;</code></h3>
+<p>Set your desired directory as default for screenshots.</p>
+<h3 id="screenshot-templatetemplate"><code>screenshot-template=&lt;template&gt;</code></h3>
+<p>Specify the filename template used to save screenshots. The template specifies the filename without file extension. Check <a href="https://mpv.io/manual/master/#options-screenshot-template">this</a> for further instruction.</p>
+<p><code>%F - [%P]v%#01n</code> this template takes video filename, playback time, number of screenshot and puts together in screenshot filename.</p>
+<p>Here&rsquo;s how the config file looks after adding all of the section together :</p>
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>## Video
+</span></span><span style="display:flex;"><span>vo=gpu-next
+</span></span><span style="display:flex;"><span>gpu-api=vulkan
+</span></span><span style="display:flex;"><span>vo-vaapi-scaling=hq
+</span></span><span style="display:flex;"><span>hwdec=vaapi
+</span></span><span style="display:flex;"><span>hwdec-codecs=all
+</span></span><span style="display:flex;"><span>scale=ewa_lanczos
+</span></span><span style="display:flex;"><span>scale-blur=0.981251
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>## Audio
+</span></span><span style="display:flex;"><span>ao=pipewire
+</span></span><span style="display:flex;"><span>volume=100
+</span></span><span style="display:flex;"><span>volume-max=200
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>## Language Priority
+</span></span><span style="display:flex;"><span>alang=en,eng
+</span></span><span style="display:flex;"><span>slang=en,eng
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>## Screenshot
+</span></span><span style="display:flex;"><span>screenshot-format=png
+</span></span><span style="display:flex;"><span>screenshot-png-compression=1
+</span></span><span style="display:flex;"><span>screenshot-directory=&#34;~/Pictures/mpv-screenshots&#34;
+</span></span><span style="display:flex;"><span>screenshot-template=&#34;%F - [%P]v%#01n&#34;
+</span></span></code></pre></div><p>This is the absolute basic config that you can start with.</p>
+<h2 id="user-scripts">User Scripts</h2>
+<p>mpv has support for scripting. Scripts should be put inside <code>~/.config/mpv/scripts</code> directory, mpv will load them while starting up. You&rsquo;ll find a huge collection of scripts created by the community in the <a href="https://github.com/mpv-player/mpv/wiki/User-Scripts">github wiki</a> of mpv.</p>
+<h3 id="mpv-script-directoryhttpsnudingithubiompv-script-directory"><a href="https://nudin.github.io/mpv-script-directory/">mpv-script-directory</a></h3>
+<p>This webpage indexes various scripts which are searchable and can be filtered to find your desired script easily.</p>
+<h3 id="mplughttpsgithubcomnudinmplug"><a href="https://github.com/Nudin/mplug">mplug</a></h3>
+<p>mplug is a plugin manager for mpv. Basically it helps you to search, install, uninstall mpv scripts and manage them conveniently.</p>
+]]></description></item><item><title>My Take on Demolition</title><link>https://fahimscirex.github.io/jrnl/my-take-on-demolition/</link><pubDate>Tue, 31 Jan 2023 23:10:02 +0600</pubDate><guid>https://fahimscirex.github.io/jrnl/my-take-on-demolition/</guid><description><![CDATA[<p>I finished watching <a href="https://www.imdb.com/title/tt1172049/">Demolition</a> (2015) today starring Jake Gyllenhaal. I had never experienced like this before. Or maybe I did; I just don&rsquo;t remember those moments. I felt connected to the story, to Davis&rsquo;s feelings. It was like I was realizing every moment, and everything happened around it.</p>
 <p><img loading="lazy" src="/img/demolition.jpg" alt="Jake Gyllenhaal"  />
 </p>
 <p>Some parts were related to my life or maybe not, it just feels like it is. Sometimes you&rsquo;ll never know what something meant to you until you lose it. For Davis, it was her wife, though he told some people he never loved her wife, but deep inside something was eating him out when she was not around him anymore. He started to notice every small thing happening around himself.</p>
