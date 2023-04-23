@@ -37,4 +37,4 @@ These three things will cover reading, writing, listening, and a bit of speaking
 
 Another thing is, IELTS on computer or IELTS on paper? I prefer computer. My typing is fairly good and accurate, and I am comfortable in typing rather than writing. The difference between these two options is about the timing. You'll get ten minutes to check your answers before submitting your writing module on paper-based, while the time is two minutes on the computer. It doesn't matter much, to be honest. You won't need more than two minutes to check your answers on the computer.
 
-That's all, I guess. Again, I'm not the person to give proper suggestions regarding IELTS. You should get an idea from this write-up and take further steps or seek a seek professional's assessment.
+That's all, I guess. Again, I'm not the person to give proper suggestions regarding IELTS. You should get an idea from this write-up and take further steps or seek a professional's assessment.
