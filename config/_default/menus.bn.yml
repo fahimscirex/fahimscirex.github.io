@@ -9,5 +9,5 @@ main:
     url: categories
     weight: 15
   - name: রিজিউমি
-    url: '/resume'
+    url: 'https://scirex.me/resume'
     weight: 20

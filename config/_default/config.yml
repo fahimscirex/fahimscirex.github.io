@@ -9,6 +9,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 enableEmoji: true
+pygmentsUseClasses: true
 
 permalinks:
     posts: '/:sections[1]/:filename/'

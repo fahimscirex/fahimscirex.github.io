@@ -67,6 +67,7 @@ cover:
         hiddenInList: true # hide on list pages and home
         hiddenInSingle: true # hide on single page
         relative: false
+        responsiveImages: true
 
 fuseOpts:
         isCaseSensitive: false
