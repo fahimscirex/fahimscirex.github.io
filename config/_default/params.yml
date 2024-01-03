@@ -56,10 +56,10 @@ label:
 assets:
         # disableHLJS: true # to disable highlight.js
         disableFingerprinting: true
-        favicon: "img/favicons/favicon.ico"
-        favicon16x16: "img/favicons/favicon-16x16.png"
-        favicon32x32: "img/favicons/favicon-32x32.png"
-        apple_touch_icon: "img/favicons/apple-touch-icon.png"
+        favicon: "/img/favicons/favicon.ico"
+        favicon16x16: "/img/favicons/favicon-16x16.png"
+        favicon32x32: "/img/favicons/favicon-32x32.png"
+        apple_touch_icon: "/img/favicons/apple-touch-icon.png"
         #safari_pinned_tab: "<link / abs url>"
 
 cover:
