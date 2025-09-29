@@ -1,10 +1,10 @@
-env: development # to enable google analytics, opengraph, twitter-cards and schema.
+env: production # to enable google analytics, opengraph, twitter-cards and schema.
 title: Plugged Into Matrix
 description: "Hey there! I share my thoughts about technology, books and other stuffs here. You may want to know about some cool hacks, so check out my blog!"
 keywords: [Blog, Books, Linux, FOSS, fahimscirex]
 author: Fahim Montasir Misbah
 # author: ["Me", "You"] # multiple authors
-images: "/img/cover.png"
+images: ["/img/cover.png"]
 DateFormat: "January 2, 2006"
 
 defaultTheme: dark # auto, dark, light
