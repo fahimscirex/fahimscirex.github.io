@@ -1,7 +1,7 @@
 title: Plugged Into Matrix
 baseURL: "https://fahimscirex.github.io/"
 theme: papermod
-paginate: 6
+
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -11,9 +11,13 @@ buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
 
+pagination:
+  disableAliases: false
+  pagerSize: 5
+
 permalinks:
-    posts: '/:sections[1]/:filename/'
-    pages: '/:filename/'
+    posts: '/:sections[1]/:contentbasename/'
+    pages: '/:contentbasename/'
 
 outputFormats:
     RSS:
@@ -68,7 +72,7 @@ privacy:
         disabled: false
         simple: true
 
-    twitter:
+    x:
         disabled: false
         enableDNT: true
         simple: true
@@ -84,5 +88,5 @@ privacy:
 services:
     instagram:
         disableInlineCSS: true
-    twitter:
+    x:
         disableInlineCSS: true

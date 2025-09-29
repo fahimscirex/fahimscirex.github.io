@@ -3,11 +3,8 @@ bn:
     languageAltTitle: Bengali
     weight: 2
     #title: Plugged Into Matrix
-    profileMode:
-        enabled: false
+
 en:
     languageName: "English"
     weight: 1
     #title: Plugged Into Matrix
-    profileMode:
-        enabled: false
