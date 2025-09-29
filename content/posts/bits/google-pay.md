@@ -8,6 +8,11 @@ categories:
 tags:
 - Google Pay
 - NFC
+cover:
+    image: "/img/google_pay.svg"
+    alt: Google Pay 
+    caption:
+    relative: false
 description: There are lots of misconceptions regarding Google Pay and Google Wallet. Let's try to understand the puzzling naming schemes of Google Pay.
 ---
 
