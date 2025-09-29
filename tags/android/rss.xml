@@ -1,4 +1,73 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Android on Plugged Into Matrix</title><link>https://fahimscirex.github.io/tags/android/</link><description>Recent content in Android on Plugged Into Matrix</description><image><url>https://fahimscirex.github.io/47</url><link>https://fahimscirex.github.io/47</link></image><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 11 Nov 2021 16:49:25 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/tags/android/rss.xml" rel="self" type="application/rss+xml"/><item><title>How was my IELTS experience and others</title><link>https://fahimscirex.github.io/jrnl/ielts-experience/</link><pubDate>Sat, 22 Apr 2023 17:23:22 +0600</pubDate><guid>https://fahimscirex.github.io/jrnl/ielts-experience/</guid><description><![CDATA[<p>Under any circumstances, I&rsquo;m not the person to give IELTS suggestions to anyone, but the least I could do is share my experience and understanding. Also, one of the biggest reasons for posting this everywhere is that I don&rsquo;t want others to fall into the same situation as I did. If they do, at least they can get some direction on what to do afterward.</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Android on Plugged Into Matrix</title><link>https://fahimscirex.github.io/tags/android/</link><description>Recent content in Android on Plugged Into Matrix</description><image><url>https://fahimscirex.github.io/img/cover.png</url><link>https://fahimscirex.github.io/img/cover.png</link></image><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 11 Nov 2021 16:49:25 +0600</lastBuildDate><atom:link href="https://fahimscirex.github.io/tags/android/rss.xml" rel="self" type="application/rss+xml"/><item><title>Puzzling History of Google Pay</title><link>https://fahimscirex.github.io/bits/google-pay/</link><pubDate>Tue, 24 Jun 2025 18:45:55 +0600</pubDate><guid>https://fahimscirex.github.io/bits/google-pay/</guid><description><![CDATA[<p>Why are we seeing the name Google Pay everywhere even though the app isn&rsquo;t available in our country? Let&rsquo;s try to go through Google Pay&rsquo;s puzzling naming scheme over the year and clear our misconceptions.</p>
+<h3 id="google-checkout">Google Checkout</h3>
+<p>Google first entered the online payment sphere with Google Checkout, which was launched on June 28, 2006.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> It was an online payment processing service that worked exclusively for websites.</p>
+<h3 id="android-pay">Android Pay</h3>
+<p>Later, on September 19, 2011, they released an Android app called Google Wallet, which integrated the functionalities of Google Checkout with NFC for mobile payments.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> Initially, it only supported Citibank&rsquo;s Mastercards within the US and even had an optional physical card that could be used as a general-purpose debit card.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<h3 id="google-wallet">Google Wallet</h3>
+<p>In 2015, Google revamped its payment strategy. It introduced Android Pay on September 10, 2015, to serve as a direct competitor to Apple Pay, focusing on NFC payments, card storage, and loyalty programs.<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> This move was done by Google&rsquo;s acquisition of a company called Softcard.<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> The original Google Wallet became a peer-to-peer (P2P) transaction app dropping its NFC support.</p>
+<p>At this point, the roles were clear:</p>
+<ul>
+<li>Android Pay was used for NFC (tap-to-pay) transactions and was exclusive to Android devices.</li>
+<li>Google Wallet was used for sending and receiving money (only in US) and was available on both Android and iOS.</li>
+</ul>
+<h3 id="tez">Tez</h3>
+<p>On September 18, 2017, Google launched a new mobile payment service called Tez, exclusively for India. This service was built on India&rsquo;s Unified Payment Interface (UPI) and was available for both Android and iOS devices.<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+<h3 id="google-pay">Google Pay</h3>
+<p>On January 8, 2018 Google announced that Android Pay and Google Wallet would merge into a single, unified brand: Google Pay.<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup> For a transitional period, the P2P functions of the old Google Wallet were transferred into a separate app called Google Pay Send. In August of the same year, Tez was also rebranded as Google Pay for the Indian market, keeping its UPI foundation but adopting the Google Pay name.<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup></p>
+<p>At this stage:</p>
+<ul>
+<li>Google Pay handled NFC payments, P2P money transfers (only in US), and card storage.</li>
+<li>Google Pay Send existed temporarily for P2P transactions.</li>
+<li>Google Pay (for India) offered similar services, with P2P payments powered by UPI.</li>
+</ul>
+<p>The Google Pay brand was also introduced in Singapore in September 2020, with a refreshed app that supported the local payment ecosystem.<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></p>
+<h3 id="google-wallet-1">Google Wallet</h3>
+<p>In July 2022, Google initiated another major rebranding. The primary Google Pay app was renamed Google Wallet in most countries.<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup> This new Google Wallet app was designed to be a new portal for payment cards, loyalty passes, and digital tickets. The name of the app in India and Singapore, however, remained Google Pay due to their unique, country-specific payment systems.<sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup></p>
+<p>Therefore, the current situation is:</p>
+<ul>
+<li>Google Pay is the name of Google&rsquo;s overall payment system and technology.</li>
+<li>Google Wallet is the primary app in most countries for Android devices, providing access to the Google Pay system for tap-to-pay and pass storage, no longer has P2P in US.</li>
+<li>The standalone Google Pay app continues to exist only in India and Singapore with P2P, tailored to their respective unified payment protocols.</li>
+</ul>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Gina Cher-A-Kang, &ldquo;Checking Out,&rdquo; Google Official Blog, June 28, 2006, <a href="https://googleblog.blogspot.com/2006/06/checking-out.html">https://googleblog.blogspot.com/2006/06/checking-out.html</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Osama Bedier, &ldquo;Tapping into the Future with Google Wallet,&rdquo; Google Official Blog, May 26, 2011, <a href="https://googleblog.blogspot.com/2011/05/tapping-into-future-with-google-wallet.html">https://googleblog.blogspot.com/2011/05/tapping-into-future-with-google-wallet.html</a>.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Jason Del Rey, &ldquo;Google Overhauls Wallet, but It Still Won&rsquo;t Kill Your Credit Card,&rdquo; Recode, September 9, 2015, <a href="https://www.vox.com/2015/9/9/11619894/google-overhauls-wallet-but-it-still-wont-kill-your-credit-card">https://www.vox.com/2015/9/9/11619894/google-overhauls-wallet-but-it-still-wont-kill-your-credit-card</a>.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Pali Bhat, &ldquo;Tap. Pay. Next. With Android Pay,&rdquo; Google Official Blog, September 10, 2015, <a href="https://blog.google/products/android/tap-pay-next/">https://blog.google/products/android/tap-pay-next/</a>.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>Dieter Bohn, &ldquo;Google Acquires &lsquo;Substantially All&rsquo; of Softcard&rsquo;s Technology to Power a New Google Wallet,&rdquo; The Verge, February 23, 2015, <a href="https://www.theverge.com/2015/2/23/8092231/google-acquires-softcard-google-wallet-tap-to-pay-android">https://www.theverge.com/2015/2/23/8092231/google-acquires-softcard-google-wallet-tap-to-pay-android</a>.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>Diana S. Sinton, &ldquo;Introducing Tez—A New Mobile Payments App from Google, Made for India First,&rdquo; Google Blog India, September 18, 2017, <a href="https://blog.google/intl/en-in/products/search/introducing-tez-new-mobile-payments-app-google-made-india-first/">https://blog.google/intl/en-in/products/search/introducing-tez-new-mobile-payments-app-google-made-india-first/</a>.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>Pali Bhat, &ldquo;Bringing It All Together with Google Pay,&rdquo; Google Official Blog, January 8, 2018, <a href="https://blog.google/products/shopping/bringing-it-all-together-google-pay/">https://blog.google/products/shopping/bringing-it-all-together-google-pay/</a>.&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p>Caesar Sengupta, &ldquo;Google Pay—The New Payments App from Google,&rdquo; Google Blog India, August 28, 2018, <a href="https://blog.google/intl/en-in/products/search/google-pay-new-payments-app-google/">https://blog.google/intl/en-in/products/search/google-pay-new-payments-app-google/</a>.&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p>Patrick Teo, &ldquo;A Refreshed Google Pay Launches in Singapore,&rdquo; Google Blog Singapore, September 23, 2020, <a href="https://blog.google/intl/en-sg/products/google-pay/refreshed-google-pay-launches-singapore/">https://blog.google/intl/en-sg/products/google-pay/refreshed-google-pay-launches-singapore/</a>.&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10">
+<p>Dong Min Kim, &ldquo;Make Room in Your Digital Wallet for More,&rdquo; Google Official Blog, July 18, 2022, <a href="https://blog.google/products/wallet/more-than-a-payment-app/">https://blog.google/products/wallet/more-than-a-payment-app/</a>.&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11">
+<p>Abner Li, &ldquo;Google Wallet Starts Rolling Out in 39 Countries,&rdquo; 9to5Google, July 20, 2022, <a href="https://9to5google.com/2022/07/20/google-wallet-rollout/">https://9to5google.com/2022/07/20/google-wallet-rollout/</a>.&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></description></item><item><title>How was my IELTS experience and others</title><link>https://fahimscirex.github.io/jrnl/ielts-experience/</link><pubDate>Sat, 22 Apr 2023 17:23:22 +0600</pubDate><guid>https://fahimscirex.github.io/jrnl/ielts-experience/</guid><description><![CDATA[<p>Under any circumstances, I&rsquo;m not the person to give IELTS suggestions to anyone, but the least I could do is share my experience and understanding. Also, one of the biggest reasons for posting this everywhere is that I don&rsquo;t want others to fall into the same situation as I did. If they do, at least they can get some direction on what to do afterward.</p>
 <p>My actual exam date was 7th April, which I couldn&rsquo;t attend because I was so dumb that I didn&rsquo;t bring my passport with me. As a result, the authorities didn&rsquo;t let me enter the hall. I was about to lose the full fee, which is currently 20,250 BDT. As per IELTS policy, you won&rsquo;t get any refund or be able to reschedule your date if you&rsquo;re absent on the exam date.</p>
 <p>The reason I didn&rsquo;t know about all of these things was that I didn&rsquo;t take any IELTS courses or mock tests and didn&rsquo;t look at the IELTS T&amp;C. My knowledge was strictly limited to the question patterns. You may say I wasn&rsquo;t serious about the exam, or else I would&rsquo;ve known about all of these. Well, that wasn&rsquo;t the case, but I won&rsquo;t try to defend myself. After all, it&rsquo;s my fault.</p>
 <p>However, I was able to reschedule my exam date by contacting customer care, giving proper reasons, and paying an extra 10% of the whole amount.</p>
@@ -18,19 +87,19 @@
 <h2 id="configuration-file">Configuration File</h2>
 <p>The file <em>mpv.conf</em> contains all of the required configuration. The system-wide location for the config file usually is <em>/etc/mpv</em> and user-specific directory is <code>~/.config/mpv/</code>.</p>
 <p>Config file looks like this :</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># Use GPU-accelerated video output by default.
-</span></span><span style="display:flex;"><span>vo=gpu
-</span></span><span style="display:flex;"><span># Use quotes for text that can contain spaces:
-</span></span><span style="display:flex;"><span>term-status-msg=&#34;Time: ${time-pos}&#34;
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># Use GPU-accelerated video output by default.
+</span></span><span class="line"><span class="cl">vo=gpu
+</span></span><span class="line"><span class="cl"># Use quotes for text that can contain spaces:
+</span></span><span class="line"><span class="cl">term-status-msg=&#34;Time: ${time-pos}&#34;
 </span></span></code></pre></div><h2 id="video">Video</h2>
 <p>Here is my current config that handles the video section :</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>vo=gpu-next
-</span></span><span style="display:flex;"><span>gpu-api=vulkan
-</span></span><span style="display:flex;"><span>vo-vaapi-scaling=hq
-</span></span><span style="display:flex;"><span>hwdec=vaapi
-</span></span><span style="display:flex;"><span>hwdec-codecs=all
-</span></span><span style="display:flex;"><span>scale=ewa_lanczos
-</span></span><span style="display:flex;"><span>scale-blur=0.981251
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">vo=gpu-next
+</span></span><span class="line"><span class="cl">gpu-api=vulkan
+</span></span><span class="line"><span class="cl">vo-vaapi-scaling=hq
+</span></span><span class="line"><span class="cl">hwdec=vaapi
+</span></span><span class="line"><span class="cl">hwdec-codecs=all
+</span></span><span class="line"><span class="cl">scale=ewa_lanczos
+</span></span><span class="line"><span class="cl">scale-blur=0.981251
 </span></span></code></pre></div><h3 id="vodriver1driver2"><code>vo=&lt;driver1,driver2,...[,]&gt;</code></h3>
 <p>By default the selected video output driver is <em>gpu</em>, as the name suggests it&rsquo;s gpu-accelarated. It&rsquo;s fairly enough, and that&rsquo;s what you should use if you don&rsquo;t want any hassle. But I use <em>gpu-next</em>, which is experimental driver and has bugs. It has almost everything what <em>gpu</em> offers, but it&rsquo;s faster, provides better quality. video drivers can be overridden using the <em>vo</em> flag</p>
 <p>Also there are drivers that are only compatible with X11, such as <em>xv</em>, <em>x11</em>, <em>vdpau</em>. Dedicated <em>rpi</em> driver for Raspberry Pi. <em>dmabuf-wayland</em> and <em>wlshm</em> for Wayland etc. Check <a href="https://mpv.io/manual/master/#video-output-drivers">this</a> for all available drivers.</p>
@@ -44,9 +113,9 @@
 <p>It is used to upscale the video and it&rsquo;s only available if you&rsquo;re using gpu, gpu-next or libmpv as video output driver. For available filters check <a href="https://mpv.io/manual/master/#options-scale">this</a>. Upscaling isn&rsquo;t really necessary if the video you&rsquo;re playing matches the resolution of your monitor. By setting <em>scale-blur=0.981251</em> imitates <em>ewa_lanczossharp</em> filter, which is currently deprecated.</p>
 <h2 id="audio">Audio</h2>
 <p>My current config that handles audio output :</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>ao=pipewire
-</span></span><span style="display:flex;"><span>volume=100
-</span></span><span style="display:flex;"><span>volume-max=200
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ao=pipewire
+</span></span><span class="line"><span class="cl">volume=100
+</span></span><span class="line"><span class="cl">volume-max=200
 </span></span></code></pre></div><h3 id="aodriver1driver2"><code>ao=&lt;driver1,driver2,...[,]&gt;</code></h3>
 <p>Usually it isn&rsquo;t necessary to specify audio output drivers, mpv does that fine. Check <a href="https://mpv.io/manual/master/#audio-output-drivers-ao">this</a> for available audio output drivers. I&rsquo;m using <em>pipewire</em> as this is what I use on my system.</p>
 <h3 id="volumevalue"><code>volume=&lt;value&gt;</code></h3>
@@ -54,14 +123,14 @@
 <h3 id="volume-max1000-10000"><code>volume-max=&lt;100.0-1000.0&gt;</code></h3>
 <p>Set the maximum amplification level in percent (default: 130).</p>
 <h2 id="language-priority">Language Priority</h2>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>alang=en,eng
-</span></span><span style="display:flex;"><span>slang=en,eng
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">alang=en,eng
+</span></span><span class="line"><span class="cl">slang=en,eng
 </span></span></code></pre></div><p><em>alang</em> refers to audio language and <em>slang</em> refers to subtitle language you can add as much language as you can, mpv will follow that order.</p>
 <h2 id="screenshot">Screenshot</h2>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>screenshot-format=png
-</span></span><span style="display:flex;"><span>screenshot-png-compression=1
-</span></span><span style="display:flex;"><span>screenshot-directory=&#34;~/Pictures/mpv-screenshots&#34;
-</span></span><span style="display:flex;"><span>screenshot-template=&#34;%F - [%P]v%#01n&#34;
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">screenshot-format=png
+</span></span><span class="line"><span class="cl">screenshot-png-compression=1
+</span></span><span class="line"><span class="cl">screenshot-directory=&#34;~/Pictures/mpv-screenshots&#34;
+</span></span><span class="line"><span class="cl">screenshot-template=&#34;%F - [%P]v%#01n&#34;
 </span></span></code></pre></div><h3 id="screenshot-formattype"><code>screenshot-format=&lt;type&gt;</code></h3>
 <p>Available choices are <em>png</em>, <em>jpg</em>, <em>jpeg</em>, <em>webp</em>, <em>jxl</em>.</p>
 <h3 id="screenshot-png-compression0-9"><code>screenshot-png-compression=&lt;0-9&gt;</code></h3>
@@ -72,45 +141,44 @@
 <p>Specify the filename template used to save screenshots. The template specifies the filename without file extension. Check <a href="https://mpv.io/manual/master/#options-screenshot-template">this</a> for further instruction.</p>
 <p><code>%F - [%P]v%#01n</code> this template takes video filename, playback time, number of screenshot and puts together in screenshot filename.</p>
 <p>Here&rsquo;s how the config file looks after adding all of the section together :</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>## Video
-</span></span><span style="display:flex;"><span>vo=gpu-next
-</span></span><span style="display:flex;"><span>gpu-api=vulkan
-</span></span><span style="display:flex;"><span>vo-vaapi-scaling=hq
-</span></span><span style="display:flex;"><span>hwdec=vaapi
-</span></span><span style="display:flex;"><span>hwdec-codecs=all
-</span></span><span style="display:flex;"><span>scale=ewa_lanczos
-</span></span><span style="display:flex;"><span>scale-blur=0.981251
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>## Audio
-</span></span><span style="display:flex;"><span>ao=pipewire
-</span></span><span style="display:flex;"><span>volume=100
-</span></span><span style="display:flex;"><span>volume-max=200
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>## Language Priority
-</span></span><span style="display:flex;"><span>alang=en,eng
-</span></span><span style="display:flex;"><span>slang=en,eng
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>## Screenshot
-</span></span><span style="display:flex;"><span>screenshot-format=png
-</span></span><span style="display:flex;"><span>screenshot-png-compression=1
-</span></span><span style="display:flex;"><span>screenshot-directory=&#34;~/Pictures/mpv-screenshots&#34;
-</span></span><span style="display:flex;"><span>screenshot-template=&#34;%F - [%P]v%#01n&#34;
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">## Video
+</span></span><span class="line"><span class="cl">vo=gpu-next
+</span></span><span class="line"><span class="cl">gpu-api=vulkan
+</span></span><span class="line"><span class="cl">vo-vaapi-scaling=hq
+</span></span><span class="line"><span class="cl">hwdec=vaapi
+</span></span><span class="line"><span class="cl">hwdec-codecs=all
+</span></span><span class="line"><span class="cl">scale=ewa_lanczos
+</span></span><span class="line"><span class="cl">scale-blur=0.981251
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">## Audio
+</span></span><span class="line"><span class="cl">ao=pipewire
+</span></span><span class="line"><span class="cl">volume=100
+</span></span><span class="line"><span class="cl">volume-max=200
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">## Language Priority
+</span></span><span class="line"><span class="cl">alang=en,eng
+</span></span><span class="line"><span class="cl">slang=en,eng
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">## Screenshot
+</span></span><span class="line"><span class="cl">screenshot-format=png
+</span></span><span class="line"><span class="cl">screenshot-png-compression=1
+</span></span><span class="line"><span class="cl">screenshot-directory=&#34;~/Pictures/mpv-screenshots&#34;
+</span></span><span class="line"><span class="cl">screenshot-template=&#34;%F - [%P]v%#01n&#34;
 </span></span></code></pre></div><p>This is the absolute basic config that you can start with.</p>
 <h2 id="user-scripts">User Scripts</h2>
 <p>mpv has support for scripting. Scripts should be put inside <code>~/.config/mpv/scripts</code> directory, mpv will load them while starting up. You&rsquo;ll find a huge collection of scripts created by the community in the <a href="https://github.com/mpv-player/mpv/wiki/User-Scripts">github wiki</a> of mpv.</p>
-<h3 id="mpv-script-directoryhttpsnudingithubiompv-script-directory"><a href="https://nudin.github.io/mpv-script-directory/">mpv-script-directory</a></h3>
+<h3 id="mpv-script-directory"><a href="https://nudin.github.io/mpv-script-directory/">mpv-script-directory</a></h3>
 <p>This webpage indexes various scripts which are searchable and can be filtered to find your desired script easily.</p>
-<h3 id="mplughttpsgithubcomnudinmplug"><a href="https://github.com/Nudin/mplug">mplug</a></h3>
+<h3 id="mplug"><a href="https://github.com/Nudin/mplug">mplug</a></h3>
 <p>mplug is a plugin manager for mpv. Basically it helps you to search, install, uninstall mpv scripts and manage them conveniently.</p>
 ]]></description></item><item><title>My Take on Demolition</title><link>https://fahimscirex.github.io/jrnl/my-take-on-demolition/</link><pubDate>Tue, 31 Jan 2023 23:10:02 +0600</pubDate><guid>https://fahimscirex.github.io/jrnl/my-take-on-demolition/</guid><description><![CDATA[<p>I finished watching <a href="https://www.imdb.com/title/tt1172049/">Demolition</a> (2015) today starring Jake Gyllenhaal. I had never experienced like this before. Or maybe I did; I just don&rsquo;t remember those moments. I felt connected to the story, to Davis&rsquo;s feelings. It was like I was realizing every moment, and everything happened around it.</p>
-<p><img loading="lazy" src="/img/demolition.jpg" alt="Jake Gyllenhaal"  />
-</p>
+<p><img alt="Jake Gyllenhaal" loading="lazy" src="/img/demolition.jpg"></p>
 <p>Some parts were related to my life or maybe not, it just feels like it is. Sometimes you&rsquo;ll never know what something meant to you until you lose it. For Davis, it was her wife, though he told some people he never loved her wife, but deep inside something was eating him out when she was not around him anymore. He started to notice every small thing happening around himself.</p>
 <p>He was struggling to figure out why he thinks he wasn’t in love with her wife. Digging deep inside him, he wanted to look what’s the matter. Tearing apart all memories demolishing his earlier self, he tried to bring out something meaningful.</p>
 <p>It seems true that sadness touches you more easily. I should be saying “Melancholy” instead of sadness, I guess. Yes, that’s the word, it belongs here. Human emotions are too complex to understand.</p>
 <p>To me, life is about living it. When something stands ahead of you, you don’t stop, continuing the living process is life. And when others join you in that journey, it gets even better, more bearable. To love and to be loved while you live is an amazing thing.</p>
 <hr>
-<p><em>I&rsquo;m taking part in <a href="https://t.me/+IJgt9FAyBWU4OGFl">The Penguins Club</a> BlogTalk event through this post. #blogtalk #penguinsclub</em></p>
+<p><em>I&rsquo;m taking part in <a href="https://t.me/&#43;IJgt9FAyBWU4OGFl">The Penguins Club</a> BlogTalk event through this post. #blogtalk #penguinsclub</em></p>
 ]]></description></item><item><title>Movies That I Don't Want You To Miss Out</title><link>https://fahimscirex.github.io/jrnl/recent-watchlist/</link><pubDate>Sun, 22 Jan 2023 21:54:46 +0600</pubDate><guid>https://fahimscirex.github.io/jrnl/recent-watchlist/</guid><description><![CDATA[<p>Watched some great movies recently, and I feel like I really should share my thoughts about them with others. I don&rsquo;t want anyone to miss out on these films. They are not listed in any particular order.</p>
 <h2 id="prisoners-2013">Prisoners (2013)</h2>
 <p>It&rsquo;s a crime thriller, Hugh Jackman and Jake Gyllenhaal are in the starring that&rsquo;s quite enough to make me convince watching this movie. And I must say, I enjoyed every second. Actually it&rsquo;s not about prison as the name suggests, it&rsquo;s about abduction of children by serial killer.</p>
@@ -123,8 +191,7 @@
 <h2 id="the-gray-man-2022">The Gray Man (2022)</h2>
 <p>When Ryan (literally me) Gosling, Chris Evans, and Ana de Armas are on screen, you know it&rsquo;s going to be something huge. The story follows a former CIA agent who has a bounty placed on him, and he tries to escape while uncovering secret. I won&rsquo;t count it more than a action thriller though, i enjoyed it, that&rsquo;s what matters. Although the ending didn&rsquo;t satisfy me.</p>
 ]]></description></item><item><title>z-lib isn't dead (yet)</title><link>https://fahimscirex.github.io/bits/z-lib-is-not-dead/</link><pubDate>Sun, 13 Nov 2022 23:21:13 +0600</pubDate><guid>https://fahimscirex.github.io/bits/z-lib-is-not-dead/</guid><description><![CDATA[<blockquote>
-<p>Disclaimer : This post is not something noob friendly, I won&rsquo;t give explanation to everything. Find out yourself.</p>
-</blockquote>
+<p>Disclaimer : This post is not something noob friendly, I won&rsquo;t give explanation to everything. Find out yourself.</p></blockquote>
 <p>You might have heard FBI seized Z-library aka z-lib a week ago. Pretty devastating situation for a lot of people, everyone is mourning over z-lib&rsquo;s death. People are <a href="https://www.dailydot.com/unclick/z-library-tiktok-colleen-hoover/">blaming</a> Coleen Hoover fans on TikTok for this demise (I don&rsquo;t like her writings TBH).</p>
 <p>Anyway, there is more to the story. Z-lib isn&rsquo;t actually dead. Their site is still up and running. What FBI did to z-lib is only related to their domains. Technically they have no control over z-lib&rsquo;s backend. So it is still accessible, but it&rsquo;s a bit tricky to access their service right now.</p>
 <p>Z-lib started their journey as a mirror of Library Genesis aka libgen which is completely functional right now. Most of their content is from libgen, also they have uploaded additional content over these years.</p>
@@ -135,7 +202,7 @@
 ]]></description></item><item><title>Make YouTube Great Again w/ userscripts</title><link>https://fahimscirex.github.io/bits/youtube-userscripts/</link><pubDate>Fri, 28 Oct 2022 09:36:59 +0600</pubDate><guid>https://fahimscirex.github.io/bits/youtube-userscripts/</guid><description><![CDATA[<p>It takes at least three addons to make YouTube bearable for me (e.g. <a href="http://www.mrfdev.com/enhancer-for-youtube">Enhancer for YouTube</a>, <a href="https://www.returnyoutubedislike.com/install">Return YouTube Dislike</a>, <a href="https://sponsor.ajay.app/">SponsorBlock for YouTube</a>, <a href="https://improvedtube.com/">Improve YouTube</a>) which is too much just for a single website.</p>
 <p>The easiest solution would be to start using Invidious or Piped instances. They are pretty great, no addons required to remove ads or sponsors or anything. Not a fan of their UI though, it bugs me during watching a video and I don&rsquo;t want to missout liking or disliking videos, commenting, creating a playlist and other basic features that YouTube provides. So Invidious is not the best option out there for me.</p>
 <p>My instant thought was to find an addon that combines those three addons and makes me mentally stable lol. But couldn&rsquo;t find any and I don&rsquo;t have the knowledge to create an addon for myself. Then I started looking for userscripts, and found some.</p>
-<h2 id="nova-youtube-extensionhttpsgithubcomraingartnova-youtube-extension"><a href="https://github.com/raingart/Nova-YouTube-extension">Nova YouTube Extension</a></h2>
+<h2 id="nova-youtube-extension"><a href="https://github.com/raingart/Nova-YouTube-extension">Nova YouTube Extension</a></h2>
 <p>It has lot&rsquo;s of features that Enhancer for YouTube and Improve YouTube provides. The all-in-one userscript!</p>
 <figure class="align-center ">
     <img loading="lazy" src="https://camo.githubusercontent.com/79ed0e850557010693acb5f40497438641f824324f68e8478082576c70ef4a2f/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f4e554a76357949542d364e555437596942676b4e75386b43554c476b624738594c3358586a4e69425f51335857383772766679594462506a353575325254714a696874585f3934593d773634302d683430302d65333635#center"
@@ -144,9 +211,9 @@
         </figcaption>
 </figure>
 
-<h2 id="return-youtube-dislikehttpswwwreturnyoutubedislikecominstall"><a href="https://www.returnyoutubedislike.com/install">Return YouTube Dislike</a></h2>
+<h2 id="return-youtube-dislike"><a href="https://www.returnyoutubedislike.com/install">Return YouTube Dislike</a></h2>
 <p>This one doesn&rsquo;t need any introduction I guess. Install it and it should work.</p>
-<h2 id="simple-sponsor-skipperhttpsgreasyforkorgenscripts453320-simple-sponsor-skipper"><a href="https://greasyfork.org/en/scripts/453320-simple-sponsor-skipper">Simple Sponsor Skipper</a></h2>
+<h2 id="simple-sponsor-skipper"><a href="https://greasyfork.org/en/scripts/453320-simple-sponsor-skipper">Simple Sponsor Skipper</a></h2>
 <p>As the name says it&rsquo;s really simple and works like charm. Beside YouTube it works with Invidious and CloudTube.</p>
 <h2 id="installation">Installation</h2>
 <p>It&rsquo;s pretty easy to install userscripts. Install any userscript manager, for better compatibility you may choose <a href="https://www.tampermonkey.net/">Tampermonkey</a>.</p>
@@ -159,8 +226,7 @@
 <li>
 <p>To avoid storage issue or to use the backup in another device you may export it to external sd card by running <code>M -e -d /storage/XXXX-XXXX</code>.</p>
 <blockquote>
-<p>Note : XXXX-XXXX is a bunch of characters that represents your SD Card.</p>
-</blockquote>
+<p>Note : XXXX-XXXX is a bunch of characters that represents your SD Card.</p></blockquote>
 </li>
 <li>
 <p>Change your ROM or device, delete partitions or reset the device. Install Migrator module through Magisk or just run the script and import the exported backup by running <code>M -i -d /storage/XXXX-XXXX/migrator_exported</code>. If you didn&rsquo;t exported backups, importing is not needed.</p>
@@ -170,11 +236,9 @@
 </li>
 </ul>
 <blockquote>
-<p>Note : You&rsquo;ll get more information in the README of Migrator&rsquo;s repo, so follow that.</p>
-</blockquote>
+<p>Note : You&rsquo;ll get more information in the README of Migrator&rsquo;s repo, so follow that.</p></blockquote>
 ]]></description></item><item><title>Host Telegram Userbot on GitHub w/o Any Charge</title><link>https://fahimscirex.github.io/bits/deploy-userbot-with-github-action/</link><pubDate>Fri, 15 Oct 2021 19:17:55 +0600</pubDate><guid>https://fahimscirex.github.io/bits/deploy-userbot-with-github-action/</guid><description><![CDATA[<blockquote>
-<p>13.11.2022, Update : GitHub has removed the repo, will continue removing repo which tries to host bot. This post is useless now.</p>
-</blockquote>
+<p>13.11.2022, Update : GitHub has removed the repo, will continue removing repo which tries to host bot. This post is useless now.</p></blockquote>
 <p>Most of the Cloud Platform doesn&rsquo;t allow hosting userbot. Your account could get banned if you try to host any or if you&rsquo;re lucky you&rsquo;ll be able to use your bot for a while. Setting up a new account frequently and hosting bot on it is a hell of a work, that&rsquo;s why it&rsquo;s wise to use GitHub Actions.</p>
 <p>GitHub Actions&rsquo; Workflows aren&rsquo;t meant to be used as a Cloud Platform (eg. Heroku, Railway) but if it can get your job done then why won&rsquo;t you take the advantage? Moreover, you won&rsquo;t have to pay a single penny.</p>
 <p>Before taking you to the procedure there&rsquo;s one thing you should know. <strong>Your bot will restart in every 6 hours</strong>. Cause maximum Action timeout is 360 minutes. Well, Heroku apps also restarts in every 6 hours but the main difference here is, your data won&rsquo;t be stored on GitHub.</p>
@@ -224,10 +288,10 @@ or</li>
 <li>
 <p><em><strong>An ESP partition.</strong></em></p>
 <p>EFI System Partitions are in fat32. If you don&rsquo;t have a partition already, create one using diskpart with following commands. If you don&rsquo;t know how to open CMD Prompt then scroll a bit.</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>&gt; diskpart
-</span></span><span style="display:flex;"><span>&gt; <span style="color:#81a1c1;font-weight:bold">select</span> disk <span style="color:#b48ead">0</span>
-</span></span><span style="display:flex;"><span>&gt; create partition efi size<span style="color:#81a1c1">=</span><span style="color:#b48ead">500</span> 
-</span></span><span style="display:flex;"><span>&gt; format fs<span style="color:#81a1c1">=</span>fat32 quick label<span style="color:#81a1c1">=</span>SYSTEM
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">&gt; diskpart
+</span></span><span class="line"><span class="cl">&gt; <span class="k">select</span> disk <span class="m">0</span>
+</span></span><span class="line"><span class="cl">&gt; create partition efi <span class="nv">size</span><span class="o">=</span><span class="m">500</span> 
+</span></span><span class="line"><span class="cl">&gt; format <span class="nv">fs</span><span class="o">=</span>fat32 quick <span class="nv">label</span><span class="o">=</span>SYSTEM
 </span></span></code></pre></div></li>
 <li>
 <p><em><strong>And a brain obviously.</strong></em></p>
@@ -248,16 +312,16 @@ or</li>
 <p>We&rsquo;re going to assign a letter to ESP/Boot partition. Let&rsquo;s assume my ESP volume number is 1.</p>
 </li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>&gt; diskpart
-</span></span><span style="display:flex;"><span>&gt; <span style="color:#81a1c1;font-weight:bold">select</span> disk <span style="color:#b48ead">0</span>
-</span></span><span style="display:flex;"><span>&gt; list volume
-</span></span><span style="display:flex;"><span>&gt; <span style="color:#81a1c1;font-weight:bold">select</span> volume <span style="color:#b48ead">1</span>
-</span></span><span style="display:flex;"><span>&gt; assign letter f
-</span></span><span style="display:flex;"><span>&gt; <span style="color:#81a1c1">exit</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">&gt; diskpart
+</span></span><span class="line"><span class="cl">&gt; <span class="k">select</span> disk <span class="m">0</span>
+</span></span><span class="line"><span class="cl">&gt; list volume
+</span></span><span class="line"><span class="cl">&gt; <span class="k">select</span> volume <span class="m">1</span>
+</span></span><span class="line"><span class="cl">&gt; assign letter f
+</span></span><span class="line"><span class="cl">&gt; <span class="nb">exit</span>
 </span></span></code></pre></div><ol start="5">
 <li>We&rsquo;re done with assiging. Now we will use bcdboot.exe to create a new EFI Windows bootloader. Make sure that c:\Windows is mounted.</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>&gt; bcdboot c:<span style="color:#ebcb8b">\W</span>indows /s f: /l en-us /f ALL
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">&gt; bcdboot c:<span class="se">\W</span>indows /s f: /l en-us /f ALL
 </span></span></code></pre></div><p>Here :</p>
 <p><code>c:\Windows</code> - is where Windows is installed.</p>
 <p><code>/s</code> - refers to where you want to save the bootloader.</p>
@@ -274,11 +338,11 @@ or</li>
 <li>xdg-desktop-portal-gtk</li>
 </ul>
 <p>Create a config file under <code>~/qt5ct/qt5ct.conf</code> with the following content :</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#81a1c1">[</span>Appearance<span style="color:#81a1c1">]</span>
-</span></span><span style="display:flex;"><span>standard_dialogs<span style="color:#81a1c1">=</span>gtk3
-</span></span><span style="display:flex;"><span>style<span style="color:#81a1c1">=</span>kvantum-dark
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="o">[</span>Appearance<span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="nv">standard_dialogs</span><span class="o">=</span>gtk3
+</span></span><span class="line"><span class="cl"><span class="nv">style</span><span class="o">=</span>kvantum-dark
 </span></span></code></pre></div><p>Now set the following environment variable at startup.</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#81a1c1">exec</span> QT_QPA_PLATFORMTHEME<span style="color:#81a1c1">=</span>qt5ct
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">exec</span> <span class="nv">QT_QPA_PLATFORMTHEME</span><span class="o">=</span>qt5ct
 </span></span></code></pre></div><p>As I&rsquo;m using bspwm I&rsquo;ve put that on bspwmrc. You can put that on <code>~/.xprofile</code> or something like that if you&rsquo;re using X11.</p>
 <p>That&rsquo;s all you need to do. If you don&rsquo;t know anything about environment variable, I suggest you to <a href="https://duck.com">duck</a> about that.</p>
 ]]></description></item><item><title>OneDrive Synchronization in Linux</title><link>https://fahimscirex.github.io/bits/onedrive-synchronization/</link><pubDate>Sat, 12 Jun 2021 22:15:05 +0600</pubDate><guid>https://fahimscirex.github.io/bits/onedrive-synchronization/</guid><description><![CDATA[<p>OneDrive doesn&rsquo;t have any official client in Linux. So after getting a 5TB OneDrive storage I went for two clients</p>
@@ -292,49 +356,48 @@ or</li>
 </ul>
 <h2 id="installation">Installation</h2>
 <p>Let&rsquo;s install them first. I&rsquo;m going to install onedriver-git, cause it has some extra GUI functions.</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ yay -S onedrive-abraunegg onedriver-git
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ yay -S onedrive-abraunegg onedriver-git
 </span></span></code></pre></div><p>For other distribution please check those repo.</p>
 <h2 id="authorization">Authorization</h2>
 <p><code>onedrive-abraunegg</code> can be run by just entering <code>$ onedrive</code>, it will show a specific link and ask for authorization. I&rsquo;m going to follow that link, complete authorization, copy the URL of that blank authorization page and finally paste it to the terminal.</p>
 <p>For <code>onedriver</code> either you can use GUI or terminal. Run <code>$ onedriver -a</code> and Login to OneDrive. Mount the OneDrive storage and enjoy. And we&rsquo;re done with onedriver here, rest of the post is about <code>onedrive</code> or you can say <code>onedrive-abraunegg</code>.</p>
 <h2 id="setup">Setup</h2>
 <p>We need a config file to use <code>onedrive</code> properly, package comes with a config, we&rsquo;ve to copy that to user config folder.</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ mkdir -p ~/.config/onedrive/
-</span></span><span style="display:flex;"><span>$ cp /usr/share/doc/onedrive/config ~/.config/onedrive/config
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ mkdir -p ~/.config/onedrive/
+</span></span><span class="line"><span class="cl">$ cp /usr/share/doc/onedrive/config ~/.config/onedrive/config
 </span></span></code></pre></div><p>You may want to edit the config file, so that anything doesn&rsquo;t go wrong. I&rsquo;ll suggest you to change <code>sync_dir</code> to different location and <code>upload_only</code> and <code>no_remote_delete</code> to true. But if you&rsquo;re willing to store your cloud data to your local system you should keep <code>upload_only</code> unchanged.</p>
 <p>Now put some files in your sync folder or if you already have data in your cloud simply run <code>$ onedrive --synchronization</code> and your sychronization will start. Also you can run <code>$ onedrive -m</code> it will monitor changes in sync directory and will sync automatically.</p>
 <p>If you change  the  filters  (skip_file or skip_dir in your configs) you must execute <code>$onedrive --synchronize --resync</code>.</p>
 <h2 id="systemd-intigration">Systemd Intigration</h2>
 <p>It&rsquo;s convenient to start <code>onedrive</code> as a systemd service.</p>
 <p>Enable service as root user</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ systemctl <span style="color:#81a1c1">enable</span> --now onedrive
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ systemctl <span class="nb">enable</span> --now onedrive
 </span></span></code></pre></div><p>Or,</p>
 <p>Enable as non-root user (recommended)</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ systemctl --user <span style="color:#81a1c1">enable</span> --now onedrive
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ systemctl --user <span class="nb">enable</span> --now onedrive
 </span></span></code></pre></div><p>To stop the service</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ systemctl --user disable --now onedrive
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ systemctl --user disable --now onedrive
 </span></span></code></pre></div><p>If you think you need more detailed instruction for usage check the GitHub <a href="https://github.com/abraunegg/onedrive/blob/master/docs/USAGE.md">repo</a>.</p>
 ]]></description></item><item><title>Fix Your Polybar Panel Icon</title><link>https://fahimscirex.github.io/bits/fix-polybar-icon/</link><pubDate>Sun, 23 May 2021 01:53:19 +0600</pubDate><guid>https://fahimscirex.github.io/bits/fix-polybar-icon/</guid><description><![CDATA[<p><a href="https://github.com/polybar/polybar">Polybar</a> let&rsquo;s you choose multiple fonts and sizes for your WM panel. So if you&rsquo;re having issues with the size of icons/texts in your panel you can change the size individually. Let&rsquo;s get to the point. How are you supposed to do that?</p>
 <p>You&rsquo;ve to define which font you want to use and how you want to customize it&rsquo;s value. So put those values in your Polybar config under <code>[bar/example]</code>. Here&rsquo;s an example config :</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>[bar/example]
-</span></span><span style="display:flex;"><span>; font-N = &lt;fontconfig pattern&gt;;&lt;vertical offset&gt;
-</span></span><span style="display:flex;"><span>font-0 = &#34;Tamsyn:pixelsize=12;0&#34;
-</span></span><span style="display:flex;"><span>font-1 = &#34;Roboto:size=11:weight=bold;2&#34;
-</span></span><span style="display:flex;"><span>font-2 = &#34;Noto Sans:size=11;1&#34;
-</span></span><span style="display:flex;"><span>font-3 = &#34;Iosevka Nerd Font:size=18;3&#34;
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">[bar/example]
+</span></span><span class="line"><span class="cl">; font-N = &lt;fontconfig pattern&gt;;&lt;vertical offset&gt;
+</span></span><span class="line"><span class="cl">font-0 = &#34;Tamsyn:pixelsize=12;0&#34;
+</span></span><span class="line"><span class="cl">font-1 = &#34;Roboto:size=11:weight=bold;2&#34;
+</span></span><span class="line"><span class="cl">font-2 = &#34;Noto Sans:size=11;1&#34;
+</span></span><span class="line"><span class="cl">font-3 = &#34;Iosevka Nerd Font:size=18;3&#34;
 </span></span></code></pre></div><p>If you&rsquo;re wondering what the value after semicolon does. It is used to move the font to the up or to the down. Negative value will move it to the down.</p>
 <p>Let&rsquo;s assume I&rsquo;m having problem with a Spotify module icon in my panel. That icon is way big than others. So i&rsquo;m gonna fix that by changing the icon font size. Usually <a href="https://nerdfonts.com">Nerd Fonts</a> is used in Polybar to get a icon, so I&rsquo;m gonna choose Iosevka Nerd Font. As you can see I&rsquo;ve added that in the config already.</p>
 <p>That Spotify module config looks like this :</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>[module/spotify-icon]
-</span></span><span style="display:flex;"><span>inherit = module/apps
-</span></span><span style="display:flex;"><span>content = 
-</span></span><span style="display:flex;"><span>content-font = 3
-</span></span><span style="display:flex;"><span>click-left = env LD_PRELOAD=/usr/lib/spotify-adblock.so spotify %U &amp;
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">[module/spotify-icon]
+</span></span><span class="line"><span class="cl">inherit = module/apps
+</span></span><span class="line"><span class="cl">content = 
+</span></span><span class="line"><span class="cl">content-font = 3
+</span></span><span class="line"><span class="cl">click-left = env LD_PRELOAD=/usr/lib/spotify-adblock.so spotify %U &amp;
 </span></span></code></pre></div><p>All you&rsquo;ve to do is, add the <code>content-font</code> value. Here 3 directs to <code>font-3</code>. So, the Spotify module will inherit values from that example bar config which starts with <code>font-3</code>.</p>
 <p>That&rsquo;s all! I&rsquo;m linking the Polybar wiki <a href="https://github.com/polybar/polybar/wiki/Fonts">here</a>, just in case you might need it. :D</p>
 ]]></description></item><item><title>Setup Warp on Linux and Get Unlimited Warp Plus Data</title><link>https://fahimscirex.github.io/bits/setup-cloudflare-warp/</link><pubDate>Sun, 28 Mar 2021 18:15:05 +0600</pubDate><guid>https://fahimscirex.github.io/bits/setup-cloudflare-warp/</guid><description><![CDATA[<blockquote>
-<p><strong>Update : 23/10/2021</strong> &gt; As there&rsquo;s a official CLI out there, I&rsquo;m updating the post with instructions for that too.</p>
-</blockquote>
+<p><strong>Update : 23/10/2021</strong> &gt; As there&rsquo;s a official CLI out there, I&rsquo;m updating the post with instructions for that too.</p></blockquote>
 <p>Cloudflare&rsquo;s Warp is a great service to re-route DNS query and bypass blocked website. <del>Though it has clients for Windows, Mac, Android, IOS it doesn&rsquo;t have a Warp client for Linux. Still we can use an unofficial client to get our work done.</del> It has clients for Windows, Mac, Linux, Android, IOS. You can use it in Linux through the official CLI client or with WGCF.</p>
 <h2 id="method-1--warp-desktop-client">Method 1 : WARP Desktop Client</h2>
 <p>Head over to <a href="https://pkg.cloudflareclient.com/install">this</a>
@@ -347,18 +410,18 @@ page and follow the instructions to setup repository for your distro.</p>
 </ul>
 <h3 id="register-and-connect">Register and Connect</h3>
 <p>You have to register for the first time</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>warp-cli register
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">warp-cli register
 </span></span></code></pre></div><p>Now connect to WARP</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>warp-cli connect
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">warp-cli connect
 </span></span></code></pre></div><p>Run <code>curl https://www.cloudflare.com/cdn-cgi/trace/</code> if the output shows <code>warp=on</code> you&rsquo;re successfully connected to WARP.</p>
 <p>To disconnect from WARP</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>warp-cli disconnect
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">warp-cli disconnect
 </span></span></code></pre></div><h3 id="enable-service">Enable Service</h3>
 <p>You can enable WARP service if you don&rsquo;t want to enter password after every boot.</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>systemctl <span style="color:#81a1c1">enable</span> --now warp-svc
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">systemctl <span class="nb">enable</span> --now warp-svc
 </span></span></code></pre></div><h3 id="always-stay-connected-to-warp">Always Stay Connected to WARP</h3>
 <p>You may want to use WARP all the time. To do that run this command.</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>warp-cli enable-always-on
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">warp-cli enable-always-on
 </span></span></code></pre></div><p>Or else it&rsquo;s not necessary.</p>
 <p>To check all available commands run <code>warp-cli -h</code>.</p>
 <h2 id="method-2--wgcf">Method 2 : WGCF</h2>
@@ -375,30 +438,29 @@ page and follow the instructions to setup repository for your distro.</p>
 </li>
 </ul>
 <blockquote>
-<p>Note : You&rsquo;ve to restart your system if you install wireguard-dkms.</p>
-</blockquote>
+<p>Note : You&rsquo;ve to restart your system if you install wireguard-dkms.</p></blockquote>
 <p>You can install pre-compiled binary file from it&rsquo;s <a href="https://github.com/ViRb3/wgcf/releases">releases</a> or you can install it from AUR if you&rsquo;re using Arch derivatives.</p>
 <h3 id="install-binary-package">Install binary package</h3>
 <p>Download the package you need from release page. Then rename the file <code>wgcf</code>, make it executable and copy it to <code>/bin</code> directory.</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>chmod +x wgcf
-</span></span><span style="display:flex;"><span>sudo cp wgcf /bin
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">chmod +x wgcf
+</span></span><span class="line"><span class="cl">sudo cp wgcf /bin
 </span></span></code></pre></div><p>Or you can install from AUR if you use Arch</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>yay -S wgcf
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">yay -S wgcf
 </span></span></code></pre></div><p>Now we will create a Warp account</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>wgcf register
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">wgcf register
 </span></span></code></pre></div><p>And generate a Wireguard configuration using that account information</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>wgcf generate
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">wgcf generate
 </span></span></code></pre></div><p>We&rsquo;ve to connect to Warp using that Wireguard configuration. It&rsquo;d be much easier if you put that configuration file in <code>/etc/wireguard</code></p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo cp wgcf-profile.conf /etc/wireguard
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo cp wgcf-profile.conf /etc/wireguard
 </span></span></code></pre></div><p>Let&rsquo;s connect now</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>wg-quick up wgcf-profile
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">wg-quick up wgcf-profile
 </span></span></code></pre></div><p>If you want to disconnect, run</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>wg-quick down wgcf-profile
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">wg-quick down wgcf-profile
 </span></span></code></pre></div><p>Probably you&rsquo;d like to run Warp every time when your system boots. You can do that with help of systemd</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>systemctl <span style="color:#81a1c1">enable</span> --now wireguard@wgcf-profile
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">systemctl <span class="nb">enable</span> --now wireguard@wgcf-profile
 </span></span></code></pre></div><h3 id="troubleshoot">Troubleshoot</h3>
 <p>I&rsquo;m facing some issue frequently. For some unknown reason Wireguard can&rsquo;t connect through my generated configuration profile multiple times. I&rsquo;ve found a way out to resolve that. If you face the same issue you&rsquo;ve to delete the previous profiles and regenerate new one, except your account profile. To do that you can run this :</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo rm -rf wgcf-profile.conf <span style="color:#81a1c1">&amp;&amp;</span> wgcf generate <span style="color:#81a1c1">&amp;&amp;</span> sudo rm -rf /etc/wireguard/wgcf-profile.conf <span style="color:#81a1c1">&amp;&amp;</span> sudo cp wgcf-profile.conf /etc/wireguard
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo rm -rf wgcf-profile.conf <span class="o">&amp;&amp;</span> wgcf generate <span class="o">&amp;&amp;</span> sudo rm -rf /etc/wireguard/wgcf-profile.conf <span class="o">&amp;&amp;</span> sudo cp wgcf-profile.conf /etc/wireguard
 </span></span></code></pre></div><p>Now start the service again. If you want, you can set an alias for this or make a bash script for convenient usage.</p>
 <h2 id="getting-warp-plus-data-for-free">Getting Warp Plus Data for Free</h2>
 <p>There&rsquo;s a python script from <a href="https://github.com/ALIILAPRO/warp-plus-cloudflare">alilapro</a> to get free Warp Plus data. We can use that Warp Plus data in Linux also. But we need to get a Device ID to run that. To do that go to <code>wgcf-account.toml</code> and copy the <code>device id</code>. You can use that ID in alilapro script to get free Warp Plus data.</p>
@@ -418,8 +480,8 @@ page and follow the instructions to setup repository for your distro.</p>
 </li>
 </ul>
 <p>Now we&rsquo;ve to put our license key into <code>wgcf-account.toml</code>. Open the toml file, replace the existing license key with yours and update your configuration profile using <code>wgcf update</code> and repeat the previous process.</p>
-<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>wgcf update
-</span></span><span style="display:flex;"><span>sudo cp wgcf-profile.conf /etc/wireguard
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">wgcf update
+</span></span><span class="line"><span class="cl">sudo cp wgcf-profile.conf /etc/wireguard
 </span></span></code></pre></div><p>Now you can use Device ID which you got from toml file or Configuration ID of your 1.1.1.1 in alilapro script.</p>
 ]]></description></item><item><title>Capernaum</title><link>https://fahimscirex.github.io/jrnl/capernaum/</link><pubDate>Mon, 11 Jan 2021 18:43:00 +0600</pubDate><guid>https://fahimscirex.github.io/jrnl/capernaum/</guid><description><![CDATA[<p>I can’t remember when the last time I’d watched a movie like Capernaum. But this movie has won my heart, I can say that without any doubt. Capernaum is a name of ancient Israeli city which was condemned to hell by Jesus. In french literature it is used to portray hell, chaos; a large mess that seems impossible to clean. Director Nadine Labaki has taken the word ‘Capernaum’ to signify the lifestyle of a young boy in chaotic, merciless Beirut.</p>
 <p>In recent time more than a million Syrian came to Lebanon as refugee. Capernaum showed an important story of their lifestyle. Zain, an little angry Syrian refugee kid who doesn’t know his birth date nor his parents has any documentation of his existence. He blames his abusive parents for bringing him in to this world, a world full of mess. I was awestruck by his performance. His personal life isn’t much different than the character he played, that’s why he made the overall environment more realistic.</p>
