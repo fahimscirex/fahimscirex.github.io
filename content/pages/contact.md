@@ -6,6 +6,7 @@ url: '/message/'
 description: Send an Anonymous Message to Fahim Montasir
 comments: false
 ShowShareButtons: false
+hiddenInRss: true
 ---
 Write your message down below without revealing yourself. If you want to have a conversation anonymously, there are options for that too. For example, you could email me from a disposable email address, or you could leave a text on my Telegram bot [@yetanotherassbot](https://t.me/yetanotherasbot) from a private account without actually revealing your identity.
 

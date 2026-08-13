@@ -21,7 +21,7 @@ permalinks:
 
 outputFormats:
     RSS:
-        mediatype: "application/rss"
+        mediatype: "application/rss+xml"
         baseName: "rss"
 
 outputs:
