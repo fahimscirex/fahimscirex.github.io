@@ -23,6 +23,11 @@ outputFormats:
     RSS:
         mediatype: "application/rss+xml"
         baseName: "rss"
+    llms:
+        mediaType: "text/plain"
+        baseName: "llms"
+        isPlainText: true
+        notAlternative: true
 
 outputs:
     home:

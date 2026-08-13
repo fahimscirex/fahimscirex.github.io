@@ -5,9 +5,9 @@ main:
   - name: আর্কাইভ
     url: '/archive/'
     weight: 10
-  - name: বিভাগসমূহ
-    url: categories
-    weight: 15
-  - name: রিজিউমি
+#  - name: বিভাগসমূহ
+#    url: categories
+#    weight: 15
+  - name: রেজ্যুমে
     url: 'https://scirex.me/resume'
     weight: 20

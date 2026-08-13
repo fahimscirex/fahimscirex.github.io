@@ -5,9 +5,9 @@ main:
   - name: Archive
     url: '/archive/'
     weight: 10
-  - name: Categories
-    url: '/categories'
-    weight: 15
+#  - name: Categories
+#    url: '/categories'
+#    weight: 15
   - name: Resume
     url: '/resume'
     weight: 20
